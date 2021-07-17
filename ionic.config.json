@@ -1,0 +1,8 @@
+{
+  "name": "Hamaara Calendar 2022",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "3fcec3dc"
+}

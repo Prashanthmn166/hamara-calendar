@@ -1,0 +1,176 @@
+.day-details-container{
+    overflow-y: auto;
+    border-radius: 15px;
+    border: 1px solid #E9E9E9;
+    height: 100%;
+    padding: 15px;
+    position: relative;
+    background-color: white;
+    .day-details-close{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .day-details-moth-header{
+        display: flex;
+        justify-content: center;
+        span{
+            font-size: 22px;
+            color: #31398C;
+            font-weight: 900;
+        }
+    }
+    .day-details-moth-body{
+        margin-top: 15px;
+        .day-details-date-details-and-icon{
+            display: flex;
+            flex-direction: row;
+            .day-details-date-details{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                .day-details-date{
+                    font-size: 40px;
+                    color: #31398C;
+                    min-height: 55px;
+                    line-height: 55px;
+                    &.day-details-holiday-date{
+                        color: #FF3B3B;
+                    }
+                }
+                .day-details-wod{
+                    font-size: 16px;
+                    color: #31398C;
+                    font-weight: 600;
+                    line-height: 26px;
+                    min-height: 26px;
+                    &.day-details-holiday-wod{
+                        color: #FF3B3B;
+                    }
+                }
+                .day-details-festival{
+                    font-size: 16px;
+                    color: #FF3B3B;
+                    line-height: 26px;
+                    min-height: 26px;
+                }
+                .day-details-masa{
+                    margin-top: 4px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #31398C;
+                    line-height: 19px;
+                    min-height: 19px;
+                }
+            }
+            .day-details-icon-details{
+                flex: 1;
+                padding: 30px;
+            }
+        }
+        .day-details-masam{
+            font-size: 14px;
+            line-height: 26px;
+            min-height: 26px;
+            text-align: left;
+            color: black;
+            font-weight: 600;
+        }
+    }
+    .day-details-sun-details{
+        margin-top: 14px;
+        display: flex;
+        justify-content: space-around;
+        .day-details-sun-raise, .day-details-sun-set, .day-details-sun-rasi{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .day-details-icon{
+                width: 26px;
+                height: 26px;
+            }
+            span{
+                margin-left: 6px;
+                font-size: 16px;
+                color: black;
+                font-weight: 500;
+                padding-top: 6px;
+                box-sizing: border-box;
+            }
+        }
+        .day-details-sun-rasi{
+            margin-left: 3px;
+            .day-details-icon{
+                width: 22px;
+                height: 22px;
+            }
+            span{
+                margin-left: 3px;
+            }
+        }   
+    }
+    .day-details-day-speacility{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        span{
+            max-width: calc(100% - 90px);
+            color: #31398C;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+    .day-details-rahu-kala, .day-details-guli-kala, .day-details-yamaganda-kala{
+        display: flex;
+        flex-direction: row;
+        margin-top: 12px;
+        .kala-title{
+            flex: 2;
+            font-size: 16px;
+            line-height: 21px;
+            color:#31398C;
+        }
+        .kala-desc{
+            flex: 3;
+            color: #000000;
+            font-size: 16px;
+            line-height: 21px;
+            font-weight: 500;
+        }
+    }
+    .daily-masa-details{
+        margin-top: 30px;
+        .day-details-titi, .day-details-nakshatra, .day-details-yoga, .day-details-karuna{
+            display: flex;
+            flex-direction: row;
+            margin-top: 12px;
+            .day-details-title{
+                flex: 2;
+                font-size: 16px;
+                color: #31398C;
+                line-height: 21px;
+            }
+            .day-details-desc{
+                flex: 3;
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+                line-height: 21px;
+            }
+        }
+    }
+}
+.day-details-data-dosent-exists{
+    width: 100%;
+    height: 100%;
+    background: white;
+    color: #31398C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}

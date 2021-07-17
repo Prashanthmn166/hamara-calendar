@@ -1,0 +1,13 @@
+{
+  "appId": "com.hinid.calender",
+  "appName": "हमारा कैलेंडर 2021",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

@@ -1,0 +1,93 @@
+@mixin calender-body-item {
+    border: 1px solid #D9D9D9;
+    padding: 8px;
+    flex: 1;
+    border-radius: 5px;
+    margin-right:5px; 
+    justify-content: center;
+    height: calc(100% - 10px);
+    max-width:  calc(100% - 5px) !important;
+}
+.calendar-body-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    .calendar-body-week-row{
+        flex: 1;
+        display: flex;
+        // margin-bottom: 10px;
+        .calendar-body-wod{
+            display: flex;
+            flex-direction: column;
+            background-color: #F4F4F4;
+            text-align: center;
+            line-height: 24px;
+            box-shadow : 0.5px 0.5px 0.5px 0.5px #D9D9D9;
+            @include calender-body-item();
+            max-width:  calc(100% - 7px) !important;
+            margin-left: 2px;
+            .calendar-body-native-language{
+                color: #464E96;
+                font-weight: 600;
+            }
+            .calendar-body-eng-language{
+                color : #4B4B4B;
+                font-weight: 600;
+            }
+            &.calendar-body-wod-sunday{
+                .calendar-body-native-language{
+                    color: #DD5145 !important;
+                    font-weight: 600;
+                }
+            }
+        }
+        .calendar-body-days{
+            background-color: #FFFFFF;
+            color: #1B247F;
+            font-weight: 600;
+            font-size: 20px;
+            text-align: left;
+            position: relative;
+            box-shadow: 0.25px 0.25px 0.25px 0.25px #D9D9D9;
+            .calendar-body-days-image{
+                width: 24px;
+                height: 24px;
+                max-width: 24px;
+                max-height: 24px;
+                position: absolute;
+                bottom: 3px;
+                right: 7px;
+            }
+            @include calender-body-item();
+            &.calendar-body-days-sunday{
+                color: #DD5145;
+            }
+            &.calendar-body-days-empty{
+                background-color: transparent;
+                border: unset;
+                box-shadow:unset;
+            }
+            &.calendar-body-days-is-public-holiday{
+                color: #DD5145;
+            }
+            &.calendar-body-days-current-day{
+                border-top-right-radius: 0;
+                border-top-left-radius: 15px;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 15px;
+                border: 2px dotted #FF210E;
+            }
+        }
+    }
+}
+.date-details-model-container{
+    .modal-wrapper{
+        width: calc(100% - 60px);
+        height: calc(100% - 60px);
+        margin: 30px;
+        background-color: transparent;
+    }
+}

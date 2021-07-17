@@ -1,0 +1,38 @@
+<div style="width: 100%; height: 100%; box-sizing: border-box;">
+	<ion-slides [options]="slideOpts" (ionSlideDidChange)="onSlideChange($event)"  #slides>
+		<ng-container *ngFor="let mothDetails of yearCalendarContent;let i=index">
+			<ion-slide  *ngIf="i!=0">
+				<div class="calendar-body-wrapper">
+					<div class="calendar-body-week-row" *ngFor="let weekDetails of mothDetails">
+						<ng-container *ngFor="let daysDetails of weekDetails">
+							<div class="calendar-body-wod" 
+							*ngIf="daysDetails.type=='dow'; else showDate" 
+							[ngClass]="{'calendar-body-wod-sunday': daysDetails.day=='Sun'}"
+							>
+								<span class="calendar-body-native-language">{{ NativeLanguage[daysDetails.day] }}</span>
+								<span class="calendar-body-eng-language">{{ daysDetails.day }}</span>
+							</div>
+							<ng-template #showDate>
+								<div class="calendar-body-days" 
+								[ngClass]="{'calendar-body-days-empty': daysDetails.type=='empty',
+								'calendar-body-days-sunday': daysDetails.day.slice(0,3)=='Sun',
+								'calendar-body-days-current-day': isCurrentDay(daysDetails.fullDate),
+								'calendar-body-days-is-public-holiday': daysDetails.isPublicHoliday=='Y'}"
+								(click)="showDayDetails(daysDetails.fullDate, daysDetails.type);"
+								>
+								<span> {{  daysDetails.date }} </span>	
+								<ion-img *ngIf="daysDetails?.image && daysDetails.image != ''" class="calendar-body-days-image" [src]="'assets/'+daysDetails?.image+'.png'"></ion-img>
+								</div>
+							</ng-template>
+						</ng-container>
+					</div>
+				</div>
+			</ion-slide>
+		</ng-container>
+		
+	</ion-slides>
+</div>
+
+
+
+

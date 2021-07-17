@@ -1,0 +1,15 @@
+.calender-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #E4E4E4;
+    overflow: hidden;
+    .calender-header-container{
+        height: 20vh;
+    }
+    .calender-body-container{
+        height: 80vh;
+    }
+}

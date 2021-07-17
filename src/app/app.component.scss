@@ -1,0 +1,69 @@
+.side-nav-container {
+  padding-left: 16px;
+  padding-right: 16px;
+  .item {
+    --padding-start: 0;
+  }
+  .side-nav-header {
+    display: flex;
+    align-items: center;
+    padding: 11px 0 10px 0;
+    border-bottom: 2px solid #c6c6c6;
+    .side-nav-header-menu-iocon {
+      font-size: 24px;
+      width: 24px;
+      height: 24px;
+      color: black;
+    }
+    .sc-ion-label-md-h {
+      margin-left: 26px;
+      font-size: 16px;
+      color: #1a237e;
+      font-weight: bold;
+      font-family: sans-serif;
+    }
+  }
+  .side-nav-list {
+    .sc-ion-label-md-h {
+      color: #404040;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+    .side-nav-firework {
+      width: 22px;
+      height: 22px;
+    }
+    .side-nav-notification-toogle {
+	  padding-inline: unset;
+	  padding-right: 0px;
+    }
+  }
+  .side-nav-calendar-shortcut {
+    margin-top: calc(100% - 60px);
+    .side-nav-calendar-shortcut-row {
+      display: grid;
+	  grid-template-columns: auto auto auto auto;
+	  row-gap: 10px;
+	  .side-nav-calendar-shortcut-month{
+		width: 40px;
+		height: 40px;
+		border: 1px solid #B7B7B7;
+		border-radius: 6px;
+		text-align: center;
+		align-items: center;
+		font-size: 12px;
+		line-height: 40px;
+		box-shadow: 1px 1px 1px 1px #DADADA;
+		color: #9A9EC6;
+		margin: auto;
+		font-weight: 700;
+		&.side-nav-calendar-shortcut-current-month{
+			border-top-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+			color: #1A237E;
+			font-weight: 800;
+		}
+	  }
+    }
+  }
+}

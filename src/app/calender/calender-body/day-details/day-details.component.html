@@ -1,0 +1,74 @@
+<div class="day-details-container" appSwipe (swipeLeft)="onSwipeLeft()" (swipeRight)="onSwipeRight()" *ngIf="dateDetails; else dataDosentExists">
+	<div class="day-details-close" (click)="dismiss()">
+		<ion-icon name="arrow-back-outline"></ion-icon>
+	</div>
+	<div class="day-details-moth-header">
+		<span>{{ dateDetails?.MONTH }}</span>
+	</div>
+	<div class="day-details-moth-body">
+		<div class="day-details-date-details-and-icon">
+			<div class="day-details-date-details">
+				<span class="day-details-date" [ngClass]="{'day-details-holiday-date': (dateDetails?.DAY=='SUNDAY' || dateDetails?.ISPUBLICHOLIDAY == 'Y') }">{{ dateDetails?.DATE }}</span>
+				<span class="day-details-wod" [ngClass]="{'day-details-holiday-wod': (dateDetails?.DAY=='SUNDAY' || dateDetails?.ISPUBLICHOLIDAY == 'Y') }">{{ dateDetails?.DAYINHINDI }}</span>
+				<span class="day-details-festival">{{ dateDetails?.EVENT1 }}</span>
+				<span class="day-details-masa">{{ dateDetails?.EVENT2 }}</span>
+			</div>
+			<div class="day-details-icon-details">
+				<ion-img *ngIf="dateDetails?.IMAGE" [src]="'assets/'+dateDetails?.IMAGE+'.png'"></ion-img>
+			</div>
+		</div>
+		<span class="day-details-masam">{{ dateDetails?.EVENT3 }}</span>
+		<div  class="day-details-sun-details">
+			<div  class="day-details-sun-raise">
+				<ion-img [src]="'assets/SUNRISE.png'" class="day-details-icon"></ion-img>
+				<span>{{ dateDetails?.SUNRISE }}</span>
+			</div>
+			<div  class="day-details-sun-set">
+				<ion-img [src]="'assets/sunset.png'" class="day-details-icon"></ion-img>
+				<span>{{ dateDetails?.SUNSET }}</span>
+			</div>
+			<div  class="day-details-sun-rasi">
+				<ion-img [src]="'assets/MOON.png'" class="day-details-icon"></ion-img>
+				<span>{{ dateDetails?.MOONSIGN }}</span>
+			</div>
+		</div>
+		<div class="day-details-day-speacility">
+			<span>{{ dateDetails?.DAYHEADING }}</span>
+		</div>
+		<div  class="day-details-rahu-kala">
+			<span class="kala-title">राहुकाल</span>
+			<span class="kala-desc">{{ dateDetails?.RAHUKALA }}</span>
+		</div>
+		<div  class="day-details-guli-kala">
+			<span class="kala-title">गुलिक काल</span>
+			<span class="kala-desc">{{ dateDetails?.GULIKALA }}</span>
+		</div>
+		<div  class="day-details-yamaganda-kala">
+			<span class="kala-title">यमगण्डकाल</span>
+			<span class="kala-desc">{{ dateDetails?.YAMAGANDAKALA }}</span>
+		</div>
+		<div class="daily-masa-details">
+			<div class="day-details-titi">
+				<span class="day-details-title">तिथि</span>
+				<span class="day-details-desc">{{ dateDetails?.TITHI }}</span>
+			</div>
+			<div class="day-details-nakshatra">
+				<span class="day-details-title">नक्षत्र</span>
+				<span class="day-details-desc">{{ dateDetails?.NAKSHATAR }}</span>
+			</div>
+			<div class="day-details-yoga">
+				<span class="day-details-title">योग</span>
+				<span class="day-details-desc">{{ dateDetails?.YOGA }}</span>
+			</div>
+			<div class="day-details-karuna">
+				<span class="day-details-title">करण</span>
+				<span class="day-details-desc">{{ dateDetails?.KARANA }}</span>
+			</div>
+		</div>
+	</div>
+</div>
+<ng-template #dataDosentExists>
+	<h1 class="day-details-data-dosent-exists" appSwipe (swipeLeft)="onSwipeLeft()" (swipeRight)="onSwipeRight()">
+		Data dosen't exists
+	</h1>
+</ng-template>
