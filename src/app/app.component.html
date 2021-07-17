@@ -1,6 +1,6 @@
 <ion-app>
 	<ion-split-pane contentId="main-content">
-		<ion-menu contentId="main-content" type="overlay">
+		<ion-menu contentId="main-content" type="overlay" class="main-menu" >
 			<ion-content>
 				<div class="side-nav-container">
 					<div class="side-nav-header">
@@ -29,6 +29,7 @@
 						</ion-item>
 					</ion-list>
 					<div class="side-nav-calendar-shortcut">
+						<div class="side-nav-calendar-year">{{ currentYear }}</div>
 						<div class="side-nav-calendar-shortcut-row">
 							<div class="side-nav-calendar-shortcut-month" [ngClass]="{'side-nav-calendar-shortcut-current-month': currentMothDisplayed==i}" 
 							*ngFor="let monthInShort of monthsInShort; let i= index"

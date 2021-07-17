@@ -149,7 +149,6 @@ export class CalenderBodyComponent implements OnInit {
 						dispDateDetails[k].push({ date: '', day: '', type: 'empty', fullDate: '' });
 				}
 			}
-			console.log(dispDateDetails, "------------dispDateDetails")
 			this.yearCalendarContent[month] = dispDateDetails;
 		}
 	}
@@ -158,18 +157,26 @@ export class CalenderBodyComponent implements OnInit {
 			this.calenderService.currentMonth.next(index);
 		});	
 	}
-	showDayDetails(fullDate: string, dayType: string){
+	async showDayDetails(fullDate: string, dayType: string){
 		if(dayType != 'empty'){
-			this.modalController.create({
+			let element = document.getElementsByClassName('calender-container')[0];
+			if(element)
+				element.classList.add('add-blur');
+			const modal = await this.modalController.create({
 				component: DayDetailsComponent,
 				cssClass: 'date-details-model-container',
 				swipeToClose: true,
 				componentProps:{
 					fullDate: fullDate
 				}
-			}).then((modelContrl)=>{
-				modelContrl.present();
 			})
+			modal.present();
+			await modal.onDidDismiss().then(r => {
+				let element = document.getElementsByClassName('calender-container')[0];
+				if(element)
+					element.classList.remove('add-blur');
+			});
+			
 		}
 	}
 	isCurrentDay(fulldate){

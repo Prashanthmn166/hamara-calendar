@@ -29,3 +29,11 @@
 *{
     font-family: sans-serif;
 }
+
+.add-blur{
+    filter: blur(4px);
+}
+
+.sc-ion-modal-md-h:first-of-type {
+    --backdrop-opacity: var(--ion-backdrop-opacity, 0);
+}

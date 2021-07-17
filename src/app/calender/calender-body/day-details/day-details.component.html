@@ -1,7 +1,7 @@
 <div class="day-details-container" appSwipe (swipeLeft)="onSwipeLeft()" (swipeRight)="onSwipeRight()" *ngIf="dateDetails; else dataDosentExists">
-	<div class="day-details-close" (click)="dismiss()">
+	<!-- <div class="day-details-close" (click)="dismiss()">
 		<ion-icon name="arrow-back-outline"></ion-icon>
-	</div>
+	</div> -->
 	<div class="day-details-moth-header">
 		<span>{{ dateDetails?.MONTH }}</span>
 	</div>

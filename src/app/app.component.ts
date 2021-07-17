@@ -5,6 +5,9 @@ import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
+import { Plugins } from '@capacitor/core';
+const { App } = Plugins;
+
 
 @Component({
 	selector: 'app-root',
@@ -16,6 +19,7 @@ export class AppComponent implements OnInit, OnDestroy {
 	monthsInShort: string[]=['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'];
 	currentMothDisplayed: number=0;
 	currentMothDisplayedSubscription: Subscription;
+	currentYear = new Date().getFullYear();
 	constructor(
 		private platform: Platform,
 		private splashScreen: SplashScreen,
@@ -38,6 +42,9 @@ export class AppComponent implements OnInit, OnDestroy {
 		this.currentMothDisplayedSubscription=this.calenderService.currentMonth.subscribe((currentMonth)=>{
 			this.currentMothDisplayed=currentMonth;
 		})
+		App.addListener('backButton', () => {
+			App.exitApp();
+		});
 	}
 	ngOnDestroy(){
 		this.currentMothDisplayedSubscription.unsubscribe();
