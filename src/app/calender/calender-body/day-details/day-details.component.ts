@@ -21,7 +21,6 @@ export class DayDetailsComponent implements OnInit {
 		this.modalCtrl.dismiss({
 			'dismissed': true
 		});
-		console.log("this is dismisedd");
 	}
 	onSwipeLeft() {
 		this.currentDate.setDate(this.currentDate.getDate() - 1);

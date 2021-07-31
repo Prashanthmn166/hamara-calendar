@@ -37,3 +37,10 @@
 .sc-ion-modal-md-h:first-of-type {
     --backdrop-opacity: var(--ion-backdrop-opacity, 0);
 }
+.scroll{height: 100%;}
+:host(.menu-type-overlay) .menu-inner {
+    box-shadow: none;
+}
+.menu-backdrop {
+    background-color: yellowgreen;
+}

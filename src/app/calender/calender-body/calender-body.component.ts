@@ -171,7 +171,9 @@ export class CalenderBodyComponent implements OnInit {
 				}
 			})
 			modal.present();
+			this.calenderService.isDayViewOpen.next(true);
 			await modal.onDidDismiss().then(r => {
+				this.calenderService.isDayViewOpen.next(false);
 				let element = document.getElementsByClassName('calender-container')[0];
 				if(element)
 					element.classList.remove('add-blur');

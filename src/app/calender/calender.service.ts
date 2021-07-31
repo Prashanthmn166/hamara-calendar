@@ -5,6 +5,8 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class CalenderService {
 	currentMonth = new BehaviorSubject<number>(0);
+	isDayViewOpen = new BehaviorSubject<boolean>(false);
+	closeDayView = new BehaviorSubject<string>("open");
 	nativeMonthDetails = ["जनवरी", "फ़रवरी", "मार्च", "अप्रैल", "मई", "जून", "जुलाई", "अगस्त", "सितम्बर", "अकतूबर", "नवंबर", "दिसम्बर"];
 	monthDetails = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	nativeLanguageMonthsWords=['पौष - माघ', 'माघ - फाल्गुन','फाल्गुन  - चैत्र','चैत्र - वैशाख','वैशाख - ज्येष्ठ','ज्येष्ठ - आषाढ़','आषाढ़ - श्रावण','श्रावण - भाद्रपद','भाद्रपद - आश्विन','आश्विन - कार्तिक','कार्तिक - मार्गशीर्ष','मार्गशीर्ष - पौष'];

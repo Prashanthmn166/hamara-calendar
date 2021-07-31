@@ -43,7 +43,11 @@ export class AppComponent implements OnInit, OnDestroy {
 			this.currentMothDisplayed=currentMonth;
 		})
 		App.addListener('backButton', () => {
-			App.exitApp();
+			if(this.currentMothDisplayed!=new Date().getMonth()){
+				this.calenderService.currentMonth.next(new Date().getMonth());
+			}else if(!this.calenderService.isDayViewOpen.value){
+				App.exitApp();
+			}
 		});
 	}
 	ngOnDestroy(){
