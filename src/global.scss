@@ -25,9 +25,12 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-
+@font-face {
+    font-family: 'MyWebFont';
+    src: url(assets/NotoSans-Regular.ttf) format('truetype');
+}
 *{
-    font-family: sans-serif;
+    font-family: 'MyWebFont';
 }
 
 .add-blur{

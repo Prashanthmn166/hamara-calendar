@@ -60,7 +60,7 @@ export class SwipeDirective implements AfterViewInit {
     // simulate a swipe -> less than 500 ms and more than 60 px
     if (timeDiff < 500) {
       // touch movement lasted less than 500 ms
-      if (Math.abs(xDiff) > 60) {
+      if (Math.abs(xDiff) > 90 && Math.abs(yDiff) < 100) {
         // delta x is at least 60 pixels
         if (xDiff > 0) {
           this.swipeRight.emit(event);

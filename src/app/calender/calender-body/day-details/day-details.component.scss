@@ -1,11 +1,12 @@
+$font-size-for-details: 17px;
 .day-details-container{
     overflow-y: auto;
     border-radius: 15px;
     border: 1px solid #E9E9E9;
     height: 100%;
     padding: 15px;
-    position: relative;
     background-color: white;
+    margin: 0 35px;
     .day-details-close{
         position: absolute;
         width: 30px;
@@ -42,7 +43,7 @@
                     }
                 }
                 .day-details-wod{
-                    font-size: 16px;
+                    font-size: $font-size-for-details;
                     color: #31398C;
                     font-weight: 600;
                     line-height: 26px;
@@ -52,14 +53,14 @@
                     }
                 }
                 .day-details-festival{
-                    font-size: 16px;
+                    font-size: $font-size-for-details;
                     color: #FF3B3B;
                     line-height: 26px;
                     min-height: 26px;
                 }
                 .day-details-masa{
                     margin-top: 4px;
-                    font-size: 16px;
+                    font-size: $font-size-for-details;
                     font-weight: bold;
                     color: #31398C;
                     line-height: 19px;
@@ -94,7 +95,7 @@
             }
             span{
                 margin-left: 6px;
-                font-size: 16px;
+                font-size: $font-size-for-details;
                 color: black;
                 font-weight: 500;
                 padding-top: 6px;
@@ -119,7 +120,7 @@
         span{
             max-width: calc(100% - 90px);
             color: #31398C;
-            font-size: 16px;
+            font-size: $font-size-for-details;
             line-height: 22px;
             text-align: center;
         }
@@ -130,14 +131,14 @@
         margin-top: 12px;
         .kala-title{
             flex: 2;
-            font-size: 16px;
+            font-size: $font-size-for-details;
             line-height: 21px;
             color:#31398C;
         }
         .kala-desc{
             flex: 3;
             color: #000000;
-            font-size: 16px;
+            font-size: $font-size-for-details;
             line-height: 21px;
             font-weight: 500;
         }
@@ -150,13 +151,13 @@
             margin-top: 12px;
             .day-details-title{
                 flex: 2;
-                font-size: 16px;
+                font-size: $font-size-for-details;
                 color: #31398C;
                 line-height: 21px;
             }
             .day-details-desc{
                 flex: 3;
-                font-size: 16px;
+                font-size: $font-size-for-details;
                 font-weight: 500;
                 color: black;
                 line-height: 21px;
@@ -173,4 +174,30 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+.day-details-next{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    top: calc(50% - 10px);
+    right: 17.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px 1px #989daf;
+}
+.day-details-previous{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    top: calc(50% - 10px);
+    left: 17.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px 1px #989daf;
 }
