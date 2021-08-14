@@ -1,6 +1,6 @@
 <ion-app>
 	<ion-split-pane contentId="main-content">
-		<ion-menu contentId="main-content" type="overlay" class="main-menu" >
+		<ion-menu contentId="main-content" type="overlay" class="main-menu" (ionWillClose)="onClose($event)" (ionWillOpen)="onOpen($event)">
 			<ion-content>
 				<div class="side-nav-container">
 					<div class="side-nav-header">

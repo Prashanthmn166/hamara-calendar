@@ -19,6 +19,7 @@ export class AppComponent implements OnInit, OnDestroy {
 	monthsInShort: string[]=['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'];
 	currentMothDisplayed: number=0;
 	currentMothDisplayedSubscription: Subscription;
+	isSideNavOpen: boolean=false;
 	currentYear = new Date().getFullYear();
 	constructor(
 		private platform: Platform,
@@ -43,12 +44,20 @@ export class AppComponent implements OnInit, OnDestroy {
 			this.currentMothDisplayed=currentMonth;
 		})
 		App.addListener('backButton', () => {
-			if(this.currentMothDisplayed!=new Date().getMonth()){
-				this.calenderService.currentMonth.next(new Date().getMonth());
-			}else if(!this.calenderService.isDayViewOpen.value){
-				App.exitApp();
+			if(!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value){
+				if(this.currentMothDisplayed!=new Date().getMonth()){
+					this.calenderService.currentMonth.next(new Date().getMonth());
+				}else if(this.currentMothDisplayed==new Date().getMonth()){
+					App.exitApp();
+				} 
 			}
 		});
+	}
+	onClose($event){
+		this.isSideNavOpen=true;
+	}
+	onOpen($event){
+		this.isSideNavOpen=false;
 	}
 	ngOnDestroy(){
 		this.currentMothDisplayedSubscription.unsubscribe();
