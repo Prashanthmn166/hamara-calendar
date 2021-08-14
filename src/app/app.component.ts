@@ -66,7 +66,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		this.currentMothDisplayedSubscription.unsubscribe();
 	}
 	shareApp() {
-		this.socialSharing.shareViaWhatsApp("Plz install our app","https://play-lh.googleusercontent.com/Pms4Y7lG2yUd9VQ-mYMuEnYIxN_cPPQGzQ8wANLBr8IiXaFefMOOnGSk7xnG7kM36Uk=s180-rw","https://play.google.com/store/apps/details?id=com.hinid.calender")
+		this.socialSharing.shareViaWhatsAppToPhone("Plz install our app","https://play-lh.googleusercontent.com/Pms4Y7lG2yUd9VQ-mYMuEnYIxN_cPPQGzQ8wANLBr8IiXaFefMOOnGSk7xnG7kM36Uk=s180-rw","https://play.google.com/store/apps/details?id=com.hinid.calender")
 		.then((success) =>{
 			alert("Success");
 		})
