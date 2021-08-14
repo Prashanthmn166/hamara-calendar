@@ -57,10 +57,10 @@ export class AppComponent implements OnInit, OnDestroy {
 		});
 	}
 	onClose($event) {
-		this.isSideNavOpen = true;
+		this.isSideNavOpen = false;
 	}
 	onOpen($event) {
-		this.isSideNavOpen = false;
+		this.isSideNavOpen = true;
 	}
 	ngOnDestroy() {
 		this.currentMothDisplayedSubscription.unsubscribe();
