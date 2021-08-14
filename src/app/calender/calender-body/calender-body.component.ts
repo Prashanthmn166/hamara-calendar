@@ -24,24 +24,23 @@ export class CalenderBodyComponent implements OnInit {
 	@ViewChild('slides', {static: true}) slides: IonSlides;
 	constructor(private calenderService: CalenderService, private modalController: ModalController) {
 		this.dayNumbers = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-		this.daysDispOrder = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+		this.daysDispOrder = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 		this.monthDetails = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 		this.monthArr = [
-			'Mon1', 'Tue1', 'Wed1', 'Thu1', 'Fri1', 'Sat1', 'Sun1',
-			'Mon2', 'Tue2', 'Wed2', 'Thu2', 'Fri2', 'Sat2', 'Sun2',
-			'Mon3', 'Tue3', 'Wed3', 'Thu3', 'Fri3', 'Sat3', 'Sun3',
-			'Mon4', 'Tue4', 'Wed4', 'Thu4', 'Fri4', 'Sat4', 'Sun4',
-			'Mon5', 'Tue5', 'Wed5', 'Thu5', 'Fri5', 'Sat5', 'Sun5'
-
+			'Sun1', 'Mon1', 'Tue1', 'Wed1', 'Thu1', 'Fri1', 'Sat1', 
+			'Sun2', 'Mon2', 'Tue2', 'Wed2', 'Thu2', 'Fri2', 'Sat2',
+			'Sun3', 'Mon3', 'Tue3', 'Wed3', 'Thu3', 'Fri3', 'Sat3', 
+			'Sun4', 'Mon4', 'Tue4', 'Wed4', 'Thu4', 'Fri4', 'Sat4', 
+			'Sun5', 'Mon5', 'Tue5', 'Wed5', 'Thu5', 'Fri5', 'Sat5'
 		];
 		this.NativeLanguage = {
+			Sun: 'रवि',
 			Mon: 'सोम',
 			Tue: 'मंगल',
 			Wed: 'बुध',
 			Thu: 'गुरु',
 			Fri: 'शुक्र',
-			Sat: 'शनि',
-			Sun: 'रवि',
+			Sat: 'शनि'
 		};
 		this.currentDate = new Date();
 		this.currentYear = new Date().getFullYear();
@@ -69,12 +68,11 @@ export class CalenderBodyComponent implements OnInit {
 			let finishedDaysArr = [];
 			let tempMonthArr = [];
 			tempMonthArr = [
-				'Mon1', 'Tue1', 'Wed1', 'Thu1', 'Fri1', 'Sat1', 'Sun1',
-				'Mon2', 'Tue2', 'Wed2', 'Thu2', 'Fri2', 'Sat2', 'Sun2',
-				'Mon3', 'Tue3', 'Wed3', 'Thu3', 'Fri3', 'Sat3', 'Sun3',
-				'Mon4', 'Tue4', 'Wed4', 'Thu4', 'Fri4', 'Sat4', 'Sun4',
-				'Mon5', 'Tue5', 'Wed5', 'Thu5', 'Fri5', 'Sat5', 'Sun5'
-
+				'Sun1', 'Mon1', 'Tue1', 'Wed1', 'Thu1', 'Fri1', 'Sat1', 
+				'Sun2', 'Mon2', 'Tue2', 'Wed2', 'Thu2', 'Fri2', 'Sat2',
+				'Sun3', 'Mon3', 'Tue3', 'Wed3', 'Thu3', 'Fri3', 'Sat3', 
+				'Sun4', 'Mon4', 'Tue4', 'Wed4', 'Thu4', 'Fri4', 'Sat4', 
+				'Sun5', 'Mon5', 'Tue5', 'Wed5', 'Thu5', 'Fri5', 'Sat5'
 			];
 			for (var i = 1; i <= daysInMonth; i++) {
 				daysDetails[i] = { fullDate: '', day: '', date: '', type: 'date', image:'', isPublicHoliday : 'N'};
@@ -178,7 +176,6 @@ export class CalenderBodyComponent implements OnInit {
 				if(element)
 					element.classList.remove('add-blur');
 			});
-			
 		}
 	}
 	isCurrentDay(fulldate){
