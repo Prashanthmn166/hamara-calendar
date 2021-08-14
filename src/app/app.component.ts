@@ -6,26 +6,29 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
 import { Plugins } from '@capacitor/core';
-const { App } = Plugins;
+import { SocialSharing } from '@ionic-native/social-sharing/ngx';
 
+const { App } = Plugins;
 
 @Component({
 	selector: 'app-root',
 	templateUrl: 'app.component.html',
 	styleUrls: ['app.component.scss'],
+	providers: [SocialSharing],
 	encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit, OnDestroy {
-	monthsInShort: string[]=['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'];
-	currentMothDisplayed: number=0;
+	monthsInShort: string[] = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'];
+	currentMothDisplayed: number = 0;
 	currentMothDisplayedSubscription: Subscription;
-	isSideNavOpen: boolean=false;
+	isSideNavOpen: boolean = false;
 	currentYear = new Date().getFullYear();
 	constructor(
 		private platform: Platform,
 		private splashScreen: SplashScreen,
 		private statusBar: StatusBar,
-		private calenderService: CalenderService
+		private calenderService: CalenderService,
+		private socialSharing: SocialSharing
 	) {
 		this.initializeApp();
 	}
@@ -36,30 +39,39 @@ export class AppComponent implements OnInit, OnDestroy {
 			this.splashScreen.hide();
 		});
 	}
-	onMonthSelect(monthIndex: number){
+	onMonthSelect(monthIndex: number) {
 		this.calenderService.currentMonth.next(monthIndex);
 	}
 	ngOnInit() {
-		this.currentMothDisplayedSubscription=this.calenderService.currentMonth.subscribe((currentMonth)=>{
-			this.currentMothDisplayed=currentMonth;
+		this.currentMothDisplayedSubscription = this.calenderService.currentMonth.subscribe((currentMonth) => {
+			this.currentMothDisplayed = currentMonth;
 		})
 		App.addListener('backButton', () => {
-			if(!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value){
-				if(this.currentMothDisplayed!=new Date().getMonth()){
+			if (!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value) {
+				if (this.currentMothDisplayed != new Date().getMonth()) {
 					this.calenderService.currentMonth.next(new Date().getMonth());
-				}else if(this.currentMothDisplayed==new Date().getMonth()){
+				} else if (this.currentMothDisplayed == new Date().getMonth()) {
 					App.exitApp();
-				} 
+				}
 			}
 		});
 	}
-	onClose($event){
-		this.isSideNavOpen=true;
+	onClose($event) {
+		this.isSideNavOpen = true;
 	}
-	onOpen($event){
-		this.isSideNavOpen=false;
+	onOpen($event) {
+		this.isSideNavOpen = false;
 	}
-	ngOnDestroy(){
+	ngOnDestroy() {
 		this.currentMothDisplayedSubscription.unsubscribe();
+	}
+	shareApp() {
+		this.socialSharing.shareViaWhatsApp("Plz install our app","https://play-lh.googleusercontent.com/Pms4Y7lG2yUd9VQ-mYMuEnYIxN_cPPQGzQ8wANLBr8IiXaFefMOOnGSk7xnG7kM36Uk=s180-rw","https://play.google.com/store/apps/details?id=com.hinid.calender")
+		.then((success) =>{
+			alert("Success");
+		})
+		.catch(()=>{
+			alert("Could not share information");
+		});
 	}
 }
