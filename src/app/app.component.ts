@@ -65,9 +65,9 @@ export class AppComponent implements OnInit, OnDestroy {
 	shareApp(){
 		let options: ShareOptions ={
 			url: 'https://play.google.com/store/apps/details?id=com.hinid.calender',
-			text: "Use hamara calendar",
-			title: "Awesom app",
-			dialogTitle: "pretty cool"
+			text: "Hindi Calendar 2021: हमारा कैलेंडर is a simple, pictorial, and informative Hindi calendar app.",
+			title: "Hindi Calendar 2021 : हमारा कैलेंडर",
+			dialogTitle: "Hindi Calendar 2021 : हमारा कैलेंडर"
 		}
 		Share.share(options);
 	}
