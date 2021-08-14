@@ -6,7 +6,7 @@ $font-size-for-details: 17px;
     height: 100%;
     padding: 15px;
     background-color: white;
-    margin: 0 35px;
+    width: calc(100vw - 70px);
     .day-details-close{
         position: absolute;
         width: 30px;
@@ -174,30 +174,4 @@ $font-size-for-details: 17px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-}
-.day-details-next{
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: white;
-    top: calc(50% - 10px);
-    right: 17.5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 2px 2px 5px 1px #989daf;
-}
-.day-details-previous{
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: white;
-    top: calc(50% - 10px);
-    left: 17.5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 2px 2px 5px 1px #989daf;
 }

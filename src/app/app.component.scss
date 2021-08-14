@@ -41,6 +41,22 @@
 			padding-inline: unset;
 			padding-right: 0px;
 		}
+		.side-nav-help-container{
+			width: 100%;
+			display: flex;
+			text-decoration: none;
+			.side-nav-help{
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				text-decoration: none;
+				align-items: center;
+			}
+			.side-nav-help-icon{
+				font-size: 24px;
+				color: grey;
+			}
+		}
 	}
 	.side-nav-calendar-shortcut {
 		margin-top: calc(100% - 160px);

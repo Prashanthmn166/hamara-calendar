@@ -85,7 +85,7 @@
 }
 .date-details-model-container{
     .modal-wrapper{
-        width: 100%;
+        width: calc(100vw - 70px);
         height: calc(100% - 150px);
         background-color: transparent;
         position: relative;
