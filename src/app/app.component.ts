@@ -6,7 +6,6 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
 import { Plugins, ShareOptions } from '@capacitor/core';
-import { SocialSharing } from '@ionic-native/social-sharing/ngx';
 
 const { App , Share} = Plugins;
 
@@ -14,7 +13,6 @@ const { App , Share} = Plugins;
 	selector: 'app-root',
 	templateUrl: 'app.component.html',
 	styleUrls: ['app.component.scss'],
-	providers: [SocialSharing],
 	encapsulation: ViewEncapsulation.None
 })
 export class AppComponent implements OnInit, OnDestroy {
@@ -27,8 +25,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		private platform: Platform,
 		private splashScreen: SplashScreen,
 		private statusBar: StatusBar,
-		private calenderService: CalenderService,
-		private socialSharing: SocialSharing
+		private calenderService: CalenderService
 	) {
 		this.initializeApp();
 	}
@@ -65,24 +62,12 @@ export class AppComponent implements OnInit, OnDestroy {
 	ngOnDestroy() {
 		this.currentMothDisplayedSubscription.unsubscribe();
 	}
-	shareApp() {
-		// this.socialSharing.shareViaWhatsAppToReceiver
-		this.socialSharing.shareViaWhatsAppToReceiver("Plz install our app","https://play-lh.googleusercontent.com/Pms4Y7lG2yUd9VQ-mYMuEnYIxN_cPPQGzQ8wANLBr8IiXaFefMOOnGSk7xnG7kM36Uk=s180-rw","https://play.google.com/store/apps/details?id=com.hinid.calender")
-		.then((success) =>{
-			alert("Success");
-		})
-		.catch(()=>{
-			alert("Could not share information");
-		});
-		
-	}
-	shareApp2(){
+	shareApp(){
 		let options: ShareOptions ={
 			url: 'https://play.google.com/store/apps/details?id=com.hinid.calender',
 			text: "Use hamara calendar",
 			title: "Awesom app",
-			dialogTitle: "pretty cool",
-
+			dialogTitle: "pretty cool"
 		}
 		Share.share(options);
 	}
