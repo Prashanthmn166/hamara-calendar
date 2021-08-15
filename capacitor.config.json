@@ -1,6 +1,6 @@
 {
-  "appId": "com.hindi.calendar",
-  "appName": "हमारा कैलेंडर 2021",
+  "appId": "com.hinid.calender",
+  "appName": "Hindi Calendar 2021 : हमारा कैलेंडर",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "www",
