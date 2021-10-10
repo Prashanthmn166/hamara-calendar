@@ -13,7 +13,7 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 	monthDetails : string[] =[];
 	nativeLanguageMonthsWords: string[] =[];
 	currentMonth: number;
-	currentYear: number = new Date().getFullYear();
+	selectedYear: number;
 	currentMonthSubscription: Subscription;
 	publicHolidaysInCurrentYear: string[];
 	currentMonthHolidayDetails: any[]=[];
@@ -28,8 +28,11 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 		this.monthDetails=this.calenderService.monthDetails;
 		this.nativeLanguageMonthsWords=this.calenderService.nativeLanguageMonthsWords;
 		this.publicHolidaysInCurrentYear= this.calenderService.publicHolidaysInCurrentYear;
-		this.calenderService.currentMonth.subscribe((currentMonth: number) => {
-			this.currentMonth = currentMonth;
+		this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
+			if(currentMonth){
+				this.currentMonth = Number(Number(currentMonth.toString().slice(4,6))-1);
+				this.selectedYear = Number(currentMonth.toString().slice(0,4));
+			};
 			this.prepareCurrentMonthHoliday();
 		})
 	}

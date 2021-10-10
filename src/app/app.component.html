@@ -1,6 +1,7 @@
 <ion-app>
 	<ion-split-pane contentId="main-content">
-		<ion-menu contentId="main-content" type="overlay" class="main-menu" (ionWillClose)="onClose($event)" (ionWillOpen)="onOpen($event)">
+		<ion-menu contentId="main-content" type="overlay" class="main-menu" (ionWillClose)="onClose($event)"
+			(ionWillOpen)="onOpen($event)">
 			<ion-content>
 				<div class="side-nav-container">
 					<div class="side-nav-header">
@@ -20,12 +21,21 @@
 						</ion-item>
 						<ion-item>
 							<div class="side-nav-help-container">
-								<a href="https://www.youtube.com/watch?v=-r98MrGQLP8" target="_blank" class="side-nav-help">
+								<a href="https://www.youtube.com/watch?v=-r98MrGQLP8" target="_blank"
+									class="side-nav-help">
 									<ion-label>Guide</ion-label>
 									<ion-icon name="help-circle-outline" class="side-nav-help-icon"></ion-icon>
 								</a>
 							</div>
-							
+						</ion-item>
+						<ion-item>
+							<ion-label>Language</ion-label>
+							<ion-select [interfaceOptions]="customActionSheetLanguageOptions" interface="action-sheet"
+								value="hindi">
+								<ion-select-option value="english">English</ion-select-option>
+								<ion-select-option value="hindi">हिंदी</ion-select-option>
+							</ion-select>
+							<ion-icon name="language-outline"></ion-icon>
 						</ion-item>
 						<ion-item (click)="shareApp()">
 							<ion-label>Share</ion-label>
@@ -33,18 +43,23 @@
 						</ion-item>
 					</ion-list>
 					<div class="side-nav-calendar-shortcut">
-						<div class="side-nav-calendar-year">{{ currentYear }}</div>
+						<div class="side-nav-calendar-year">
+							<ion-select placeholder="Select One" [selectedText]="selectedYear" [interfaceOptions]="customActionSheetYearOptions" interface="action-sheet"
+								[value]="selectedYear" (ionChange)="onYearChange($event)">
+								<ion-select-option *ngFor="let year of yearsToDisplay" [value]="year">{{year}}</ion-select-option>
+							</ion-select>
+						</div>
+						
 						<div class="side-nav-calendar-shortcut-row">
-							<div class="side-nav-calendar-shortcut-month" [ngClass]="{'side-nav-calendar-shortcut-current-month': currentMothDisplayed==i}" 
-							*ngFor="let monthInShort of monthsInShort; let i= index"
-							(click)="onMonthSelect(i)"
-							>
+							<div class="side-nav-calendar-shortcut-month"
+								[ngClass]="{'side-nav-calendar-shortcut-current-month': currentMothDisplayed==i}"
+								*ngFor="let monthInShort of monthsInShort; let i= index" (click)="onMonthSelect(i)">
 								{{ monthInShort }}
 							</div>
 						</div>
 					</div>
 				</div>
-				
+
 			</ion-content>
 		</ion-menu>
 		<ion-router-outlet id="main-content"></ion-router-outlet>

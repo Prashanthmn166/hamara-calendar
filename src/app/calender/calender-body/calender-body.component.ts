@@ -19,7 +19,7 @@ export class CalenderBodyComponent implements OnInit {
 	currentDate: Date;
 	currentYear: number;
 	currentMonth: number;
-	yearCalendarContent: any = [];
+	yearCalendarContent: any = {};
 	slideOpts = {};
 	@ViewChild('slides', {static: true}) slides: IonSlides;
 	constructor(private calenderService: CalenderService, private modalController: ModalController) {
@@ -45,25 +45,27 @@ export class CalenderBodyComponent implements OnInit {
 		this.currentDate = new Date();
 		this.currentYear = new Date().getFullYear();
 		this.currentMonth = new Date().getMonth();
-		this.genrateYearCalendar();
+		this.genrateYearCalendar(this.currentYear);
+		this.genrateYearCalendar(this.currentYear+1);
 	}
 	ngOnInit(){
+		let currentMonth =Number(this.currentYear.toString()+("0"+Number(this.currentMonth+1)).slice(-2));
 		this.slideOpts={
 			loop: false,
 			direction: 'vertical',
-			initialSlide: this.currentMonth,
+			initialSlide: this.setSliderMonthFromCurrentMonthAndYear(currentMonth),
 			backdropDismiss: true,
 			showBackdrop: true,
 			swipeToClose:true
-		}
-		this.calenderService.currentMonth.next(this.currentMonth);
-		this.calenderService.currentMonth.subscribe((currentMonth)=>{
-			this.slides.slideTo(currentMonth, 500);
+		};
+		this.calenderService.currentMonthAndYear.next(Number(currentMonth));
+		this.calenderService.currentMonthAndYear.subscribe((currentMonthAndYear: number)=>{
+			this.slides.slideTo(this.setSliderMonthFromCurrentMonthAndYear(currentMonthAndYear), 500);
 		})
 	}
-	genrateYearCalendar() {
+	genrateYearCalendar(year: number) {
 		for (var month = 1; month <= 12; month++) {
-			let daysInMonth = new Date(this.currentYear, month, 0).getDate();
+			let daysInMonth = new Date(year, month, 0).getDate();
 			let daysDetails = [];
 			let finishedDaysArr = [];
 			let tempMonthArr = [];
@@ -76,9 +78,9 @@ export class CalenderBodyComponent implements OnInit {
 			];
 			for (var i = 1; i <= daysInMonth; i++) {
 				daysDetails[i] = { fullDate: '', day: '', date: '', type: 'date', image:'', isPublicHoliday : 'N'};
-				daysDetails[i].fullDate = new Date(this.currentYear, month - 1, i);
+				daysDetails[i].fullDate = new Date(year, month - 1, i);
 
-				daysDetails[i].date = new Date(this.currentYear, month - 1, i).getDate();
+				daysDetails[i].date = new Date(year, month - 1, i).getDate();
 				daysDetails[i].image=this.calenderService.doseDateHaveImage(daysDetails[i].fullDate);
 				daysDetails[i].isPublicHoliday=this.calenderService.isPublicHoliday(daysDetails[i].fullDate);
 				var day = daysDetails[i].fullDate.getDay();
@@ -147,12 +149,12 @@ export class CalenderBodyComponent implements OnInit {
 						dispDateDetails[k].push({ date: '', day: '', type: 'empty', fullDate: '' });
 				}
 			}
-			this.yearCalendarContent[month] = dispDateDetails;
-		}
+			this.yearCalendarContent[year.toString()+("0"+month).slice(-2)] = dispDateDetails;
+		};
 	}
 	onSlideChange($event: any){
 		this.slides.getActiveIndex().then((index: number) => {
-			this.calenderService.currentMonth.next(index);
+			this.calenderService.currentMonthAndYear.next(this.getCurrentMonthAndYearFromSliderMonth(index));
 		});	
 	}
 	async showDayDetails(fullDate: string, dayType: string){
@@ -180,5 +182,29 @@ export class CalenderBodyComponent implements OnInit {
 	}
 	isCurrentDay(fulldate){
 		return (new Date(fulldate).getMonth()== this.currentMonth && new Date(fulldate).getDate()== new Date(this.currentDate).getDate());
+	}
+	getCurrentMonthAndYearFromSliderMonth(sliderIndex:number): number{
+		if(sliderIndex<12){
+			return Number(Number(this.currentYear).toString()+("0"+Number(sliderIndex+1)).slice(-2));
+		}else{
+			return Number(Number(this.currentYear+1).toString()+("0"+Number(sliderIndex-12+1)).slice(-2));;
+		}
+		
+	}
+	setSliderMonthFromCurrentMonthAndYear(currentMonthAndYear: number): number{
+		let seletedYear=0;
+		let seletedMonth=0;
+		let sliderIndex=0;
+		if(currentMonthAndYear){
+			seletedYear=Number(currentMonthAndYear.toString().slice(0,4));
+			seletedMonth = Number(currentMonthAndYear.toString().slice(4,6));
+			if(seletedYear==this.currentYear){
+				sliderIndex=Number(seletedMonth-1);
+			}
+			else{
+				sliderIndex=Number(12+seletedMonth-1);
+			}
+		};
+		return sliderIndex;
 	}
 }

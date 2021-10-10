@@ -61,11 +61,14 @@
 	.side-nav-calendar-shortcut {
 		margin-top: calc(100% - 160px);
 		.side-nav-calendar-year{
-			font: normal normal bold 12px/17px Open Sans;
+			font: normal normal bold 16px/16px Open Sans;
 			letter-spacing: 0.12px;
-			color: #000000;
+			color: #31398C;
 			text-align: center;
 			line-height: 60px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
 		}
 		.side-nav-calendar-shortcut-row {
 			display: grid;
@@ -113,5 +116,14 @@ ion-menu {
   ion-content {
       --background: transparent;
   }
+}
+.action-sheet-selected{
+	font-weight: normal !important;
+	background: #31398C !important;
+	color: white !important;
+	border-radius: 25px;
+}
+.action-sheet-button-inner.sc-ion-action-sheet-md{
+	justify-content: center;
 }
 

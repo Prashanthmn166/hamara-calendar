@@ -21,6 +21,14 @@ export class AppComponent implements OnInit, OnDestroy {
 	currentMothDisplayedSubscription: Subscription;
 	isSideNavOpen: boolean = false;
 	currentYear = new Date().getFullYear();
+	selectedYear: number;
+	yearsToDisplay: number[] = [ new Date().getFullYear(), new Date().getFullYear()+1];
+	customActionSheetLanguageOptions: any = {
+		header: 'Select Language'
+	  };
+	  customActionSheetYearOptions: any = {
+		header: 'Select Year'
+	  };
 	constructor(
 		private platform: Platform,
 		private splashScreen: SplashScreen,
@@ -37,21 +45,32 @@ export class AppComponent implements OnInit, OnDestroy {
 		});
 	}
 	onMonthSelect(monthIndex: number) {
-		this.calenderService.currentMonth.next(monthIndex);
+		this.currentMothDisplayed= monthIndex;
+		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
 	}
 	ngOnInit() {
-		this.currentMothDisplayedSubscription = this.calenderService.currentMonth.subscribe((currentMonth) => {
-			this.currentMothDisplayed = currentMonth;
+		this.selectedYear=this.currentYear;
+		this.currentMothDisplayedSubscription = this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
+			if(currentMonth){
+				this.selectedYear=Number(currentMonth.toString().slice(0,4));
+				this.currentMothDisplayed = Number(Number(currentMonth.toString().slice(4,6))-1);
+			};
 		})
 		App.addListener('backButton', () => {
 			if (!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value) {
 				if (this.currentMothDisplayed != new Date().getMonth()) {
-					this.calenderService.currentMonth.next(new Date().getMonth());
+					this.calenderService.currentMonthAndYear.next(Number(this.currentYear+("0"+new Date().getMonth()).slice(-2)));
 				} else if (this.currentMothDisplayed == new Date().getMonth()) {
 					App.exitApp();
 				}
 			}
 		});
+	}
+	onYearChange($event: any){
+		this.selectedYear =$event.detail.value;
+		setTimeout(()=>{
+		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
+		},0);
 	}
 	onClose($event) {
 		this.isSideNavOpen = false;

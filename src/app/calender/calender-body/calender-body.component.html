@@ -1,9 +1,9 @@
 <div style="width: 100%; height: 100%; box-sizing: border-box;">
 	<ion-slides [options]="slideOpts" (ionSlideDidChange)="onSlideChange($event)"  #slides>
-		<ng-container *ngFor="let mothDetails of yearCalendarContent;let i=index">
-			<ion-slide  *ngIf="i!=0">
+		<ng-container *ngFor="let mothDetails of yearCalendarContent|keyvalue;let i=index">
+			<ion-slide>
 				<div class="calendar-body-wrapper">
-					<div class="calendar-body-week-row" *ngFor="let weekDetails of mothDetails">
+					<div class="calendar-body-week-row" *ngFor="let weekDetails of mothDetails.value">
 						<ng-container *ngFor="let daysDetails of weekDetails">
 							<div class="calendar-body-wod" 
 							*ngIf="daysDetails.type=='dow'; else showDate" 
