@@ -22,7 +22,7 @@ export class AppComponent implements OnInit, OnDestroy {
 	isSideNavOpen: boolean = false;
 	currentYear = new Date().getFullYear();
 	selectedYear: number;
-	yearsToDisplay: number[] = [ new Date().getFullYear(), new Date().getFullYear()+1];
+	yearsToDisplay: number[] = [ 2021, 2022];
 	customActionSheetLanguageOptions: any = {
 		header: 'Select Language'
 	  };
@@ -40,7 +40,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
 	initializeApp() {
 		this.platform.ready().then(() => {
-			this.statusBar.styleDefault();
+			this.statusBar.backgroundColorByHexString('#ffffff');
 			this.splashScreen.hide();
 		});
 	}
@@ -58,8 +58,8 @@ export class AppComponent implements OnInit, OnDestroy {
 		})
 		App.addListener('backButton', () => {
 			if (!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value) {
-				if (this.currentMothDisplayed != new Date().getMonth()) {
-					this.calenderService.currentMonthAndYear.next(Number(this.currentYear+("0"+new Date().getMonth()).slice(-2)));
+				if (this.currentMothDisplayed != new Date().getMonth() || this.selectedYear == new Date().getFullYear()) {
+					this.calenderService.currentMonthAndYear.next(Number(this.currentYear+("0"+new Date().getMonth()+1).slice(-2)));
 				} else if (this.currentMothDisplayed == new Date().getMonth()) {
 					App.exitApp();
 				}
