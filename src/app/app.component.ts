@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
 import { Plugins, ShareOptions } from '@capacitor/core';
+import { AppConstants } from './constants/app.constants';
 
 const { App , Share} = Plugins;
 
@@ -23,6 +24,7 @@ export class AppComponent implements OnInit, OnDestroy {
 	currentYear = new Date().getFullYear();
 	selectedYear: number;
 	yearsToDisplay: number[] = [ 2021, 2022];
+	langulageToSelection : string[] = [AppConstants.languageHindi, AppConstants.languageEnglish];
 	customActionSheetLanguageOptions: any = {
 		header: 'Select Language'
 	  };
@@ -33,13 +35,14 @@ export class AppComponent implements OnInit, OnDestroy {
 		private platform: Platform,
 		private splashScreen: SplashScreen,
 		private statusBar: StatusBar,
-		private calenderService: CalenderService
+		public calenderService: CalenderService
 	) {
 		this.initializeApp();
 	}
 
 	initializeApp() {
 		this.platform.ready().then(() => {
+			this.statusBar.overlaysWebView(true);
 			this.statusBar.backgroundColorByHexString('#ffffff');
 			this.splashScreen.hide();
 		});
@@ -52,6 +55,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		this.selectedYear=this.currentYear;
 		this.currentMothDisplayedSubscription = this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
 			if(currentMonth){
+				
 				this.selectedYear=Number(currentMonth.toString().slice(0,4));
 				this.currentMothDisplayed = Number(Number(currentMonth.toString().slice(4,6))-1);
 			};
@@ -59,7 +63,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		App.addListener('backButton', () => {
 			if (!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value) {
 				if (this.currentMothDisplayed != new Date().getMonth() || this.selectedYear == new Date().getFullYear()) {
-					this.calenderService.currentMonthAndYear.next(Number(new Date().getFullYear()+("0"+new Date().getMonth()+1).slice(-2)));
+					this.calenderService.currentMonthAndYear.next(Number(new Date().getFullYear()+("0"+Number(Number(new Date().getMonth())+1)).slice(-2)));
 				} else if (this.currentMothDisplayed == new Date().getMonth()) {
 					App.exitApp();
 				}
@@ -71,6 +75,10 @@ export class AppComponent implements OnInit, OnDestroy {
 		setTimeout(()=>{
 		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
 		},0);
+	}
+	onLanguageChange($event: any){
+		this.calenderService.selectedLanguage.next($event.detail.value);
+		localStorage.setItem(AppConstants.languageKey,$event.detail.value);
 	}
 	onClose($event) {
 		this.isSideNavOpen = false;

@@ -31,9 +31,8 @@
 						<ion-item>
 							<ion-label>Language</ion-label>
 							<ion-select [interfaceOptions]="customActionSheetLanguageOptions" interface="action-sheet"
-								value="hindi">
-								<ion-select-option value="english">English</ion-select-option>
-								<ion-select-option value="hindi">हिंदी</ion-select-option>
+								[value]="calenderService.selectedLanguage.value" (ionChange)="onLanguageChange($event)">
+								<ion-select-option [value]="language" *ngFor="let language of langulageToSelection">{{language}}</ion-select-option>
 							</ion-select>
 							<ion-icon name="language-outline"></ion-icon>
 						</ion-item>
