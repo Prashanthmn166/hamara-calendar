@@ -59,7 +59,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		App.addListener('backButton', () => {
 			if (!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value) {
 				if (this.currentMothDisplayed != new Date().getMonth() || this.selectedYear == new Date().getFullYear()) {
-					this.calenderService.currentMonthAndYear.next(Number(this.currentYear+("0"+new Date().getMonth()+1).slice(-2)));
+					this.calenderService.currentMonthAndYear.next(Number(new Date().getFullYear()+("0"+new Date().getMonth()+1).slice(-2)));
 				} else if (this.currentMothDisplayed == new Date().getMonth()) {
 					App.exitApp();
 				}
