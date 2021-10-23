@@ -1,5 +1,6 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
 import { ModalController } from '@ionic/angular';
+import { AppConstants } from 'src/app/constants/app.constants';
 import { CalenderService } from '../../calender.service';
 @Component({
 	selector: 'app-day-details',
@@ -11,7 +12,8 @@ export class DayDetailsComponent implements OnInit {
 	@Input() fullDate: string;
 	currentDate: Date;
 	dateDetails: any = {};
-	constructor(private modalCtrl: ModalController, private calenderService: CalenderService) { }
+	appConstants = AppConstants;
+	constructor(private modalCtrl: ModalController, public calenderService: CalenderService) { }
 
 	ngOnInit() {
 		this.dateDetails = this.calenderService.getDateDetails(this.fullDate);

@@ -36,32 +36,32 @@
 			<span>{{ dateDetails?.DAYHEADING }}</span>
 		</div>
 		<div  class="day-details-rahu-kala">
-			<span class="kala-title">राहुकाल</span>
+			<span class="kala-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'राहुकाल' : 'Rahukala' }}</span>
 			<span class="kala-desc">{{ dateDetails?.RAHUKALA }}</span>
 		</div>
 		<div  class="day-details-guli-kala">
-			<span class="kala-title">गुलिक काल</span>
+			<span class="kala-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'गुलिक काल' : 'Gulikala' }}</span>
 			<span class="kala-desc">{{ dateDetails?.GULIKALA }}</span>
 		</div>
 		<div  class="day-details-yamaganda-kala">
-			<span class="kala-title">यमगण्डकाल</span>
+			<span class="kala-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'यमगण्डकाल' : 'Yamagandakala' }}</span>
 			<span class="kala-desc">{{ dateDetails?.YAMAGANDAKALA }}</span>
 		</div>
 		<div class="daily-masa-details">
 			<div class="day-details-titi">
-				<span class="day-details-title">तिथि</span>
+				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'तिथि' : 'Tithi' }}</span>
 				<span class="day-details-desc">{{ dateDetails?.TITHI }}</span>
 			</div>
 			<div class="day-details-nakshatra">
-				<span class="day-details-title">नक्षत्र</span>
+				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'नक्षत्र' : 'Nakshatar' }}</span>
 				<span class="day-details-desc">{{ dateDetails?.NAKSHATAR }}</span>
 			</div>
 			<div class="day-details-yoga">
-				<span class="day-details-title">योग</span>
+				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'योग' : 'Yoga' }} </span>
 				<span class="day-details-desc">{{ dateDetails?.YOGA }}</span>
 			</div>
 			<div class="day-details-karuna">
-				<span class="day-details-title">करण</span>
+				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'करण' : 'Karana' }} </span>
 				<span class="day-details-desc">{{ dateDetails?.KARANA }}</span>
 			</div>
 		</div>

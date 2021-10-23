@@ -44,6 +44,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		this.platform.ready().then(() => {
 			this.statusBar.overlaysWebView(true);
 			this.statusBar.backgroundColorByHexString('#ffffff');
+			this.statusBar.styleLightContent();
 			this.splashScreen.hide();
 		});
 	}
@@ -62,7 +63,7 @@ export class AppComponent implements OnInit, OnDestroy {
 		})
 		App.addListener('backButton', () => {
 			if (!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value) {
-				if (this.currentMothDisplayed != new Date().getMonth() || this.selectedYear == new Date().getFullYear()) {
+				if (this.currentMothDisplayed != Number(new Date().getMonth()+1) || this.selectedYear == new Date().getFullYear()) {
 					this.calenderService.currentMonthAndYear.next(Number(new Date().getFullYear()+("0"+Number(Number(new Date().getMonth())+1)).slice(-2)));
 				} else if (this.currentMothDisplayed == new Date().getMonth()) {
 					App.exitApp();
@@ -73,7 +74,7 @@ export class AppComponent implements OnInit, OnDestroy {
 	onYearChange($event: any){
 		this.selectedYear =$event.detail.value;
 		setTimeout(()=>{
-		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
+			this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
 		},0);
 	}
 	onLanguageChange($event: any){

@@ -181,15 +181,14 @@ export class CalenderBodyComponent implements OnInit {
 		}
 	}
 	isCurrentDay(fulldate){
-		return (new Date(fulldate).getMonth()== this.currentMonth && new Date(fulldate).getDate()== new Date(this.currentDate).getDate());
+		return (new Date(fulldate).getMonth()== this.currentMonth && new Date(fulldate).getDate()== new Date(this.currentDate).getDate() && new Date(fulldate).getFullYear()== new Date(this.currentDate).getFullYear());
 	}
 	getCurrentMonthAndYearFromSliderMonth(sliderIndex:number): number{
 		if(sliderIndex<12){
 			return Number(Number(this.currentYear).toString()+("0"+Number(sliderIndex+1)).slice(-2));
 		}else{
 			return Number(Number(this.currentYear+1).toString()+("0"+Number(sliderIndex-12+1)).slice(-2));;
-		}
-		
+		};
 	}
 	setSliderMonthFromCurrentMonthAndYear(currentMonthAndYear: number): number{
 		let seletedYear=0;
