@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
+import { AfterViewInit, Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
@@ -8,7 +8,7 @@ import { Plugins, ShareOptions, StatusBarStyle } from '@capacitor/core';
 import { AppConstants } from './constants/app.constants';
 
 
-const { App , Share, StatusBar} = Plugins;
+const { App , Share, StatusBar, LocalNotifications} = Plugins;
 
 @Component({
 	selector: 'app-root',
@@ -16,7 +16,7 @@ const { App , Share, StatusBar} = Plugins;
 	styleUrls: ['app.component.scss'],
 	encapsulation: ViewEncapsulation.None
 })
-export class AppComponent implements OnInit, OnDestroy {
+export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	monthsInShort: string[] = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEPT', 'OCT', 'NOV', 'DEC'];
 	currentMothDisplayed: number = 0;
 	currentMothDisplayedSubscription: Subscription;
@@ -40,18 +40,20 @@ export class AppComponent implements OnInit, OnDestroy {
 	}
 
 	initializeApp() {
-		this.platform.ready().then(() => {
-			
-			StatusBar.setBackgroundColor({color:"#ffffff"});
-			StatusBar.setStyle({style: StatusBarStyle.Light});
+		this.platform.ready().then(() => {	
 			this.splashScreen.hide();
+			if(this.platform.is("android") ){
+				StatusBar.setBackgroundColor({color:"#ffffff"});
+				StatusBar.setStyle({style: StatusBarStyle.Light});
+			};
 		});
 	}
 	onMonthSelect(monthIndex: number) {
 		this.currentMothDisplayed= monthIndex;
 		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
 	}
-	ngOnInit() {
+	async ngOnInit() {
+
 		this.selectedYear=this.currentYear;
 		this.currentMothDisplayedSubscription = this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
 			if(currentMonth){
@@ -68,6 +70,18 @@ export class AppComponent implements OnInit, OnDestroy {
 				}
 			}
 		});
+		await LocalNotifications.requestPermission();
+	}
+	async ngAfterViewInit(){
+		LocalNotifications.schedule({
+			notifications: [
+				{
+					title: 'Hindi',
+					body: 'This is today notification',
+					id: 1
+				}
+			]
+		})
 	}
 	onYearChange($event: any){
 		this.selectedYear =$event.detail.value;

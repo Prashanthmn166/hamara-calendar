@@ -48,7 +48,7 @@
 								<ion-select-option *ngFor="let year of yearsToDisplay" [value]="year">{{year}}</ion-select-option>
 							</ion-select>
 						</div>
-						
+
 						<div class="side-nav-calendar-shortcut-row">
 							<div class="side-nav-calendar-shortcut-month"
 								[ngClass]="{'side-nav-calendar-shortcut-current-month': currentMothDisplayed==i}"
@@ -58,7 +58,7 @@
 						</div>
 					</div>
 				</div>
-
+				<ion-button (click)="ngAfterViewInit()">Show notification</ion-button>
 			</ion-content>
 		</ion-menu>
 		<ion-router-outlet id="main-content"></ion-router-outlet>
