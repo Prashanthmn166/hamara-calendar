@@ -2,13 +2,13 @@ import { Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
-import { Plugins, ShareOptions } from '@capacitor/core';
+import { Plugins, ShareOptions, StatusBarStyle } from '@capacitor/core';
 import { AppConstants } from './constants/app.constants';
 
-const { App , Share} = Plugins;
+
+const { App , Share, StatusBar} = Plugins;
 
 @Component({
 	selector: 'app-root',
@@ -34,7 +34,6 @@ export class AppComponent implements OnInit, OnDestroy {
 	constructor(
 		private platform: Platform,
 		private splashScreen: SplashScreen,
-		private statusBar: StatusBar,
 		public calenderService: CalenderService
 	) {
 		this.initializeApp();
@@ -42,9 +41,9 @@ export class AppComponent implements OnInit, OnDestroy {
 
 	initializeApp() {
 		this.platform.ready().then(() => {
-			this.statusBar.overlaysWebView(true);
-			this.statusBar.backgroundColorByHexString('#ffffff');
-			this.statusBar.styleLightContent();
+			
+			StatusBar.setBackgroundColor({color:"#ffffff"});
+			StatusBar.setStyle({style: StatusBarStyle.Light});
 			this.splashScreen.hide();
 		});
 	}
@@ -58,7 +57,6 @@ export class AppComponent implements OnInit, OnDestroy {
 			if(currentMonth){
 				this.selectedYear=Number(currentMonth.toString().slice(0,4));
 				this.currentMothDisplayed = Number(Number(currentMonth.toString().slice(4,6))-1);
-				console.log(this.selectedYear, this.currentMothDisplayed,"------>")
 			};
 		})
 		App.addListener('backButton', () => {
