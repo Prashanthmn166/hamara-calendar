@@ -54,8 +54,6 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 		this.currentMonthHolidayDetails=currentMonthHolidays.map((holiday)=>{
 			return this.calenderService.getDateDetails(new Date(holiday).toDateString());
 		});
-		console.log(currentMonthHolidays)
-		console.log(this.currentMonthHolidayDetails)
 		this.slides.slideTo(0, 500);
 	}
 	ngOnDestroy(){

@@ -56,14 +56,14 @@ export class AppComponent implements OnInit, OnDestroy {
 		this.selectedYear=this.currentYear;
 		this.currentMothDisplayedSubscription = this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
 			if(currentMonth){
-				
 				this.selectedYear=Number(currentMonth.toString().slice(0,4));
 				this.currentMothDisplayed = Number(Number(currentMonth.toString().slice(4,6))-1);
+				console.log(this.selectedYear, this.currentMothDisplayed,"------>")
 			};
 		})
 		App.addListener('backButton', () => {
 			if (!this.isSideNavOpen && !this.calenderService.isDayViewOpen.value) {
-				if (this.currentMothDisplayed != Number(new Date().getMonth()+1) || this.selectedYear == new Date().getFullYear()) {
+				if (this.currentMothDisplayed != Number(new Date().getMonth()) || this.selectedYear != new Date().getFullYear()) {
 					this.calenderService.currentMonthAndYear.next(Number(new Date().getFullYear()+("0"+Number(Number(new Date().getMonth())+1)).slice(-2)));
 				} else if (this.currentMothDisplayed == new Date().getMonth()) {
 					App.exitApp();
