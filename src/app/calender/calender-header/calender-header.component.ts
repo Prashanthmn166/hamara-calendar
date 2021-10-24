@@ -21,11 +21,27 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 	publicHolidaysInCurrentYear: string[];
 	currentMonthHolidayDetails: any[]=[];
 	@ViewChild('headerSlides', {static: true}) slides: IonSlides;
-	slideOptions = {
-		initialSlide: 1,
+	linearGradientOptions: string[] = [
+		'transparent linear-gradient(287deg, #8A5CC4 0%, #FF0061 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(282deg, #FEC194 0%, #FF0061 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(102deg, #0D4DFF 0%, #00FFA9 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(282deg, #1FC9FD 0%, #FC0061 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(287deg, #8A5CC4 0%, #FF0061 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(101deg, #106AD2 0%, #A32CDF 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(281deg, #FFE53B 0%, #FF2725 100%, #FF2525 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(101deg, #4218B8 0%, #00C0FF 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(101deg, #4218B8 0%, #00C0FF 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(101deg, #932784 0%, #8F2E88 0%, #7A4D9A 15%, #00FFFF 100%) 0% 0% no-repeat padding-box',
+		'transparent linear-gradient(101deg, #FF0A6C 0%, #4A3CDB 100%) 0% 0% no-repeat padding-box'
+	]
+	slideOptsOne = {
+		initialSlide: 0,
 		speed: 400,
-	};
-	constructor(private calenderService: CalenderService) { }
+		slidesPerView: 1,
+		autoplay:true
+	   };
+	appConstants = AppConstants;
+	constructor(public calenderService: CalenderService) { }
 	ngOnInit() {
 		this.publicHolidaysInCurrentYear= this.calenderService.publicHolidaysInCurrentYear;
 		this.monthDetails=this.calenderService.monthDetails;
@@ -52,7 +68,12 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 			return (new Date(publicHoliday).getMonth() == this.currentMonth && new Date(publicHoliday).getFullYear()== this.selectedYear);
 		});
 		this.currentMonthHolidayDetails=currentMonthHolidays.map((holiday)=>{
-			return this.calenderService.getDateDetails(new Date(holiday).toDateString());
+			let req ={
+				...this.calenderService.getDateDetails(new Date(holiday).toDateString()), 
+				linearGadientColor: this.linearGradientOptions[Math.round(Math.random()*10)]
+			};
+			console.log(req.linearGadientColor)
+			return req
 		});
 		this.slides.slideTo(0, 500);
 	}

@@ -1,7 +1,6 @@
 .calender-header-wrapper{
     background-color: #FFFFFF;
     height: 100%;
-    border: 1px solid #B7B7B7;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     .menu-button{
@@ -15,6 +14,11 @@
         position: absolute;
         right: 0;
         padding-top: 15px;
+        &.calender-header-month-sub-english{
+            font-size: 10px;
+            max-width: 80px;
+            margin-top: -4px;
+        }
     }
     .calender-header-toolbar{
         display: flex;
@@ -28,14 +32,14 @@
         }
     }
     .calender-header-advertisement-carousel{
-        background: linear-gradient(to bottom, #f2f1f7 0%,  #c7c2f1 100%);
-        border-radius: 10px;
         width: calc(100% - 20px);
         margin: 0 10px 10px 10px;
         height: calc(100% - 57px);
-        box-shadow: 1px 1px 1px 1px #888888;
         .slides-md{
             height: 100%;
+        }
+        ion-slide {
+            border-radius: 10px;
         }
        .calender-header-carousel-item{
            display: flex;
@@ -54,14 +58,14 @@
                     font-weight: 600;
                }
                .calender-header-carousel-item-date-details-date{
-                    font-size: 16px;
-                    color: #DD5145;
-                    font-weight: 600;
+                    font-size: 28px;
+                    color: #FFFFFF;
+                    padding-top: 5px;
                }
                .calender-header-carousel-item-date-details-weekday{
-                    font-size: 16px;
-                    color: #DD5145;
-                    font-weight: 600;
+                    font-size: 14px;
+                    color: #FFFFFF;
+                    margin-top: -4px;
                }
            }
            .calender-header-carousel-item-event-details-container{
@@ -74,19 +78,12 @@
                     padding-inline-start: unset;
                     margin: 0;
                     width: 100%;
+                    align-items: center;
+                    justify-content: center;
                     .calender-header-carousel-item-event-one{
                          padding-top: 4px;
                          font-size: 16px;
-                         color: #DD5145;
-                         font-weight: 600;
-                         white-space: nowrap;
-                         overflow: hidden;
-                         text-align: center;
-                    }
-                    .calender-header-carousel-item-event-two, .calender-header-carousel-item-event-three{
-                         font-size: 14px;
-                         color: #DD5145;
-                         font-weight: 600;
+                         color: #FFFFFF;
                          white-space: nowrap;
                          overflow: hidden;
                          text-align: center;

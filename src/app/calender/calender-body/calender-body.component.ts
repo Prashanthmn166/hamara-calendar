@@ -45,8 +45,8 @@ export class CalenderBodyComponent implements OnInit {
 		this.currentDate = new Date();
 		this.currentYear = new Date().getFullYear();
 		this.currentMonth = new Date().getMonth();
-		this.genrateYearCalendar(this.currentYear);
-		this.genrateYearCalendar(this.currentYear+1);
+		this.genrateYearCalendar(2021);
+		this.genrateYearCalendar(2022);
 	}
 	ngOnInit(){
 		let currentMonth =Number(this.currentYear.toString()+("0"+Number(this.currentMonth+1)).slice(-2));

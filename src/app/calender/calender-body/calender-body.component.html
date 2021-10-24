@@ -10,7 +10,7 @@
 							[ngClass]="{'calendar-body-wod-sunday': daysDetails.day=='Sun'}"
 							>
 								<span class="calendar-body-native-language">{{ NativeLanguage[daysDetails.day] }}</span>
-								<span class="calendar-body-eng-language">{{ daysDetails.day }}</span>
+								<span class="calendar-body-eng-language">{{ daysDetails.day.toUpperCase() }}</span>
 							</div>
 							<ng-template #showDate>
 								<div class="calendar-body-days" 

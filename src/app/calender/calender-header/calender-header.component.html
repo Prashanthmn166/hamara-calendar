@@ -2,7 +2,9 @@
 	<ion-buttons slot="start" class="menu-button">
 		<ion-menu-button></ion-menu-button>
 	</ion-buttons>
-	<div class="calender-header-month-sub-details">
+	<div class="calender-header-month-sub-details" 
+	[ngClass]="{'calender-header-month-sub-english': (calenderService.selectedLanguage.value == appConstants.languageEnglish)}"
+	>
 		{{ nativeLanguageMonthsWords[currentMonth] }}
 	</div>
 	<div class="calender-header-toolbar">
@@ -11,8 +13,8 @@
 		</div>
 	</div>
 	<div class="calender-header-advertisement-carousel">
-		<ion-slides #headerSlides>
-			<ion-slide *ngFor="let holidayDetails of currentMonthHolidayDetails">
+		<ion-slides #headerSlides [options]="slideOptsOne">
+			<ion-slide *ngFor="let holidayDetails of currentMonthHolidayDetails" [style.background]="holidayDetails.linearGadientColor">
 				<div class="calender-header-carousel-item">
 					<div class="calender-header-carousel-item-date-details">
 						<span class="calender-header-carousel-item-date-details-date">{{ holidayDetails.DATE }}</span>
@@ -21,8 +23,6 @@
 					<div class="calender-header-carousel-item-event-details-container">
 						<div class="calender-header-carousel-item-event-details">
 							<div class="calender-header-carousel-item-event-one">{{ holidayDetails.EVENT1 }}</div>
-							<div class="calender-header-carousel-item-event-two">{{ holidayDetails.EVENT2 }}</div>
-							<div class="calender-header-carousel-item-event-three">{{ holidayDetails.EVENT3 }}</div>
 						</div>
 					</div>
 					<div  class="calender-header-carousel-item-image">

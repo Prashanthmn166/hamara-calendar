@@ -80,9 +80,16 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 					body: 'This is today notification',
 					id: 1,
 					schedule:  {
-						at: new Date(),
+						at: new Date(Date.now()+1000*3),
+						count: 1,
 						repeats: true,
-						every : 'minute'
+						every : 'minute',
+						on: {
+							year: 2021,
+							month: 10,
+							hour: 17,
+							minute: 48
+						}
 					}
 				}
 			]
