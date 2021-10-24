@@ -78,7 +78,12 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 				{
 					title: 'Hindi',
 					body: 'This is today notification',
-					id: 1
+					id: 1,
+					schedule:  {
+						at: new Date(),
+						repeats: true,
+						every : 'minute'
+					}
 				}
 			]
 		})
