@@ -73,8 +73,7 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 				...this.calenderService.getDateDetails(new Date(holiday).toDateString()), 
 				linearGadientColor: this.linearGradientOptions[Math.round(Math.random()*10)]
 			};
-			console.log(req.linearGadientColor)
-			return req
+			return req;
 		});
 		this.slides.slideTo(0, 500);
 	}
