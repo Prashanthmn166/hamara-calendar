@@ -13,6 +13,8 @@ export class DayDetailsComponent implements OnInit {
 	currentDate: Date;
 	dateDetails: any = {};
 	appConstants = AppConstants;
+	addAnimationRightToCurrent: boolean=false;
+	addAnimationLeftToCurrent: boolean=false;
 	constructor(private modalCtrl: ModalController, public calenderService: CalenderService) { }
 
 	ngOnInit() {
@@ -25,11 +27,21 @@ export class DayDetailsComponent implements OnInit {
 		});
 	}
 	onSwipeLeft() {
+		this.addAnimationRightToCurrent=false;
+		this.addAnimationLeftToCurrent=false;
 		this.currentDate.setDate(this.currentDate.getDate() - 1);
 		this.dateDetails = this.calenderService.getDateDetails(this.currentDate.toDateString());
+		setTimeout(()=>{
+			this.addAnimationLeftToCurrent=true;
+		},50);
 	}
 	onSwipeRight() {
+		this.addAnimationLeftToCurrent=false;
+		this.addAnimationRightToCurrent=false;
 		this.currentDate.setDate(this.currentDate.getDate() + 1);
 		this.dateDetails = this.calenderService.getDateDetails(this.currentDate.toDateString());
+		setTimeout(()=>{
+			this.addAnimationRightToCurrent=true;
+		},50);
 	}
 }

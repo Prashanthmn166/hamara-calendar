@@ -76,8 +76,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		LocalNotifications.schedule({
 			notifications: [
 				{
-					title: 'Hindi',
-					body: 'This is today notification',
+					title: 'जानिए आज का पंचांग',
+					body: 'श्रावण, त्रयोदशी कृष्ण पक्ष, 2078 आनन्द विक्रम सम्वत',
 					id: 1,
 					schedule:  {
 						at: new Date(Date.now()+1000*3),

@@ -1,4 +1,4 @@
-<div class="day-details-container" appSwipe (swipeLeft)="onSwipeLeft()" (swipeRight)="onSwipeRight()" *ngIf="dateDetails; else dataDosentExists">
+<div class="day-details-container" [ngClass]="{'english-language': (calenderService.selectedLanguage.value==appConstants.languageEnglish)}" appSwipe (swipeLeft)="onSwipeLeft()" (swipeRight)="onSwipeRight()" *ngIf="dateDetails; else dataDosentExists">
 	<!-- <div class="day-details-close" (click)="dismiss()">
 		<ion-icon name="arrow-back-outline"></ion-icon>
 	</div> -->
@@ -8,61 +8,66 @@
 	<div class="day-details-moth-body">
 		<div class="day-details-date-details-and-icon">
 			<div class="day-details-date-details">
-				<span class="day-details-date" [ngClass]="{'day-details-holiday-date': (dateDetails?.DAY=='SUNDAY' || dateDetails?.ISPUBLICHOLIDAY == 'Y') }">{{ dateDetails?.DATE }}</span>
-				<span class="day-details-wod" [ngClass]="{'day-details-holiday-wod': (dateDetails?.DAY=='SUNDAY' || dateDetails?.ISPUBLICHOLIDAY == 'Y') }">{{ dateDetails?.DAYINHINDI }}</span>
-				<span class="day-details-festival">{{ dateDetails?.EVENT1 }}</span>
-				<span class="day-details-masa">{{ dateDetails?.EVENT2 }}</span>
+				<span class="day-details-date" [ngClass]="{'day-details-holiday-date': (dateDetails?.DAY=='SUNDAY' || dateDetails?.ISPUBLICHOLIDAY == 'Y'), 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent }">{{ dateDetails?.DATE }}</span>
+				<span class="day-details-wod" [ngClass]="{'day-details-holiday-wod': (dateDetails?.DAY=='SUNDAY' || dateDetails?.ISPUBLICHOLIDAY == 'Y'), 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent }">{{ dateDetails?.DAYINHINDI }}</span>
 			</div>
-			<div class="day-details-icon-details">
-				<ion-img *ngIf="dateDetails?.IMAGE" [src]="'assets/'+dateDetails?.IMAGE+'.png'"></ion-img>
+			<div class="day-details-icon-details" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent , 'day-details-icon-details-eng': (calenderService.selectedLanguage.value==appConstants.languageEnglish)}" *ngIf="dateDetails?.IMAGE">
+				<ion-img  [src]="'assets/'+dateDetails?.IMAGE+'.png'"></ion-img>
 			</div>
 		</div>
-		<span class="day-details-masam">{{ dateDetails?.EVENT3 }}</span>
+		<div class="day-details-event-details">
+			<span class="day-details-festival" [ngClass]="{'day-details-festival-is-festival': dateDetails?.ISPUBLICHOLIDAY == 'Y' , 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.EVENT1 }}</span>
+			<span class="day-details-masa" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.EVENT2 }}</span>
+			<span class="day-details-masam" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.EVENT3 }}</span>
+		</div>
+		
 		<div  class="day-details-sun-details">
 			<div  class="day-details-sun-raise">
 				<ion-img [src]="'assets/SUNRISE.png'" class="day-details-icon"></ion-img>
-				<span>{{ dateDetails?.SUNRISE }}</span>
+				<span [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.SUNRISE }}</span>
 			</div>
 			<div  class="day-details-sun-set">
 				<ion-img [src]="'assets/sunset.png'" class="day-details-icon"></ion-img>
-				<span>{{ dateDetails?.SUNSET }}</span>
+				<span [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.SUNSET }}</span>
 			</div>
 			<div  class="day-details-sun-rasi">
 				<ion-img [src]="'assets/MOON.png'" class="day-details-icon"></ion-img>
-				<span>{{ dateDetails?.MOONSIGN }}</span>
+				<span [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.MOONSIGN }}</span>
 			</div>
 		</div>
 		<div class="day-details-day-speacility">
-			<span>{{ dateDetails?.DAYHEADING }}</span>
+			<ion-img [src]="'assets/day-details-day-special-left.png'" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}"></ion-img>
+			<span [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.DAYHEADING }}</span>
+			<ion-img [src]="'assets/day-details-day-special-right.png'" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}"></ion-img>
 		</div>
 		<div  class="day-details-rahu-kala">
 			<span class="kala-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'राहुकाल' : 'Rahukala' }}</span>
-			<span class="kala-desc">{{ dateDetails?.RAHUKALA }}</span>
+			<span class="kala-desc" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.RAHUKALA }}</span>
 		</div>
 		<div  class="day-details-guli-kala">
 			<span class="kala-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'गुलिक काल' : 'Gulikala' }}</span>
-			<span class="kala-desc">{{ dateDetails?.GULIKALA }}</span>
+			<span class="kala-desc" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.GULIKALA }}</span>
 		</div>
 		<div  class="day-details-yamaganda-kala">
 			<span class="kala-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'यमगण्डकाल' : 'Yamagandakala' }}</span>
-			<span class="kala-desc">{{ dateDetails?.YAMAGANDAKALA }}</span>
+			<span class="kala-desc" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.YAMAGANDAKALA }}</span>
 		</div>
 		<div class="daily-masa-details">
 			<div class="day-details-titi">
 				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'तिथि' : 'Tithi' }}</span>
-				<span class="day-details-desc">{{ dateDetails?.TITHI }}</span>
+				<span class="day-details-desc" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.TITHI }}</span>
 			</div>
 			<div class="day-details-nakshatra">
 				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'नक्षत्र' : 'Nakshatar' }}</span>
-				<span class="day-details-desc">{{ dateDetails?.NAKSHATAR }}</span>
+				<span class="day-details-desc" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.NAKSHATAR }}</span>
 			</div>
 			<div class="day-details-yoga">
 				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'योग' : 'Yoga' }} </span>
-				<span class="day-details-desc">{{ dateDetails?.YOGA }}</span>
+				<span class="day-details-desc" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.YOGA }}</span>
 			</div>
 			<div class="day-details-karuna">
 				<span class="day-details-title">{{ calenderService.selectedLanguage.value== appConstants.languageHindi ? 'करण' : 'Karana' }} </span>
-				<span class="day-details-desc">{{ dateDetails?.KARANA }}</span>
+				<span class="day-details-desc" [ngClass]="{ 'add-animation-right-to-current': addAnimationRightToCurrent, 'add-animation-left-to-current': addAnimationLeftToCurrent}">{{ dateDetails?.KARANA }}</span>
 			</div>
 		</div>
 	</div>

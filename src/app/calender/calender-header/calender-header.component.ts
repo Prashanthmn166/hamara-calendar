@@ -38,6 +38,7 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 		initialSlide: 0,
 		speed: 400,
 		slidesPerView: 1,
+		spaceBetween: 15,
 		autoplay:true
 	   };
 	appConstants = AppConstants;

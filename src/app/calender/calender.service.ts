@@ -16645,7 +16645,7 @@ export class CalenderService {
 			"NAKSHATAR": "Chitra upto 10:55 AM",
 			"YOGA": "Dhriti upto 09:13 AM",
 			"KARANA": "Bava upto 07:48 AM",
-			"DAYHEADING": "",
+			"DAYHEADING": "Magha, Saptami Krishna Paksha, 2078 Aananda Vikrama Samvata",
 			"EVENT1": "Magha, Saptami Krishna Paksha, 2078 Aananda Vikrama Samvata",
 			"EVENT2": "Kalashtami",
 			"EVENT3": "",

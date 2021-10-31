@@ -1,5 +1,28 @@
-$font-size-for-details: 17px;
+:root{
+    --font-size-month-header: 22px;
+    --font-size-day-details-date: 40px;
+    --font-size-day-details-wod: 18px;
+    --font-size-day-details-festival: 18px;
+    --font-size-for-details: 17px;
+}
+
+@mixin add-animation-effect-on-slide {
+    position: relative;
+    &.add-animation-right-to-current{
+        animation: right-to-current forwards 400ms;
+    }
+    &.add-animation-left-to-current{
+        animation: left-to-current forwards 400ms;
+    }
+}
 .day-details-container{
+    &.english-language{
+        --font-size-month-header: 20px;
+        --font-size-day-details-date: 36px;
+        --font-size-day-details-wod: 16px;
+        --font-size-day-details-festival: 16px;
+        --font-size-for-details: 15px;
+    }
     overflow-y: auto;
     border-radius: 15px;
     border: 1px solid #E9E9E9;
@@ -19,7 +42,7 @@ $font-size-for-details: 17px;
         display: flex;
         justify-content: center;
         span{
-            font-size: 22px;
+            font-size: var(--font-size-month-header) ;
             color: #31398C;
             font-weight: 900;
         }
@@ -33,52 +56,76 @@ $font-size-for-details: 17px;
                 flex: 1;
                 display: flex;
                 flex-direction: column;
+                margin-top: 14px;
                 .day-details-date{
-                    font-size: 40px;
+                    font-size: var(--font-size-day-details-date);
                     color: #31398C;
                     min-height: 55px;
                     line-height: 55px;
+                    @include add-animation-effect-on-slide;
                     &.day-details-holiday-date{
                         color: #FF3B3B;
                     }
                 }
                 .day-details-wod{
-                    font-size: $font-size-for-details;
+                    font-size: var(--font-size-day-details-wod);
                     color: #31398C;
+                    line-height: 20px;
+                    padding: 5px 0;
                     font-weight: 600;
-                    line-height: 26px;
-                    min-height: 26px;
+                    @include add-animation-effect-on-slide;
                     &.day-details-holiday-wod{
                         color: #FF3B3B;
                     }
                 }
-                .day-details-festival{
-                    font-size: $font-size-for-details;
-                    color: #FF3B3B;
-                    line-height: 26px;
-                    min-height: 26px;
-                }
-                .day-details-masa{
-                    margin-top: 4px;
-                    font-size: $font-size-for-details;
-                    font-weight: bold;
-                    color: #31398C;
-                    line-height: 19px;
-                    min-height: 19px;
-                }
             }
             .day-details-icon-details{
                 flex: 1;
-                padding: 30px;
+                padding-left: 60px;
+                position: relative;
+                top: 8px;
+                &.day-details-icon-details-eng{
+                    position: relative;
+                    top: 4px;
+                }
+                @include add-animation-effect-on-slide;
+                ion-img{
+                    width: 100px;
+                    height: 100px;
+                }
             }
         }
-        .day-details-masam{
-            font-size: 14px;
-            line-height: 26px;
-            min-height: 26px;
-            text-align: left;
-            color: black;
-            font-weight: 600;
+        .day-details-event-details{
+            display: flex;
+            flex-direction: column;
+            .day-details-festival{
+                font-size: var(--font-size-day-details-festival);
+                color: black;
+                line-height: 20px;
+                padding: 5px 0;
+                @include add-animation-effect-on-slide;
+                &.day-details-festival-is-festival{
+                    color: #FF3B3B;
+                    font-weight: 600;
+                    font-size:  var(--font-size-day-details-festival);
+                }
+            }
+            .day-details-masam{
+                font-size:  var(--font-size-day-details-festival);
+                line-height: 20px;
+                min-height: 30px;
+                text-align: left;
+                color: black;
+                @include add-animation-effect-on-slide;
+            }
+            .day-details-masa{
+                font-size:  var(--font-size-day-details-festival);
+                line-height: 20px;
+                min-height: 30px;
+                text-align: left;
+                color: black;
+                @include add-animation-effect-on-slide;
+            }
         }
     }
     .day-details-sun-details{
@@ -89,13 +136,16 @@ $font-size-for-details: 17px;
             display: flex;
             flex-direction: row;
             align-items: center;
+            span{
+                @include add-animation-effect-on-slide;
+            }
             .day-details-icon{
                 width: 26px;
                 height: 26px;
             }
             span{
                 margin-left: 6px;
-                font-size: $font-size-for-details;
+                font-size: var(--font-size-for-details);
                 color: black;
                 font-weight: 500;
                 padding-top: 6px;
@@ -117,12 +167,18 @@ $font-size-for-details: 17px;
         margin-top: 30px;
         display: flex;
         justify-content: center;
+        ion-img{
+            width: 20px;
+            height: 50px;
+            @include add-animation-effect-on-slide;
+        }
         span{
             max-width: calc(100% - 90px);
             color: #31398C;
-            font-size: $font-size-for-details;
+            font-size: var(--font-size-for-details);
             line-height: 22px;
             text-align: center;
+            @include add-animation-effect-on-slide;
         }
     }
     .day-details-rahu-kala, .day-details-guli-kala, .day-details-yamaganda-kala{
@@ -131,16 +187,17 @@ $font-size-for-details: 17px;
         margin-top: 12px;
         .kala-title{
             flex: 2;
-            font-size: $font-size-for-details;
+            font-size: var(--font-size-for-details);
             line-height: 21px;
             color:#31398C;
         }
         .kala-desc{
             flex: 3;
             color: #000000;
-            font-size: $font-size-for-details;
+            font-size: var(--font-size-for-details);
             line-height: 21px;
             font-weight: 500;
+            @include add-animation-effect-on-slide;
         }
     }
     .daily-masa-details{
@@ -151,16 +208,17 @@ $font-size-for-details: 17px;
             margin-top: 12px;
             .day-details-title{
                 flex: 2;
-                font-size: $font-size-for-details;
+                font-size: var(--font-size-for-details);
                 color: #31398C;
                 line-height: 21px;
             }
             .day-details-desc{
                 flex: 3;
-                font-size: $font-size-for-details;
+                font-size: var(--font-size-for-details);
                 font-weight: 500;
                 color: black;
                 line-height: 21px;
+                @include add-animation-effect-on-slide;
             }
         }
     }
@@ -174,4 +232,20 @@ $font-size-for-details: 17px;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+@keyframes right-to-current {
+    0% {
+        right: -30px;
+    }
+    100% {
+        right: 0px;
+    }
+}
+@keyframes left-to-current {
+    0% {
+        left: -20px;
+    }
+    100% {
+        left: 0px;
+    }
 }
