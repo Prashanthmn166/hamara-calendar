@@ -239,7 +239,7 @@
 }
 @keyframes right-to-current {
     0% {
-        right: calc(-100vw + 70px);
+        right: -40px;
     }
     100% {
         right: 0px;
@@ -247,7 +247,7 @@
 }
 @keyframes left-to-current {
     0% {
-        left: calc(-100vw + 70px);
+        left: -20px;
     }
     100% {
         left: 0px;
