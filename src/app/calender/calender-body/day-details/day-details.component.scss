@@ -9,10 +9,10 @@
 @mixin add-animation-effect-on-slide {
     position: relative;
     &.add-animation-right-to-current{
-        animation: right-to-current forwards 400ms;
+        animation: right-to-current forwards 400ms ease-out;
     }
     &.add-animation-left-to-current{
-        animation: left-to-current forwards 400ms;
+        animation: left-to-current forwards 400ms ease-out;
     }
 }
 .day-details-container{
@@ -239,7 +239,7 @@
 }
 @keyframes right-to-current {
     0% {
-        right: -30px;
+        right: calc(-100vw + 70px);
     }
     100% {
         right: 0px;
@@ -247,7 +247,7 @@
 }
 @keyframes left-to-current {
     0% {
-        left: -20px;
+        left: calc(-100vw + 70px);
     }
     100% {
         left: 0px;

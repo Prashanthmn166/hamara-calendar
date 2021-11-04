@@ -8737,7 +8737,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जनवरी"
 		},
 		"16-01-2022": {
 			"DATEHEADING": "16-01-2022",
@@ -8758,7 +8759,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जनवरी"
 		},
 		"17-01-2022": {
 			"DATEHEADING": "17-01-2022",
@@ -8779,7 +8781,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "FULL_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जनवरी"
 		},
 		"18-01-2022": {
 			"DATEHEADING": "18-01-2022",
@@ -8800,7 +8803,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "जनवरी"
 		},
 		"19-01-2022": {
 			"DATEHEADING": "19-01-2022",
@@ -8821,7 +8825,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जनवरी"
 		},
 		"20-01-2022": {
 			"DATEHEADING": "20-01-2022",
@@ -8842,7 +8847,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जनवरी"
 		},
 		"21-01-2022": {
 			"DATEHEADING": "21-01-2022",
@@ -8863,7 +8869,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "जनवरी"
 		},
 		"22-01-2022": {
 			"DATEHEADING": "22-01-2022",
@@ -8884,7 +8891,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जनवरी"
 		},
 		"23-01-2022": {
 			"DATEHEADING": "23-01-2022",
@@ -8905,7 +8913,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SUBHASH_CHANDRA_BOSE",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जनवरी"
 		},
 		"24-01-2022": {
 			"DATEHEADING": "24-01-2022",
@@ -8926,7 +8935,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जनवरी"
 		},
 		"25-01-2022": {
 			"DATEHEADING": "25-01-2022",
@@ -8947,7 +8957,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "जनवरी"
 		},
 		"26-01-2022": {
 			"DATEHEADING": "26-01-2022",
@@ -8968,7 +8979,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "REPUBLIC_DAY",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जनवरी"
 		},
 		"27-01-2022": {
 			"DATEHEADING": "27-01-2022",
@@ -8989,7 +9001,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जनवरी"
 		},
 		"28-01-2022": {
 			"DATEHEADING": "28-01-2022",
@@ -9010,7 +9023,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "VENKATESHWARA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "जनवरी"
 		},
 		"29-01-2022": {
 			"DATEHEADING": "29-01-2022",
@@ -9031,7 +9045,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जनवरी"
 		},
 		"30-01-2022": {
 			"DATEHEADING": "30-01-2022",
@@ -9052,7 +9067,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जनवरी"
 		},
 		"31-01-2022": {
 			"DATEHEADING": "31-01-2022",
@@ -9073,7 +9089,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जनवरी"
 		},
 		"01-02-2022": {
 			"DATEHEADING": "01-02-2022",
@@ -9358,7 +9375,8 @@ export class CalenderService {
 			"EVENT3": "जया एकादशी पारण",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "फ़रवरी"
 		},
 		"14-02-2022": {
 			"DATEHEADING": "14-02-2022",
@@ -9379,7 +9397,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "VALENTINE",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "फ़रवरी"
 		},
 		"15-02-2022": {
 			"DATEHEADING": "15-02-2022",
@@ -9400,7 +9419,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MUSLIM",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "फ़रवरी"
 		},
 		"16-02-2022": {
 			"DATEHEADING": "16-02-2022",
@@ -9421,7 +9441,8 @@ export class CalenderService {
 			"EVENT3": "ललिता जयन्ती",
 			"IMAGE": "GURU_RAVIDASS",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "फ़रवरी"
 		},
 		"17-02-2022": {
 			"DATEHEADING": "17-02-2022",
@@ -9442,7 +9463,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "फ़रवरी"
 		},
 		"18-02-2022": {
 			"DATEHEADING": "18-02-2022",
@@ -9463,7 +9485,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "फ़रवरी"
 		},
 		"19-02-2022": {
 			"DATEHEADING": "19-02-2022",
@@ -9484,7 +9507,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHIVAJI",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "फ़रवरी"
 		},
 		"20-02-2022": {
 			"DATEHEADING": "20-02-2022",
@@ -9505,7 +9529,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "फ़रवरी"
 		},
 		"21-02-2022": {
 			"DATEHEADING": "21-02-2022",
@@ -9526,7 +9551,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "फ़रवरी"
 		},
 		"22-02-2022": {
 			"DATEHEADING": "22-02-2022",
@@ -9547,7 +9573,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "फ़रवरी"
 		},
 		"23-02-2022": {
 			"DATEHEADING": "23-02-2022",
@@ -9568,7 +9595,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "फ़रवरी"
 		},
 		"24-02-2022": {
 			"DATEHEADING": "24-02-2022",
@@ -9589,7 +9617,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "फ़रवरी"
 		},
 		"25-02-2022": {
 			"DATEHEADING": "25-02-2022",
@@ -9610,7 +9639,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "फ़रवरी"
 		},
 		"26-02-2022": {
 			"DATEHEADING": "26-02-2022",
@@ -9631,7 +9661,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "फ़रवरी"
 		},
 		"27-02-2022": {
 			"DATEHEADING": "27-02-2022",
@@ -9652,7 +9683,8 @@ export class CalenderService {
 			"EVENT3": "वैष्णव विजया एकादशी",
 			"IMAGE": "VENKATESHWARA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "फ़रवरी"
 		},
 		"28-02-2022": {
 			"DATEHEADING": "28-02-2022",
@@ -9673,7 +9705,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "फ़रवरी"
 		},
 		"01-03-2022": {
 			"DATEHEADING": "01-03-2022",
@@ -9958,7 +9991,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "मार्च"
 		},
 		"14-03-2022": {
 			"DATEHEADING": "14-03-2022",
@@ -9979,7 +10013,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "मार्च"
 		},
 		"15-03-2022": {
 			"DATEHEADING": "15-03-2022",
@@ -10000,7 +10035,8 @@ export class CalenderService {
 			"EVENT3": "आमलकी एकादशी पारण",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "मार्च"
 		},
 		"16-03-2022": {
 			"DATEHEADING": "16-03-2022",
@@ -10021,7 +10057,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "मार्च"
 		},
 		"17-03-2022": {
 			"DATEHEADING": "17-03-2022",
@@ -10042,7 +10079,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HOLI",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "मार्च"
 		},
 		"18-03-2022": {
 			"DATEHEADING": "18-03-2022",
@@ -10063,7 +10101,8 @@ export class CalenderService {
 			"EVENT3": "वसन्त पूर्णिमा",
 			"IMAGE": "HOLI2",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "मार्च"
 		},
 		"19-03-2022": {
 			"DATEHEADING": "19-03-2022",
@@ -10084,7 +10123,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "मार्च"
 		},
 		"20-03-2022": {
 			"DATEHEADING": "20-03-2022",
@@ -10105,7 +10145,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "मार्च"
 		},
 		"21-03-2022": {
 			"DATEHEADING": "21-03-2022",
@@ -10126,7 +10167,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "मार्च"
 		},
 		"22-03-2022": {
 			"DATEHEADING": "22-03-2022",
@@ -10147,7 +10189,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "मार्च"
 		},
 		"23-03-2022": {
 			"DATEHEADING": "23-03-2022",
@@ -10168,7 +10211,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "मार्च"
 		},
 		"24-03-2022": {
 			"DATEHEADING": "24-03-2022",
@@ -10189,7 +10233,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "मार्च"
 		},
 		"25-03-2022": {
 			"DATEHEADING": "25-03-2022",
@@ -10210,7 +10255,8 @@ export class CalenderService {
 			"EVENT3": "वर्षी तप आरम्भ",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "मार्च"
 		},
 		"26-03-2022": {
 			"DATEHEADING": "26-03-2022",
@@ -10231,7 +10277,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "मार्च"
 		},
 		"27-03-2022": {
 			"DATEHEADING": "27-03-2022",
@@ -10252,7 +10299,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "मार्च"
 		},
 		"28-03-2022": {
 			"DATEHEADING": "28-03-2022",
@@ -10273,7 +10321,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "मार्च"
 		},
 		"29-03-2022": {
 			"DATEHEADING": "29-03-2022",
@@ -10294,7 +10343,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "मार्च"
 		},
 		"30-03-2022": {
 			"DATEHEADING": "30-03-2022",
@@ -10315,7 +10365,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "मार्च"
 		},
 		"31-03-2022": {
 			"DATEHEADING": "31-03-2022",
@@ -10336,7 +10387,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "मार्च"
 		},
 		"01-04-2022": {
 			"DATEHEADING": "01-04-2022",
@@ -10621,7 +10673,8 @@ export class CalenderService {
 			"EVENT3": "वामन द्वादशी",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अप्रैल"
 		},
 		"14-04-2022": {
 			"DATEHEADING": "14-04-2022",
@@ -10642,7 +10695,8 @@ export class CalenderService {
 			"EVENT3": "मेष संक्रान्ति, प्रदोष व्रत",
 			"IMAGE": "AMBEDKAR",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अप्रैल"
 		},
 		"15-04-2022": {
 			"DATEHEADING": "15-04-2022",
@@ -10663,7 +10717,8 @@ export class CalenderService {
 			"EVENT3": "पहेला वैशाख",
 			"IMAGE": "GOOD_FRIDAY",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अप्रैल"
 		},
 		"16-04-2022": {
 			"DATEHEADING": "16-04-2022",
@@ -10684,7 +10739,8 @@ export class CalenderService {
 			"EVENT3": "अन्वाधान",
 			"IMAGE": "HANUMAN",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अप्रैल"
 		},
 		"17-04-2022": {
 			"DATEHEADING": "17-04-2022",
@@ -10705,7 +10761,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अप्रैल"
 		},
 		"18-04-2022": {
 			"DATEHEADING": "18-04-2022",
@@ -10726,7 +10783,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अप्रैल"
 		},
 		"19-04-2022": {
 			"DATEHEADING": "19-04-2022",
@@ -10747,7 +10805,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "अप्रैल"
 		},
 		"20-04-2022": {
 			"DATEHEADING": "20-04-2022",
@@ -10768,7 +10827,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अप्रैल"
 		},
 		"21-04-2022": {
 			"DATEHEADING": "21-04-2022",
@@ -10789,7 +10849,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अप्रैल"
 		},
 		"22-04-2022": {
 			"DATEHEADING": "22-04-2022",
@@ -10810,7 +10871,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अप्रैल"
 		},
 		"23-04-2022": {
 			"DATEHEADING": "23-04-2022",
@@ -10831,7 +10893,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अप्रैल"
 		},
 		"24-04-2022": {
 			"DATEHEADING": "24-04-2022",
@@ -10852,7 +10915,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अप्रैल"
 		},
 		"25-04-2022": {
 			"DATEHEADING": "25-04-2022",
@@ -10873,7 +10937,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अप्रैल"
 		},
 		"26-04-2022": {
 			"DATEHEADING": "26-04-2022",
@@ -10894,7 +10959,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "अप्रैल"
 		},
 		"27-04-2022": {
 			"DATEHEADING": "27-04-2022",
@@ -10915,7 +10981,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अप्रैल"
 		},
 		"28-04-2022": {
 			"DATEHEADING": "28-04-2022",
@@ -10936,7 +11003,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अप्रैल"
 		},
 		"29-04-2022": {
 			"DATEHEADING": "29-04-2022",
@@ -10957,7 +11025,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अप्रैल"
 		},
 		"30-04-2022": {
 			"DATEHEADING": "30-04-2022",
@@ -10978,7 +11047,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अप्रैल"
 		},
 		"01-05-2022": {
 			"DATEHEADING": "01-05-2022",
@@ -11263,7 +11333,8 @@ export class CalenderService {
 			"EVENT3": "मोहिनी एकादशी पारण",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "मई"
 		},
 		"14-05-2022": {
 			"DATEHEADING": "14-05-2022",
@@ -11284,7 +11355,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "मई"
 		},
 		"15-05-2022": {
 			"DATEHEADING": "15-05-2022",
@@ -11305,7 +11377,8 @@ export class CalenderService {
 			"EVENT3": "वैशाख पूर्णिमा व्रत",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "मई"
 		},
 		"16-05-2022": {
 			"DATEHEADING": "16-05-2022",
@@ -11326,7 +11399,8 @@ export class CalenderService {
 			"EVENT3": "इष्टि",
 			"IMAGE": "BUDDHA",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "मई"
 		},
 		"17-05-2022": {
 			"DATEHEADING": "17-05-2022",
@@ -11347,7 +11421,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "मई"
 		},
 		"18-05-2022": {
 			"DATEHEADING": "18-05-2022",
@@ -11368,7 +11443,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "मई"
 		},
 		"19-05-2022": {
 			"DATEHEADING": "19-05-2022",
@@ -11389,7 +11465,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "मई"
 		},
 		"20-05-2022": {
 			"DATEHEADING": "20-05-2022",
@@ -11410,7 +11487,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "मई"
 		},
 		"21-05-2022": {
 			"DATEHEADING": "21-05-2022",
@@ -11431,7 +11509,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "मई"
 		},
 		"22-05-2022": {
 			"DATEHEADING": "22-05-2022",
@@ -11452,7 +11531,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "मई"
 		},
 		"23-05-2022": {
 			"DATEHEADING": "23-05-2022",
@@ -11473,7 +11553,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "मई"
 		},
 		"24-05-2022": {
 			"DATEHEADING": "24-05-2022",
@@ -11494,7 +11575,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "मई"
 		},
 		"25-05-2022": {
 			"DATEHEADING": "25-05-2022",
@@ -11515,7 +11597,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "मई"
 		},
 		"26-05-2022": {
 			"DATEHEADING": "26-05-2022",
@@ -11536,7 +11619,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "मई"
 		},
 		"27-05-2022": {
 			"DATEHEADING": "27-05-2022",
@@ -11557,7 +11641,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "मई"
 		},
 		"28-05-2022": {
 			"DATEHEADING": "28-05-2022",
@@ -11578,7 +11663,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "मई"
 		},
 		"29-05-2022": {
 			"DATEHEADING": "29-05-2022",
@@ -11599,7 +11685,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "मई"
 		},
 		"30-05-2022": {
 			"DATEHEADING": "30-05-2022",
@@ -11620,7 +11707,8 @@ export class CalenderService {
 			"EVENT3": "दर्श,ज्येष्ठ अमावस्या",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "मई"
 		},
 		"31-05-2022": {
 			"DATEHEADING": "31-05-2022",
@@ -11641,7 +11729,8 @@ export class CalenderService {
 			"EVENT3": "इष्टि",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "मई"
 		},
 		"01-06-2022": {
 			"DATEHEADING": "01-06-2022",
@@ -11926,7 +12015,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जून"
 		},
 		"14-06-2022": {
 			"DATEHEADING": "14-06-2022",
@@ -11947,7 +12037,8 @@ export class CalenderService {
 			"EVENT3": "वैवस्वत मन्वादि",
 			"IMAGE": "FULL_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "जून"
 		},
 		"15-06-2022": {
 			"DATEHEADING": "15-06-2022",
@@ -11968,7 +12059,8 @@ export class CalenderService {
 			"EVENT3": "इष्टि",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जून"
 		},
 		"16-06-2022": {
 			"DATEHEADING": "16-06-2022",
@@ -11989,7 +12081,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जून"
 		},
 		"17-06-2022": {
 			"DATEHEADING": "17-06-2022",
@@ -12010,7 +12103,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "जून"
 		},
 		"18-06-2022": {
 			"DATEHEADING": "18-06-2022",
@@ -12031,7 +12125,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जून"
 		},
 		"19-06-2022": {
 			"DATEHEADING": "19-06-2022",
@@ -12052,7 +12147,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जून"
 		},
 		"20-06-2022": {
 			"DATEHEADING": "20-06-2022",
@@ -12073,7 +12169,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जून"
 		},
 		"21-06-2022": {
 			"DATEHEADING": "21-06-2022",
@@ -12094,7 +12191,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "YOGA_IMAGE",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "जून"
 		},
 		"22-06-2022": {
 			"DATEHEADING": "22-06-2022",
@@ -12115,7 +12213,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जून"
 		},
 		"23-06-2022": {
 			"DATEHEADING": "23-06-2022",
@@ -12136,7 +12235,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जून"
 		},
 		"24-06-2022": {
 			"DATEHEADING": "24-06-2022",
@@ -12157,7 +12257,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "जून"
 		},
 		"25-06-2022": {
 			"DATEHEADING": "25-06-2022",
@@ -12178,7 +12279,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जून"
 		},
 		"26-06-2022": {
 			"DATEHEADING": "26-06-2022",
@@ -12199,7 +12301,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जून"
 		},
 		"27-06-2022": {
 			"DATEHEADING": "27-06-2022",
@@ -12220,7 +12323,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जून"
 		},
 		"28-06-2022": {
 			"DATEHEADING": "28-06-2022",
@@ -12241,7 +12345,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "जून"
 		},
 		"29-06-2022": {
 			"DATEHEADING": "29-06-2022",
@@ -12262,7 +12367,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जून"
 		},
 		"30-06-2022": {
 			"DATEHEADING": "30-06-2022",
@@ -12283,7 +12389,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जून"
 		},
 		"01-07-2022": {
 			"DATEHEADING": "01-07-2022",
@@ -12568,7 +12675,8 @@ export class CalenderService {
 			"EVENT3": "आषाढ़ अष्टाह्निका विधान पूर्ण, अन्वाधान",
 			"IMAGE": "FULL_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जुलाई"
 		},
 		"14-07-2022": {
 			"DATEHEADING": "14-07-2022",
@@ -12589,7 +12697,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जुलाई"
 		},
 		"15-07-2022": {
 			"DATEHEADING": "15-07-2022",
@@ -12610,7 +12719,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "जुलाई"
 		},
 		"16-07-2022": {
 			"DATEHEADING": "16-07-2022",
@@ -12631,7 +12741,8 @@ export class CalenderService {
 			"EVENT3": "जयापार्वती व्रत समाप्त",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जुलाई"
 		},
 		"17-07-2022": {
 			"DATEHEADING": "17-07-2022",
@@ -12652,7 +12763,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जुलाई"
 		},
 		"18-07-2022": {
 			"DATEHEADING": "18-07-2022",
@@ -12673,7 +12785,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जुलाई"
 		},
 		"19-07-2022": {
 			"DATEHEADING": "19-07-2022",
@@ -12694,7 +12807,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "जुलाई"
 		},
 		"20-07-2022": {
 			"DATEHEADING": "20-07-2022",
@@ -12715,7 +12829,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जुलाई"
 		},
 		"21-07-2022": {
 			"DATEHEADING": "21-07-2022",
@@ -12736,7 +12851,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जुलाई"
 		},
 		"22-07-2022": {
 			"DATEHEADING": "22-07-2022",
@@ -12757,7 +12873,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "जुलाई"
 		},
 		"23-07-2022": {
 			"DATEHEADING": "23-07-2022",
@@ -12778,7 +12895,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जुलाई"
 		},
 		"24-07-2022": {
 			"DATEHEADING": "24-07-2022",
@@ -12799,7 +12917,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जुलाई"
 		},
 		"25-07-2022": {
 			"DATEHEADING": "25-07-2022",
@@ -12820,7 +12939,8 @@ export class CalenderService {
 			"EVENT3": "कामिका एकादशी पारण",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "जुलाई"
 		},
 		"26-07-2022": {
 			"DATEHEADING": "26-07-2022",
@@ -12841,7 +12961,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "जुलाई"
 		},
 		"27-07-2022": {
 			"DATEHEADING": "27-07-2022",
@@ -12862,7 +12983,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "जुलाई"
 		},
 		"28-07-2022": {
 			"DATEHEADING": "28-07-2022",
@@ -12883,7 +13005,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "जुलाई"
 		},
 		"29-07-2022": {
 			"DATEHEADING": "29-07-2022",
@@ -12904,7 +13027,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "जुलाई"
 		},
 		"30-07-2022": {
 			"DATEHEADING": "30-07-2022",
@@ -12925,7 +13049,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "जुलाई"
 		},
 		"31-07-2022": {
 			"DATEHEADING": "31-07-2022",
@@ -12946,7 +13071,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "जुलाई"
 		},
 		"01-08-2022": {
 			"DATEHEADING": "01-08-2022",
@@ -13231,7 +13357,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अगस्त"
 		},
 		"14-08-2022": {
 			"DATEHEADING": "14-08-2022",
@@ -13252,7 +13379,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अगस्त"
 		},
 		"15-08-2022": {
 			"DATEHEADING": "15-08-2022",
@@ -13273,7 +13401,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "INDEPENDENCE",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अगस्त"
 		},
 		"16-08-2022": {
 			"DATEHEADING": "16-08-2022",
@@ -13294,7 +13423,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "अगस्त"
 		},
 		"17-08-2022": {
 			"DATEHEADING": "17-08-2022",
@@ -13315,7 +13445,8 @@ export class CalenderService {
 			"EVENT3": "सिंह संक्रान्ति",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अगस्त"
 		},
 		"18-08-2022": {
 			"DATEHEADING": "18-08-2022",
@@ -13336,7 +13467,8 @@ export class CalenderService {
 			"EVENT3": "आद्याकाली जयन्ती",
 			"IMAGE": "KRISHNA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अगस्त"
 		},
 		"19-08-2022": {
 			"DATEHEADING": "19-08-2022",
@@ -13357,7 +13489,8 @@ export class CalenderService {
 			"EVENT3": "कालाष्टमी",
 			"IMAGE": "KRISHNA_JANMASTAMI",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अगस्त"
 		},
 		"20-08-2022": {
 			"DATEHEADING": "20-08-2022",
@@ -13378,7 +13511,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अगस्त"
 		},
 		"21-08-2022": {
 			"DATEHEADING": "21-08-2022",
@@ -13399,7 +13533,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अगस्त"
 		},
 		"22-08-2022": {
 			"DATEHEADING": "22-08-2022",
@@ -13420,7 +13555,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अगस्त"
 		},
 		"23-08-2022": {
 			"DATEHEADING": "23-08-2022",
@@ -13441,7 +13577,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "अगस्त"
 		},
 		"24-08-2022": {
 			"DATEHEADING": "24-08-2022",
@@ -13462,7 +13599,8 @@ export class CalenderService {
 			"EVENT3": "अजा एकादशी पारण",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अगस्त"
 		},
 		"25-08-2022": {
 			"DATEHEADING": "25-08-2022",
@@ -13483,7 +13621,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अगस्त"
 		},
 		"26-08-2022": {
 			"DATEHEADING": "26-08-2022",
@@ -13504,7 +13643,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अगस्त"
 		},
 		"27-08-2022": {
 			"DATEHEADING": "27-08-2022",
@@ -13525,7 +13665,8 @@ export class CalenderService {
 			"EVENT3": "अन्वाधान",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अगस्त"
 		},
 		"28-08-2022": {
 			"DATEHEADING": "28-08-2022",
@@ -13546,7 +13687,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अगस्त"
 		},
 		"29-08-2022": {
 			"DATEHEADING": "29-08-2022",
@@ -13567,7 +13709,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अगस्त"
 		},
 		"30-08-2022": {
 			"DATEHEADING": "30-08-2022",
@@ -13588,7 +13731,8 @@ export class CalenderService {
 			"EVENT3": "रूद्र सावर्णि मन्वादि",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "अगस्त"
 		},
 		"31-08-2022": {
 			"DATEHEADING": "31-08-2022",
@@ -13609,7 +13753,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA_CHATURTI",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अगस्त"
 		},
 		"01-09-2022": {
 			"DATEHEADING": "01-09-2022",
@@ -13894,7 +14039,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "सितम्बर"
 		},
 		"14-09-2022": {
 			"DATEHEADING": "14-09-2022",
@@ -13915,7 +14061,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "सितम्बर"
 		},
 		"15-09-2022": {
 			"DATEHEADING": "15-09-2022",
@@ -13936,7 +14083,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "सितम्बर"
 		},
 		"16-09-2022": {
 			"DATEHEADING": "16-09-2022",
@@ -13957,7 +14105,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "सितम्बर"
 		},
 		"17-09-2022": {
 			"DATEHEADING": "17-09-2022",
@@ -13978,7 +14127,8 @@ export class CalenderService {
 			"EVENT3": "कन्या संक्रान्ति, विश्वकर्मा पूजा",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "सितम्बर"
 		},
 		"18-09-2022": {
 			"DATEHEADING": "18-09-2022",
@@ -13999,7 +14149,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "सितम्बर"
 		},
 		"19-09-2022": {
 			"DATEHEADING": "19-09-2022",
@@ -14020,7 +14171,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "सितम्बर"
 		},
 		"20-09-2022": {
 			"DATEHEADING": "20-09-2022",
@@ -14041,7 +14193,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "सितम्बर"
 		},
 		"21-09-2022": {
 			"DATEHEADING": "21-09-2022",
@@ -14062,7 +14215,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "सितम्बर"
 		},
 		"22-09-2022": {
 			"DATEHEADING": "22-09-2022",
@@ -14083,7 +14237,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "सितम्बर"
 		},
 		"23-09-2022": {
 			"DATEHEADING": "23-09-2022",
@@ -14104,7 +14259,8 @@ export class CalenderService {
 			"EVENT3": "प्रदोष व्रत, कलि युग",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "सितम्बर"
 		},
 		"24-09-2022": {
 			"DATEHEADING": "24-09-2022",
@@ -14125,7 +14281,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "सितम्बर"
 		},
 		"25-09-2022": {
 			"DATEHEADING": "25-09-2022",
@@ -14146,7 +14303,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "सितम्बर"
 		},
 		"26-09-2022": {
 			"DATEHEADING": "26-09-2022",
@@ -14167,7 +14325,8 @@ export class CalenderService {
 			"EVENT3": "इष्टि, घटस्थापना",
 			"IMAGE": "NAVARATHRI_BEGIN",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "सितम्बर"
 		},
 		"27-09-2022": {
 			"DATEHEADING": "27-09-2022",
@@ -14188,7 +14347,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "सितम्बर"
 		},
 		"28-09-2022": {
 			"DATEHEADING": "28-09-2022",
@@ -14209,7 +14369,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "सितम्बर"
 		},
 		"29-09-2022": {
 			"DATEHEADING": "29-09-2022",
@@ -14230,7 +14391,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "सितम्बर"
 		},
 		"30-09-2022": {
 			"DATEHEADING": "30-09-2022",
@@ -14251,7 +14413,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "सितम्बर"
 		},
 		"01-10-2022": {
 			"DATEHEADING": "01-10-2022",
@@ -14536,7 +14699,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अकतूबर"
 		},
 		"14-10-2022": {
 			"DATEHEADING": "14-10-2022",
@@ -14557,7 +14721,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अकतूबर"
 		},
 		"15-10-2022": {
 			"DATEHEADING": "15-10-2022",
@@ -14578,7 +14743,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अकतूबर"
 		},
 		"16-10-2022": {
 			"DATEHEADING": "16-10-2022",
@@ -14599,7 +14765,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अकतूबर"
 		},
 		"17-10-2022": {
 			"DATEHEADING": "17-10-2022",
@@ -14620,7 +14787,8 @@ export class CalenderService {
 			"EVENT3": "राधा कुण्ड स्नान",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अकतूबर"
 		},
 		"18-10-2022": {
 			"DATEHEADING": "18-10-2022",
@@ -14641,7 +14809,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "अकतूबर"
 		},
 		"19-10-2022": {
 			"DATEHEADING": "19-10-2022",
@@ -14662,7 +14831,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अकतूबर"
 		},
 		"20-10-2022": {
 			"DATEHEADING": "20-10-2022",
@@ -14683,7 +14853,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अकतूबर"
 		},
 		"21-10-2022": {
 			"DATEHEADING": "21-10-2022",
@@ -14704,7 +14875,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अकतूबर"
 		},
 		"22-10-2022": {
 			"DATEHEADING": "22-10-2022",
@@ -14725,7 +14897,8 @@ export class CalenderService {
 			"EVENT3": "रमा एकादशी पारण",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अकतूबर"
 		},
 		"23-10-2022": {
 			"DATEHEADING": "23-10-2022",
@@ -14746,7 +14919,8 @@ export class CalenderService {
 			"EVENT3": "मासिक शिवरात्रि",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अकतूबर"
 		},
 		"24-10-2022": {
 			"DATEHEADING": "24-10-2022",
@@ -14767,7 +14941,8 @@ export class CalenderService {
 			"EVENT3": "नरक चतुर्दशी",
 			"IMAGE": "DIWALI",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अकतूबर"
 		},
 		"25-10-2022": {
 			"DATEHEADING": "25-10-2022",
@@ -14788,7 +14963,8 @@ export class CalenderService {
 			"EVENT3": "अन्वाधान",
 			"IMAGE": "SOLAR_ECLIPSE",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "अकतूबर"
 		},
 		"26-10-2022": {
 			"DATEHEADING": "26-10-2022",
@@ -14809,7 +14985,8 @@ export class CalenderService {
 			"EVENT3": "गोवर्धन पूजा",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "अकतूबर"
 		},
 		"27-10-2022": {
 			"DATEHEADING": "27-10-2022",
@@ -14830,7 +15007,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "अकतूबर"
 		},
 		"28-10-2022": {
 			"DATEHEADING": "28-10-2022",
@@ -14851,7 +15029,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "अकतूबर"
 		},
 		"29-10-2022": {
 			"DATEHEADING": "29-10-2022",
@@ -14872,7 +15051,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "अकतूबर"
 		},
 		"30-10-2022": {
 			"DATEHEADING": "30-10-2022",
@@ -14893,7 +15073,8 @@ export class CalenderService {
 			"EVENT3": "सूर सम्हारम",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "अकतूबर"
 		},
 		"31-10-2022": {
 			"DATEHEADING": "31-10-2022",
@@ -14914,7 +15095,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "अकतूबर"
 		},
 		"01-11-2022": {
 			"DATEHEADING": "01-11-2022",
@@ -15199,7 +15381,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "नवंबर"
 		},
 		"14-11-2022": {
 			"DATEHEADING": "14-11-2022",
@@ -15220,7 +15403,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "CHILDRENS_DAY",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "नवंबर"
 		},
 		"15-11-2022": {
 			"DATEHEADING": "15-11-2022",
@@ -15241,7 +15425,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "नवंबर"
 		},
 		"16-11-2022": {
 			"DATEHEADING": "16-11-2022",
@@ -15262,7 +15447,8 @@ export class CalenderService {
 			"EVENT3": "कालभैरव जयन्ती",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "नवंबर"
 		},
 		"17-11-2022": {
 			"DATEHEADING": "17-11-2022",
@@ -15283,7 +15469,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "नवंबर"
 		},
 		"18-11-2022": {
 			"DATEHEADING": "18-11-2022",
@@ -15304,7 +15491,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "नवंबर"
 		},
 		"19-11-2022": {
 			"DATEHEADING": "19-11-2022",
@@ -15325,7 +15513,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "नवंबर"
 		},
 		"20-11-2022": {
 			"DATEHEADING": "20-11-2022",
@@ -15346,7 +15535,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "नवंबर"
 		},
 		"21-11-2022": {
 			"DATEHEADING": "21-11-2022",
@@ -15367,7 +15557,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "नवंबर"
 		},
 		"22-11-2022": {
 			"DATEHEADING": "22-11-2022",
@@ -15388,7 +15579,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "नवंबर"
 		},
 		"23-11-2022": {
 			"DATEHEADING": "23-11-2022",
@@ -15409,7 +15601,8 @@ export class CalenderService {
 			"EVENT3": "मार्गशीर्ष अमावस्या",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "नवंबर"
 		},
 		"24-11-2022": {
 			"DATEHEADING": "24-11-2022",
@@ -15430,7 +15623,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "नवंबर"
 		},
 		"25-11-2022": {
 			"DATEHEADING": "25-11-2022",
@@ -15451,7 +15645,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "नवंबर"
 		},
 		"26-11-2022": {
 			"DATEHEADING": "26-11-2022",
@@ -15472,7 +15667,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "नवंबर"
 		},
 		"27-11-2022": {
 			"DATEHEADING": "27-11-2022",
@@ -15493,7 +15689,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "नवंबर"
 		},
 		"28-11-2022": {
 			"DATEHEADING": "28-11-2022",
@@ -15514,7 +15711,8 @@ export class CalenderService {
 			"EVENT3": "सुब्रहमन्य षष्ठी",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "नवंबर"
 		},
 		"29-11-2022": {
 			"DATEHEADING": "29-11-2022",
@@ -15535,7 +15733,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "नवंबर"
 		},
 		"30-11-2022": {
 			"DATEHEADING": "30-11-2022",
@@ -15556,7 +15755,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "नवंबर"
 		},
 		"01-12-2022": {
 			"DATEHEADING": "01-12-2022",
@@ -15841,7 +16041,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "दिसम्बर"
 		},
 		"14-12-2022": {
 			"DATEHEADING": "14-12-2022",
@@ -15862,7 +16063,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "दिसम्बर"
 		},
 		"15-12-2022": {
 			"DATEHEADING": "15-12-2022",
@@ -15883,7 +16085,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "दिसम्बर"
 		},
 		"16-12-2022": {
 			"DATEHEADING": "16-12-2022",
@@ -15904,7 +16107,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "दिसम्बर"
 		},
 		"17-12-2022": {
 			"DATEHEADING": "17-12-2022",
@@ -15925,7 +16129,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "दिसम्बर"
 		},
 		"18-12-2022": {
 			"DATEHEADING": "18-12-2022",
@@ -15946,7 +16151,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "दिसम्बर"
 		},
 		"19-12-2022": {
 			"DATEHEADING": "19-12-2022",
@@ -15967,7 +16173,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "दिसम्बर"
 		},
 		"20-12-2022": {
 			"DATEHEADING": "20-12-2022",
@@ -15988,7 +16195,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "दिसम्बर"
 		},
 		"21-12-2022": {
 			"DATEHEADING": "21-12-2022",
@@ -16009,7 +16217,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "दिसम्बर"
 		},
 		"22-12-2022": {
 			"DATEHEADING": "22-12-2022",
@@ -16030,7 +16239,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "दिसम्बर"
 		},
 		"23-12-2022": {
 			"DATEHEADING": "23-12-2022",
@@ -16051,7 +16261,8 @@ export class CalenderService {
 			"EVENT3": "पौष अमावस्या",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "दिसम्बर"
 		},
 		"24-12-2022": {
 			"DATEHEADING": "24-12-2022",
@@ -16072,7 +16283,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "दिसम्बर"
 		},
 		"25-12-2022": {
 			"DATEHEADING": "25-12-2022",
@@ -16093,7 +16305,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "CHRISTMAS",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "रविवार"
+			"DAYINHINDI": "रविवार",
+			"MONTH": "दिसम्बर"
 		},
 		"26-12-2022": {
 			"DATEHEADING": "26-12-2022",
@@ -16114,7 +16327,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "सोमवार"
+			"DAYINHINDI": "सोमवार",
+			"MONTH": "दिसम्बर"
 		},
 		"27-12-2022": {
 			"DATEHEADING": "27-12-2022",
@@ -16135,7 +16349,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "मंगलवार"
+			"DAYINHINDI": "मंगलवार",
+			"MONTH": "दिसम्बर"
 		},
 		"28-12-2022": {
 			"DATEHEADING": "28-12-2022",
@@ -16156,7 +16371,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "बुधवार"
+			"DAYINHINDI": "बुधवार",
+			"MONTH": "दिसम्बर"
 		},
 		"29-12-2022": {
 			"DATEHEADING": "29-12-2022",
@@ -16177,7 +16393,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GURU_GOBIND",
 			"ISPUBLICHOLIDAY": "Y",
-			"DAYINHINDI": "गुरुवार"
+			"DAYINHINDI": "गुरुवार",
+			"MONTH": "दिसम्बर"
 		},
 		"30-12-2022": {
 			"DATEHEADING": "30-12-2022",
@@ -16198,7 +16415,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शुक्रवार"
+			"DAYINHINDI": "शुक्रवार",
+			"MONTH": "दिसम्बर"
 		},
 		"31-12-2022": {
 			"DATEHEADING": "31-12-2022",
@@ -16219,7 +16437,8 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
-			"DAYINHINDI": "शनिवार"
+			"DAYINHINDI": "शनिवार",
+			"MONTH": "दिसम्बर"
 		}
 	};
 	dateDetailsInEnglish: object ={

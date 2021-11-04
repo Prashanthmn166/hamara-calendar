@@ -75,12 +75,12 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	}
 	async ngAfterViewInit(){
 		LocalNotifications.schedule({
-			notifications: this.getNotificationDetailsForNext(1)
+			notifications: this.getNotificationDetailsForNext(7)
 		})
 	}
 	getNotificationDetailsForNext(noOfNextDays: number): any[]{
 		const notificationScheduleDetails = [];
-		const repeatForEvery = 10;
+		const repeatForEvery = 1;
 		for(let i=0; i < noOfNextDays; i++){
 			const currentDate = new Date();
 			currentDate.setDate(currentDate.getDate()+i);
