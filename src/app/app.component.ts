@@ -6,6 +6,7 @@ import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
 import { Plugins, ShareOptions, StatusBarStyle } from '@capacitor/core';
 import { AppConstants } from './constants/app.constants';
+import { NotificationModel } from './models/notification.interface';
 
 
 const { App , Share, StatusBar, LocalNotifications} = Plugins;
@@ -73,15 +74,36 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		await LocalNotifications.requestPermission();
 	}
 	async ngAfterViewInit(){
-		LocalNotifications.schedule({
-			notifications: [
-				{
-					title: 'Hindi',
-					body: 'This is today notification',
-					id: 1
-				}
-			]
-		})
+		if(localStorage.getItem(AppConstants.isLocalNotificationAdded) == null ){
+			LocalNotifications.schedule({
+				notifications: this.getNotificationDetailsForNext(7)
+			});
+			localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
+		};
+	}
+	getNotificationDetailsForNext(noOfNextDays: number): any[]{
+		const notificationScheduleDetails = [];
+		const repeatForEvery = 1;
+		for(let i=0; i < noOfNextDays; i++){
+			const currentDate = new Date();
+			currentDate.setDate(currentDate.getDate()+i);
+			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
+			for(let j=0; j < 1440; j+=Number(repeatForEvery)){
+				const tempDate = new Date(currentDate);
+				tempDate.setMinutes(tempDate.getMinutes() + Number(j));
+				const notificationModel: NotificationModel={
+					title: "जानिए आज का पंचांग",
+					body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `राहुकाल : ${dateDetails.RAHUKALA}`,
+					id: `${currentDate.getDate()}-${currentDate.getMonth()}-${currentDate.getFullYear()}`,
+					schedule: {
+						at: new Date(tempDate),
+						count: 1
+					}
+				};
+				notificationScheduleDetails.push(notificationModel);
+			}
+		}
+		return notificationScheduleDetails;
 	}
 	onYearChange($event: any){
 		this.selectedYear =$event.detail.value;
