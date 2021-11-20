@@ -91,14 +91,14 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			currentDate.setDate(currentDate.getDate()+i);
 			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
 			for(let j=0; j < 1440; j+=Number(repeatForEvery)){
-				const tempDate = new Date(currentDate);
-				tempDate.setMinutes(tempDate.getMinutes() + Number(j));
+				// const tempDate = new Date(currentDate);
+				// tempDate.setMinutes(tempDate.getMinutes() + Number(j));
 				const notificationModel: NotificationModel={
 					title: "जानिए आज का पंचांग",
 					body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `राहुकाल : ${dateDetails.RAHUKALA}`,
 					id: `${currentDate.getDate()}-${currentDate.getMonth()}-${currentDate.getFullYear()}`,
 					schedule: {
-						at: new Date(tempDate)
+						at: new Date(Date.now()+ Number(Number(24*60*1000)*Number(j)))
 					}
 				};
 				notificationScheduleDetails.push(notificationModel);
