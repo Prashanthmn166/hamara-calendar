@@ -80,12 +80,12 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			LocalNotifications.schedule({
 				notifications:  [
 					{
-						title: 'Hindi',
+						title: 'जानिए आज का पंचांग',
 						body: 'This is today notification without schedule',
 						id: 1
 					},
 					{
-						title: 'Hindi',
+						title: 'जानिए आज का पंचांग',
 						body: 'This is today notification with schedule of 1 seconds',
 						id: 2,
 						schedule: {
@@ -93,7 +93,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 						}
 					},
 					{
-						title: 'Hindi',
+						title: 'जानिए आज का पंचांग',
 						body: 'This is today notification with schedule of 3 seconds',
 						id: 3,
 						schedule: {
@@ -101,7 +101,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 						}
 					},
 					{
-						title: 'Hindi',
+						title: 'जानिए आज का पंचांग',
 						body: 'This is today notification with schedule of 10 seconds',
 						id: 4,
 						schedule: {
