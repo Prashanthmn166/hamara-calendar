@@ -117,6 +117,13 @@ ion-menu {
       --background: #aeaeae;
   }
 }
+.toggle-icon {
+    background: var(--background-checked);
+}
+.toggle-checked{
+	--background-checked: #31398ca6;
+	--handle-background-checked: #31398C;
+}
 .action-sheet-selected{
 	font-weight: normal !important;
 	background: #31398C !important;

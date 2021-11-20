@@ -17,7 +17,7 @@
 						</ion-item> -->
 						<ion-item>
 							<ion-label>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Notification' : 'नोटिफिकेशन'  }} </ion-label>
-							<ion-toggle class="side-nav-notification-toogle"></ion-toggle>
+							<ion-toggle class="side-nav-notification-toogle" (ionChange)="onNotificationChange($event)" [checked]="isLocalNotificationEnabled"></ion-toggle>
 						</ion-item>
 						<ion-item>
 							<div class="side-nav-help-container">
