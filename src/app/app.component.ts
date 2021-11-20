@@ -8,7 +8,6 @@ import { Plugins, ShareOptions, StatusBarStyle } from '@capacitor/core';
 import { AppConstants } from './constants/app.constants';
 import { NotificationModel } from './models/notification.interface';
 
-
 const { App , Share, StatusBar, LocalNotifications} = Plugins;
 
 @Component({
@@ -27,6 +26,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	yearsToDisplay: number[] = [ 2021, 2022];
 	langulageToSelection : string[] = [AppConstants.languageHindi, AppConstants.languageEnglish];
 	appConstants=AppConstants;
+	isLocalNotificationEnabled: boolean;
 	customActionSheetLanguageOptions: any = {
 		header: 'Select Language'
 	  };
@@ -39,6 +39,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		public calenderService: CalenderService
 	) {
 		this.initializeApp();
+		// While loading the app for the first time enable local notificatio
+		(localStorage.getItem(this.appConstants.isLocalNotificationAdded)==null) ?? localStorage.setItem(this.appConstants.isLocalNotificationAdded, "true");
 	}
 
 	initializeApp() {
@@ -55,7 +57,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
 	}
 	async ngOnInit() {
-
+		this.isLocalNotificationEnabled = (localStorage.getItem(this.appConstants.isLocalNotificationAdded)=="true") ? true : false;
 		this.selectedYear=this.currentYear;
 		this.currentMothDisplayedSubscription = this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
 			if(currentMonth){
@@ -75,16 +77,29 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		await LocalNotifications.requestPermission();
 	}
 	async ngAfterViewInit(){
-		if(localStorage.getItem(AppConstants.isLocalNotificationAdded) == null ){
-			let currentDate: any= new Date();
-			let nextYearEnd: any = new Date('12/31/2022');
-			const noOfDays = Math.ceil(Math.abs(nextYearEnd - currentDate)/(1000 * 60 * 60 * 24))+1;
-			const notificationDetails = this.getNotificationDetailsForNext(noOfDays);
-			LocalNotifications.schedule({
-				notifications: notificationDetails
-			});
-			localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
-		};
+		if(!localStorage.getItem(AppConstants.isLocalNotificationAdded) && localStorage.getItem(this.appConstants.isLocalNotificationAdded)=="true")
+			this.createNotification();
+	}
+	createNotification(){
+		let currentDate: any= new Date();
+		let nextYearEnd: any = new Date('12/31/2022');
+		const noOfDays = Math.ceil(Math.abs(nextYearEnd - currentDate)/(1000 * 60 * 60 * 24))+1;
+		const notificationDetails = this.getNotificationDetailsForNext(noOfDays);
+		LocalNotifications.schedule({
+			notifications: notificationDetails
+		});
+		localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
+	}
+	onNotificationChange(notificationChange: CustomEvent){
+		localStorage.setItem(this.appConstants.isLocalNotificationAdded,notificationChange.detail.checked);
+		if(notificationChange.detail.checked==false){
+			LocalNotifications.getPending().then((pendidingList)=>{
+				LocalNotifications.cancel(pendidingList);
+			})
+			localStorage.setItem(AppConstants.isLocalNotificationAdded, ""); 
+		}else{
+			this.createNotification();
+		}
 	}
 	getNotificationDetailsForNext(noOfNextDays: number): any[]{
 		const notificationScheduleDetails = [];
