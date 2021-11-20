@@ -46,6 +46,7 @@
            flex-direction: row;
            width: 100%;
            margin-right: 5px;
+           padding-left: 4px;
            .calender-header-carousel-item-date-details{
                display: flex;
                flex-direction: column;
@@ -68,7 +69,7 @@
                     color: #FFFFFF;
                     margin-top: -4px;
                     &.calender-header-carousel-item-date-details-weekday-english{
-                        font-size: 12px;
+                        font-size: 13px;
                     }
                }
            }
@@ -92,7 +93,7 @@
                          overflow: hidden;
                          text-align: center;
                          &.calender-header-carousel-item-event-one-english{
-                            font-size: 12px;
+                            font-size: 13px;
                          }
                     }
                 }

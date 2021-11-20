@@ -78,7 +78,37 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		// if(localStorage.getItem(AppConstants.isLocalNotificationAdded) == null ){
 			const notificationDetails = this.getNotificationDetailsForNext(1);
 			LocalNotifications.schedule({
-				notifications: notificationDetails
+				notifications:  [
+					{
+						title: 'Hindi',
+						body: 'This is today notification without schedule',
+						id: 1
+					},
+					{
+						title: 'Hindi',
+						body: 'This is today notification with schedule of 1 seconds',
+						id: 2,
+						schedule: {
+							at: new Date(Date.now()+1000)
+						}
+					},
+					{
+						title: 'Hindi',
+						body: 'This is today notification with schedule of 3 seconds',
+						id: 3,
+						schedule: {
+							at: new Date(Date.now()+1000*3)
+						}
+					},
+					{
+						title: 'Hindi',
+						body: 'This is today notification with schedule of 10 seconds',
+						id: 4,
+						schedule: {
+							at: new Date(Date.now()+1000*10)
+						}
+					}
+				]
 			});
 			localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
 		// };
@@ -96,7 +126,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 				const notificationModel: NotificationModel={
 					title: "जानिए आज का पंचांग",
 					body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `राहुकाल : ${dateDetails.RAHUKALA}`,
-					id: `${currentDate.getDate()}-${currentDate.getMonth()}-${currentDate.getFullYear()}`,
+					id: Number(j).toString(),
 					schedule: {
 						at: new Date(Date.now()+ Number(Number(60*1000)*Number(j)))
 					}
