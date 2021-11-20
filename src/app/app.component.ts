@@ -75,13 +75,13 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		await LocalNotifications.requestPermission();
 	}
 	async ngAfterViewInit(){
-		if(localStorage.getItem(AppConstants.isLocalNotificationAdded) == null ){
+		// if(localStorage.getItem(AppConstants.isLocalNotificationAdded) == null ){
 			const notificationDetails = this.getNotificationDetailsForNext(1);
 			LocalNotifications.schedule({
 				notifications: notificationDetails
 			});
 			localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
-		};
+		// };
 	}
 	getNotificationDetailsForNext(noOfNextDays: number): any[]{
 		const notificationScheduleDetails = [];
