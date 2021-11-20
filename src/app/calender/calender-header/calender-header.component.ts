@@ -86,5 +86,4 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 		this.currentMonthAndYearSubscription.unsubscribe();
 		this.selectedLanguageSubscription.unsubscribe();
 	}
-
 }
