@@ -76,6 +76,10 @@ export class CalenderHeaderComponent implements OnInit, OnDestroy {
 			return req;
 		});
 		this.slides.slideTo(0, 500);
+		setTimeout(()=>{this.slides.startAutoplay();},1000);
+	}
+	onSlideChange(){
+		this.slides.startAutoplay();
 	}
 	ngOnDestroy(){
 		this.currentMonthSubscription.unsubscribe();

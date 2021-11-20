@@ -13,7 +13,7 @@
 		</div>
 	</div>
 	<div class="calender-header-advertisement-carousel" >
-		<ion-slides #headerSlides [options]="slideOptsOne">
+		<ion-slides #headerSlides [options]="slideOptsOne" (ionSlideDidChange)="onSlideChange()">
 			<ion-slide *ngFor="let holidayDetails of currentMonthHolidayDetails" [style.background]="holidayDetails.linearGadientColor">
 				<div class="calender-header-carousel-item">
 					<div class="calender-header-carousel-item-date-details">
