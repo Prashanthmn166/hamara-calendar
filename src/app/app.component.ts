@@ -81,12 +81,12 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 				notifications:  [
 					{
 						title: 'जानिए आज का पंचांग',
-						body: 'This is today notification without schedule',
+						body: 'जानिए आज का पंचांग',
 						id: 1
 					},
 					{
 						title: 'जानिए आज का पंचांग',
-						body: 'This is today notification with schedule of 1 seconds',
+						body: 'जानिए आज का पंचांग 1 seconds',
 						id: 2,
 						schedule: {
 							at: new Date(Date.now()+1000)
@@ -94,7 +94,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 					},
 					{
 						title: 'जानिए आज का पंचांग',
-						body: 'This is today notification with schedule of 3 seconds',
+						body: 'जानिए आज का पंचांग 3 seconds',
 						id: 3,
 						schedule: {
 							at: new Date(Date.now()+1000*3)
@@ -102,7 +102,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 					},
 					{
 						title: 'जानिए आज का पंचांग',
-						body: 'This is today notification with schedule of 10 seconds',
+						body: 'जानिए आज का पंचांग 10 seconds',
 						id: 4,
 						schedule: {
 							at: new Date(Date.now()+1000*10)
