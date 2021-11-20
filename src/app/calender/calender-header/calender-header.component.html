@@ -12,17 +12,17 @@
 			{{ selectedMonthDetails[currentMonth]+' '+selectedYear }} 
 		</div>
 	</div>
-	<div class="calender-header-advertisement-carousel">
+	<div class="calender-header-advertisement-carousel" >
 		<ion-slides #headerSlides [options]="slideOptsOne">
 			<ion-slide *ngFor="let holidayDetails of currentMonthHolidayDetails" [style.background]="holidayDetails.linearGadientColor">
 				<div class="calender-header-carousel-item">
 					<div class="calender-header-carousel-item-date-details">
 						<span class="calender-header-carousel-item-date-details-date">{{ holidayDetails.DATE }}</span>
-						<span class="calender-header-carousel-item-date-details-weekday">{{ holidayDetails.DAYINHINDI }}</span>
+						<span class="calender-header-carousel-item-date-details-weekday" [ngClass]="{'calender-header-carousel-item-date-details-weekday-english': (calenderService.selectedLanguage.value == appConstants.languageEnglish)}">{{ holidayDetails.DAYINHINDI }}</span>
 					</div>
 					<div class="calender-header-carousel-item-event-details-container">
 						<div class="calender-header-carousel-item-event-details">
-							<div class="calender-header-carousel-item-event-one">{{ holidayDetails.EVENT1 }}</div>
+							<div class="calender-header-carousel-item-event-one" [ngClass]="{'calender-header-carousel-item-event-one-english': (calenderService.selectedLanguage.value == appConstants.languageEnglish)}">{{ holidayDetails.EVENT1 }}</div>
 						</div>
 					</div>
 					<div  class="calender-header-carousel-item-image">

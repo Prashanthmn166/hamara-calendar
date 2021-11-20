@@ -67,6 +67,9 @@
                     font-size: 14px;
                     color: #FFFFFF;
                     margin-top: -4px;
+                    &.calender-header-carousel-item-date-details-weekday-english{
+                        font-size: 12px;
+                    }
                }
            }
            .calender-header-carousel-item-event-details-container{
@@ -88,6 +91,9 @@
                          white-space: nowrap;
                          overflow: hidden;
                          text-align: center;
+                         &.calender-header-carousel-item-event-one-english{
+                            font-size: 12px;
+                         }
                     }
                 }
            }
