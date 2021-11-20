@@ -75,34 +75,36 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		await LocalNotifications.requestPermission();
 	}
 	async ngAfterViewInit(){
-		// if(localStorage.getItem(AppConstants.isLocalNotificationAdded) == null ){
-			const notificationDetails = this.getNotificationDetailsForNext(1);
+		if(localStorage.getItem(AppConstants.isLocalNotificationAdded) == null ){
+			let currentDate: any= new Date();
+			let nextYearEnd: any = new Date('12/31/2022');
+			const noOfDays = Math.ceil(Math.abs(nextYearEnd - currentDate)/(1000 * 60 * 60 * 24))+1;
+			const notificationDetails = this.getNotificationDetailsForNext(noOfDays);
 			LocalNotifications.schedule({
 				notifications: notificationDetails
 			});
 			localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
-		// };
+		};
 	}
 	getNotificationDetailsForNext(noOfNextDays: number): any[]{
 		const notificationScheduleDetails = [];
-		const repeatForEvery = 1;
 		for(let i=0; i < noOfNextDays; i++){
 			const currentDate = new Date();
+			currentDate.setHours(9);
+			currentDate.setMinutes(0);
+			currentDate.setSeconds(0);
 			currentDate.setDate(currentDate.getDate()+i);
+			console.log(currentDate)
 			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
-			for(let j=0; j < 1440; j+=Number(repeatForEvery)){
-				// const tempDate = new Date(currentDate);
-				// tempDate.setMinutes(tempDate.getMinutes() + Number(j));
-				const notificationModel: NotificationModel={
-					title: "जानिए आज का पंचांग",
-					body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `राहुकाल : ${dateDetails.RAHUKALA}`,
-					id: Number(j),
-					schedule: {
-						at: new Date(Date.now()+ Number(Number(60*1000)*Number(j)))
-					}
-				};
-				notificationScheduleDetails.push(notificationModel);
-			}
+			const notificationModel: NotificationModel={
+				title: "जानिए आज का पंचांग",
+				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `राहुकाल : ${dateDetails.RAHUKALA}`,
+				id: Number(i),
+				schedule: {
+					at: new Date(currentDate)
+				}
+			};
+			notificationScheduleDetails.push(notificationModel);
 		}
 		return notificationScheduleDetails;
 	}
