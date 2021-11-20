@@ -4,6 +4,6 @@ export interface NotificationModel {
     id: string,
     schedule:  {
         at: Date,
-        count: number
+        count?: number
     }
 }

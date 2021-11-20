@@ -98,8 +98,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 					body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `राहुकाल : ${dateDetails.RAHUKALA}`,
 					id: `${currentDate.getDate()}-${currentDate.getMonth()}-${currentDate.getFullYear()}`,
 					schedule: {
-						at: new Date(tempDate),
-						count: 1
+						at: new Date(tempDate)
 					}
 				};
 				notificationScheduleDetails.push(notificationModel);
