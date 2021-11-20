@@ -26,6 +26,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	selectedYear: number;
 	yearsToDisplay: number[] = [ 2021, 2022];
 	langulageToSelection : string[] = [AppConstants.languageHindi, AppConstants.languageEnglish];
+	appConstants=AppConstants;
 	customActionSheetLanguageOptions: any = {
 		header: 'Select Language'
 	  };

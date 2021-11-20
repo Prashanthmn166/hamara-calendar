@@ -16757,7 +16757,7 @@ export class CalenderService {
 			"NAKSHATAR": "Rohini upto 08:18 PM",
 			"YOGA": "Shukla upto 01:36 PM",
 			"KARANA": "Bava upto 08:56 AM",
-			"DAYHEADING": "Pausha, Dwadashi Shukla Paksha, 2078 Aananda Vikrama SamvataMakara Sankranti, Pongal",
+			"DAYHEADING": "Pausha, Dwadashi Shukla Paksha, 2078 Aananda Vikrama Samvata",
 			"EVENT1": "Makara Sankranti, Pongal",
 			"EVENT2": "Rohini Vrat, Kurma Dwadashi",
 			"EVENT3": "",
