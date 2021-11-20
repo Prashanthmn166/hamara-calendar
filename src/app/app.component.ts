@@ -39,8 +39,6 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		public calenderService: CalenderService
 	) {
 		this.initializeApp();
-		// While loading the app for the first time enable local notificatio
-		(localStorage.getItem(this.appConstants.isLocalNotificationAdded)==null) ?? localStorage.setItem(this.appConstants.isLocalNotificationAdded, "true");
 	}
 
 	initializeApp() {
@@ -57,6 +55,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
 	}
 	async ngOnInit() {
+		// While loading the app for the first time enable local notification
+		(!localStorage.getItem(this.appConstants.isLocalNotificationAdded)) ?? localStorage.setItem(this.appConstants.isLocalNotificationAdded, "true");
 		this.isLocalNotificationEnabled = (localStorage.getItem(this.appConstants.isLocalNotificationAdded)=="true") ? true : false;
 		this.selectedYear=this.currentYear;
 		this.currentMothDisplayedSubscription = this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
