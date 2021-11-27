@@ -8451,6 +8451,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जनवरी"
 		},
@@ -8605,6 +8606,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GURU_GOBIND",
 			"ISPUBLICHOLIDAY": "Y",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जनवरी"
 		},
@@ -8759,6 +8761,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जनवरी"
 		},
@@ -8913,6 +8916,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SUBHASH_CHANDRA_BOSE",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जनवरी"
 		},
@@ -9067,6 +9071,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जनवरी"
 		},
@@ -9221,6 +9226,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "फ़रवरी"
 		},
@@ -9375,6 +9381,7 @@ export class CalenderService {
 			"EVENT3": "जया एकादशी पारण",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "फ़रवरी"
 		},
@@ -9529,6 +9536,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "फ़रवरी"
 		},
@@ -9683,6 +9691,7 @@ export class CalenderService {
 			"EVENT3": "वैष्णव विजया एकादशी",
 			"IMAGE": "VENKATESHWARA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "फ़रवरी"
 		},
@@ -9837,6 +9846,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मार्च"
 		},
@@ -9991,6 +10001,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मार्च"
 		},
@@ -10145,6 +10156,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मार्च"
 		},
@@ -10299,6 +10311,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मार्च"
 		},
@@ -10453,6 +10466,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अप्रैल"
 		},
@@ -10607,6 +10621,7 @@ export class CalenderService {
 			"EVENT3": "स्वामीनारायण जयन्ती",
 			"IMAGE": "RAMA_NAVAMI",
 			"ISPUBLICHOLIDAY": "Y",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अप्रैल"
 		},
@@ -10761,6 +10776,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अप्रैल"
 		},
@@ -10915,6 +10931,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अप्रैल"
 		},
@@ -11069,6 +11086,7 @@ export class CalenderService {
 			"EVENT3": "सूर्य ग्रहण",
 			"IMAGE": "LABOUR_DAY",
 			"ISPUBLICHOLIDAY": "Y",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मई"
 		},
@@ -11223,6 +11241,7 @@ export class CalenderService {
 			"EVENT3": "गंगा सप्तमी",
 			"IMAGE": "MOTHER",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मई"
 		},
@@ -11377,6 +11396,7 @@ export class CalenderService {
 			"EVENT3": "वैशाख पूर्णिमा व्रत",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मई"
 		},
@@ -11531,6 +11551,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मई"
 		},
@@ -11685,6 +11706,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "मई"
 		},
@@ -11839,6 +11861,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जून"
 		},
@@ -11993,6 +12016,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जून"
 		},
@@ -12147,6 +12171,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जून"
 		},
@@ -12301,6 +12326,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "HINDU_FLAG",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जून"
 		},
@@ -12455,6 +12481,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जुलाई"
 		},
@@ -12609,6 +12636,7 @@ export class CalenderService {
 			"EVENT3": "वासुदेव द्वादशी",
 			"IMAGE": "MUSLIM",
 			"ISPUBLICHOLIDAY": "Y",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जुलाई"
 		},
@@ -12763,6 +12791,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जुलाई"
 		},
@@ -12917,6 +12946,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जुलाई"
 		},
@@ -13071,6 +13101,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "जुलाई"
 		},
@@ -13225,6 +13256,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अगस्त"
 		},
@@ -13379,6 +13411,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अगस्त"
 		},
@@ -13533,6 +13566,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अगस्त"
 		},
@@ -13687,6 +13721,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अगस्त"
 		},
@@ -13841,6 +13876,7 @@ export class CalenderService {
 			"EVENT3": "मासिक दुर्गाष्टमी",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "सितम्बर"
 		},
@@ -13995,6 +14031,7 @@ export class CalenderService {
 			"EVENT3": "इष्टि",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "सितम्बर"
 		},
@@ -14149,6 +14186,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "सितम्बर"
 		},
@@ -14303,6 +14341,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "NEW_MOON",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "सितम्बर"
 		},
@@ -14457,6 +14496,7 @@ export class CalenderService {
 			"EVENT3": "नवपत्रिका पूजा",
 			"IMAGE": "GHANDHI_JAYANTHI",
 			"ISPUBLICHOLIDAY": "Y",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अकतूबर"
 		},
@@ -14611,6 +14651,7 @@ export class CalenderService {
 			"EVENT3": "वाल्मीकि,मीराबाई जयन्ती",
 			"IMAGE": "FULL_MOON",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अकतूबर"
 		},
@@ -14765,6 +14806,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अकतूबर"
 		},
@@ -14919,6 +14961,7 @@ export class CalenderService {
 			"EVENT3": "मासिक शिवरात्रि",
 			"IMAGE": "MASIK_SHIVA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अकतूबर"
 		},
@@ -15073,6 +15116,7 @@ export class CalenderService {
 			"EVENT3": "सूर सम्हारम",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "अकतूबर"
 		},
@@ -15227,6 +15271,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "नवंबर"
 		},
@@ -15381,6 +15426,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "नवंबर"
 		},
@@ -15535,6 +15581,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "नवंबर"
 		},
@@ -15689,6 +15736,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "नवंबर"
 		},
@@ -15843,6 +15891,7 @@ export class CalenderService {
 			"EVENT3": "मोक्षदा एकादशी पारण",
 			"IMAGE": "SHANKHA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "दिसम्बर"
 		},
@@ -15997,6 +16046,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "GANESHA",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "दिसम्बर"
 		},
@@ -16151,6 +16201,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "",
 			"ISPUBLICHOLIDAY": "",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "दिसम्बर"
 		},
@@ -16305,6 +16356,7 @@ export class CalenderService {
 			"EVENT3": "",
 			"IMAGE": "CHRISTMAS",
 			"ISPUBLICHOLIDAY": "Y",
+			"DAY": "SUNDAY",
 			"DAYINHINDI": "रविवार",
 			"MONTH": "दिसम्बर"
 		},
