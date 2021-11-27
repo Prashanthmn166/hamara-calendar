@@ -56,8 +56,6 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	}
 	async ngOnInit() {
 		// While loading the app for the first time enable local notification
-		if(localStorage.getItem(this.appConstants.isLocalNotificationAdded)===null) 
-			 localStorage.setItem(this.appConstants.isLocalNotificationAdded, "true");
 		this.isLocalNotificationEnabled = (localStorage.getItem(this.appConstants.isLocalNotificationAdded)=="true") ? true : false;
 		this.selectedYear=this.currentYear;
 		this.currentMothDisplayedSubscription = this.calenderService.currentMonthAndYear.subscribe((currentMonth: number) => {
@@ -90,6 +88,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			notifications: notificationDetails
 		});
 		localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
+		this.isLocalNotificationEnabled=true;
 	}
 	onNotificationChange(notificationChange: CustomEvent){
 		localStorage.setItem(this.appConstants.isLocalNotificationAdded,notificationChange.detail.checked);
