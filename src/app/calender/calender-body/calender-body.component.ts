@@ -169,7 +169,7 @@ export class CalenderBodyComponent implements OnInit {
 				componentProps:{
 					fullDate: fullDate
 				}
-			})
+			});
 			modal.present();
 			this.calenderService.isDayViewOpen.next(true);
 			await modal.onDidDismiss().then(r => {
@@ -185,9 +185,9 @@ export class CalenderBodyComponent implements OnInit {
 	}
 	getCurrentMonthAndYearFromSliderMonth(sliderIndex:number): number{
 		if(sliderIndex<12){
-			return Number(Number(this.currentYear).toString()+("0"+Number(sliderIndex+1)).slice(-2));
+			return Number(Number(2021).toString()+("0"+Number(sliderIndex+1)).slice(-2));
 		}else{
-			return Number(Number(this.currentYear+1).toString()+("0"+Number(sliderIndex-12+1)).slice(-2));;
+			return Number(Number(2022).toString()+("0"+Number(sliderIndex-12+1)).slice(-2));;
 		};
 	}
 	setSliderMonthFromCurrentMonthAndYear(currentMonthAndYear: number): number{
@@ -197,7 +197,7 @@ export class CalenderBodyComponent implements OnInit {
 		if(currentMonthAndYear){
 			seletedYear=Number(currentMonthAndYear.toString().slice(0,4));
 			seletedMonth = Number(currentMonthAndYear.toString().slice(4,6));
-			if(seletedYear==this.currentYear){
+			if(seletedYear==2021){
 				sliderIndex=Number(seletedMonth-1);
 			}
 			else{
