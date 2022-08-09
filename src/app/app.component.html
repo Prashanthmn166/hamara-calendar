@@ -1,4 +1,4 @@
-<ion-app>
+<ion-app> 
 	<ion-split-pane contentId="main-content">
 		<ion-menu contentId="main-content" type="overlay" class="main-menu" (ionWillClose)="onClose($event)"
 			(ionWillOpen)="onOpen($event)">
@@ -40,6 +40,12 @@
 							<ion-label>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Share' : 'शेयर' }}</ion-label>
 							<ion-icon name="share-social-outline"></ion-icon>
 						</ion-item>
+						<a href="upi://pay?pa=prashanthvfive@oksbi&amp;pn=HAMARA CHALENDAR &amp;cu=INR" style="text-decoration: none;">
+							<ion-item >
+								<ion-label>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Contribute' : 'योगदान' }}</ion-label>
+								<img src="assets/donate.png" alt="Donate" style="width: 24px; height: 24px">
+							</ion-item>
+						</a>
 					</ion-list>
 					<div class="side-nav-calendar-shortcut">
 						<div class="side-nav-calendar-year">
