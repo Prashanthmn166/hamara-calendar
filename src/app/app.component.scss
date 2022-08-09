@@ -134,3 +134,17 @@ ion-menu {
 	justify-content: center;
 }
 
+ion-list {
+	background: white !important;
+}
+
+ion-icon {
+	color: #212428 !important;
+}
+
+ion-toggle {
+	--background: #9C9C9C !important;
+	--background-checked: #797EB5   !important;
+	--handle-background: white !important;
+	--handle-background-checked: #31398C !important; 
+}
