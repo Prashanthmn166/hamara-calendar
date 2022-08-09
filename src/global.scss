@@ -47,3 +47,18 @@
 .menu-backdrop {
     background-color: yellowgreen;
 }
+
+.action-sheet-group{
+    background-color: white !important;
+} 
+
+.action-sheet-title{
+    color: #767676 !important;
+}
+.action-sheet-button-inner {
+    color: black !important; 
+}
+
+.action-sheet-selected .action-sheet-button-inner{
+    color: white !important;
+}
