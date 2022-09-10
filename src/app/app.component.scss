@@ -5,6 +5,7 @@
 	background-color: white;
 	border-top-right-radius: 40px;
 	border-bottom-right-radius: 40px;
+	position: relative;
 	.item {
 		--padding-start: 0;
 	}
@@ -59,7 +60,9 @@
 		}
 	}
 	.side-nav-calendar-shortcut {
-		margin-top: calc(100% - 160px);
+		position: absolute;
+		width: calc(100% - 32px);
+		bottom: 40px;
 		.side-nav-calendar-year{
 			font: normal normal bold 16px/16px Open Sans;
 			letter-spacing: 0.12px;
