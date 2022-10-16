@@ -1,14 +1,15 @@
 import { AfterViewInit, Component, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
-
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
-import { Plugins, ShareOptions, StatusBarStyle } from '@capacitor/core';
+import { Plugins} from '@capacitor/core';
+import { Share } from '@capacitor/share';
 import { AppConstants } from './constants/app.constants';
+import { StatusBar, Style } from '@capacitor/status-bar';
 import { NotificationModel } from './models/notification.interface';
 
-const { App , Share, StatusBar, LocalNotifications} = Plugins;
+const { App , LocalNotifications} = Plugins;
 
 @Component({
 	selector: 'app-root',
@@ -46,7 +47,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			this.splashScreen.hide();
 			if(this.platform.is("android") ){
 				StatusBar.setBackgroundColor({color:"#ffffff"});
-				StatusBar.setStyle({style: StatusBarStyle.Light});
+				StatusBar.setStyle({style: Style.Light});
 			};
 		});
 	}
@@ -142,13 +143,20 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	ngOnDestroy() {
 		this.currentMothDisplayedSubscription.unsubscribe();
 	}
-	shareApp(){
-		let options: ShareOptions ={
+	async shareApp(){
+		// let options: ShareOptions ={
+		// 	url: '',
+		// 	text: "",
+		// 	title: "",
+		// 	dialogTitle: ""
+		// }
+		// Share.share(options);
+
+		await Share.share({
+			title: 'Share : Hindi Calendar 2021 हमारा कैलेंडर \n',
+			text: 'Hindi Calendar 2021: हमारा कैलेंडर is a simple, pictorial, and informative Hindi calendar app.\n',
 			url: 'https://play.google.com/store/apps/details?id=com.hinid.calender',
-			text: "Hindi Calendar 2021: हमारा कैलेंडर is a simple, pictorial, and informative Hindi calendar app.\n",
-			title: "Share : Hindi Calendar 2021 हमारा कैलेंडर \n",
-			dialogTitle: "Share : Hindi Calendar 2021 हमारा कैलेंडर  \n"
-		}
-		Share.share(options);
+			dialogTitle: 'Share : Hindi Calendar 2021 हमारा कैलेंडर  \n',
+		  });
 	}
 }
