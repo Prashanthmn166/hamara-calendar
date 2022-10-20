@@ -24,7 +24,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	isSideNavOpen: boolean = false;
 	currentYear = new Date().getFullYear();
 	selectedYear: number;
-	yearsToDisplay: number[] = [ 2021, 2022];
+	yearsToDisplay: number[] = [2022, 2023];
 	langulageToSelection : string[] = [AppConstants.languageHindi, AppConstants.languageEnglish];
 	appConstants=AppConstants;
 	isLocalNotificationEnabled: boolean;
