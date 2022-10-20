@@ -45,8 +45,8 @@ export class CalenderBodyComponent implements OnInit {
 		this.currentDate = new Date();
 		this.currentYear = new Date().getFullYear();
 		this.currentMonth = new Date().getMonth();
-		this.genrateYearCalendar(2021);
-		this.genrateYearCalendar(2022);
+		this.generateYearCalendar(2022);
+		this.generateYearCalendar(2023);
 	}
 	ngOnInit(){
 		let currentMonth =Number(this.currentYear.toString()+("0"+Number(this.currentMonth+1)).slice(-2));
@@ -63,7 +63,7 @@ export class CalenderBodyComponent implements OnInit {
 			this.slides.slideTo(this.setSliderMonthFromCurrentMonthAndYear(currentMonthAndYear), 500);
 		})
 	}
-	genrateYearCalendar(year: number) {
+	generateYearCalendar(year: number) {
 		for (var month = 1; month <= 12; month++) {
 			let daysInMonth = new Date(year, month, 0).getDate();
 			let daysDetails = [];
@@ -185,9 +185,9 @@ export class CalenderBodyComponent implements OnInit {
 	}
 	getCurrentMonthAndYearFromSliderMonth(sliderIndex:number): number{
 		if(sliderIndex<12){
-			return Number(Number(2021).toString()+("0"+Number(sliderIndex+1)).slice(-2));
+			return Number(Number(2022).toString()+("0"+Number(sliderIndex+1)).slice(-2));
 		}else{
-			return Number(Number(2022).toString()+("0"+Number(sliderIndex-12+1)).slice(-2));;
+			return Number(Number(2023).toString()+("0"+Number(sliderIndex-12+1)).slice(-2));;
 		};
 	}
 	setSliderMonthFromCurrentMonthAndYear(currentMonthAndYear: number): number{
@@ -197,7 +197,7 @@ export class CalenderBodyComponent implements OnInit {
 		if(currentMonthAndYear){
 			seletedYear=Number(currentMonthAndYear.toString().slice(0,4));
 			seletedMonth = Number(currentMonthAndYear.toString().slice(4,6));
-			if(seletedYear==2021){
+			if(seletedYear==2022){
 				sliderIndex=Number(seletedMonth-1);
 			}
 			else{
