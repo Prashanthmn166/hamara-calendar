@@ -62,7 +62,7 @@
 	.side-nav-calendar-shortcut {
 		position: absolute;
 		width: calc(100% - 32px);
-		bottom: 40px;
+		bottom: 0;
 		.side-nav-calendar-year{
 			font: normal normal bold 16px/16px Open Sans;
 			letter-spacing: 0.12px;
@@ -96,6 +96,23 @@
 				border-bottom-left-radius: 0px;
 				color: #1A237E;
 				font-weight: 800;
+				}
+			}
+		}
+
+		.side-nav-calendar-shortcut-tail-icons{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+    		margin-top: 40px;
+			div, a {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				color: #4B4B4B;
+				p {
+					margin-top: 6px;
 				}
 			}
 		}
