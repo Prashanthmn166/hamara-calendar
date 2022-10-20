@@ -81,7 +81,7 @@
             }
             .day-details-icon-details{
                 flex: 1;
-                padding-left: 60px;
+                padding-left: 40px;
                 position: relative;
                 top: 8px;
                 &.day-details-icon-details-eng{
@@ -90,8 +90,10 @@
                 }
                 @include add-animation-effect-on-slide;
                 ion-img{
-                    width: 100px;
-                    height: 100px;
+                    width: 120px;
+                    height: 120px;
+                    position: absolute;
+                    top: -20px;
                 }
             }
         }
