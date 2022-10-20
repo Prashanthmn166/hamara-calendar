@@ -36,22 +36,6 @@
 							</ion-select>
 							<ion-icon name="language-outline"></ion-icon>
 						</ion-item>
-						<ion-item (click)="shareApp()">
-							<ion-label>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Share' : 'शेयर' }}</ion-label>
-							<ion-icon name="share-social-outline"></ion-icon>
-						</ion-item>
-						<a href="https://pmny.in/IIRWCqSLPRew" style="text-decoration: none;" target="_blank">
-							<ion-item >
-								<ion-label>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Contribute' : 'योगदान' }}</ion-label>
-								<img src="assets/donate.png" alt="Donate" style="width: 24px; height: 24px">
-							</ion-item>
-						</a>
-						<a href="https://play.google.com/store/apps/details?id=com.hinid.calender" style="text-decoration: none;" target="_blank">
-							<ion-item >
-								<ion-label>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Rate us' : 'रेट करो' }}</ion-label>
-								<img src="assets/RATE.png" alt="Donate" style="width: 24px; height: 24px">
-							</ion-item>
-						</a>
 					</ion-list>
 					<div class="side-nav-calendar-shortcut">
 						<div class="side-nav-calendar-year">
@@ -67,6 +51,21 @@
 								*ngFor="let monthInShort of monthsInShort; let i= index" (click)="onMonthSelect(i)">
 								{{ monthInShort }}
 							</div>
+						</div>
+
+						<div class="side-nav-calendar-shortcut-tail-icons">
+							<div (click)="shareApp()">
+								<ion-icon name="share-social-outline" style="width: 30px; height: 30px; position: relative; top: 12px;"></ion-icon>
+								<p style="margin-top: 24px;">{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Share' : 'शेयर' }}</p>
+							</div>
+							<a href="https://pmny.in/IIRWCqSLPRew" style="text-decoration: none;" target="_blank">
+								<img src="assets/donate.png" alt="Donate" style="width: 50px; height: 50px">
+								<p>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Contribute' : 'योगदान' }}</p>
+							</a>
+							<a href="https://play.google.com/store/apps/details?id=com.hinid.calender" style="text-decoration: none;" target="_blank">
+								<img src="assets/RATE.png" alt="Donate" style="width: 50px; height: 50px">
+								<p>{{ (calenderService.selectedLanguage.value==appConstants.languageEnglish) ? 'Rate us' : 'रेट करो' }}</p>
+							</a>
 						</div>
 					</div>
 				</div>
