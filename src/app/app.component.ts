@@ -3,14 +3,12 @@ import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { CalenderService } from './calender/calender.service';
 import { Subscription } from 'rxjs';
-import { Plugins} from '@capacitor/core';
 import { Share } from '@capacitor/share';
 import { AppConstants } from './constants/app.constants';
+import { App } from '@capacitor/app';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { NotificationModel } from './models/notification.interface';
-
-const { App , LocalNotifications} = Plugins;
-
+import { LocalNotifications } from '@capacitor/local-notifications';
 @Component({
 	selector: 'app-root',
 	templateUrl: 'app.component.html',
@@ -82,7 +80,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	}
 	createNotification(){
 		let currentDate: any= new Date();
-		let nextYearEnd: any = new Date('12/31/2022');
+		let nextYearEnd: any = new Date('12/31/2023');
 		const noOfDays = Math.ceil(Math.abs(nextYearEnd - currentDate)/(1000 * 60 * 60 * 24))+1;
 		const notificationDetails = this.getNotificationDetailsForNext(noOfDays);
 		LocalNotifications.schedule({
@@ -110,7 +108,6 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			currentDate.setMinutes(0);
 			currentDate.setSeconds(0);
 			currentDate.setDate(currentDate.getDate()+i);
-			console.log(currentDate)
 			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
 			const notificationModel: NotificationModel={
 				title: "जानिए आज का पंचांग",
