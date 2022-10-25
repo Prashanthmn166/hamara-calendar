@@ -65,6 +65,10 @@ export class CalenderBodyComponent implements OnInit {
 	}
 	generateYearCalendar(year: number) {
 		for (var month = 1; month <= 12; month++) {
+			let yearMonthKey = year.toString()+("0"+month).slice(-2);
+			if(localStorage.getItem(yearMonthKey)) {
+				this.yearCalendarContent[yearMonthKey] = JSON.parse(localStorage.getItem(yearMonthKey));
+			}
 			let daysInMonth = new Date(year, month, 0).getDate();
 			let daysDetails = [];
 			let finishedDaysArr = [];
@@ -79,7 +83,6 @@ export class CalenderBodyComponent implements OnInit {
 			for (var i = 1; i <= daysInMonth; i++) {
 				daysDetails[i] = { fullDate: '', day: '', date: '', type: 'date', image:'', isPublicHoliday : 'N'};
 				daysDetails[i].fullDate = new Date(year, month - 1, i);
-
 				daysDetails[i].date = new Date(year, month - 1, i).getDate();
 				daysDetails[i].image=this.calenderService.doseDateHaveImage(daysDetails[i].fullDate);
 				daysDetails[i].isPublicHoliday=this.calenderService.isPublicHoliday(daysDetails[i].fullDate);
@@ -149,7 +152,8 @@ export class CalenderBodyComponent implements OnInit {
 						dispDateDetails[k].push({ date: '', day: '', type: 'empty', fullDate: '' });
 				}
 			}
-			this.yearCalendarContent[year.toString()+("0"+month).slice(-2)] = dispDateDetails;
+			this.yearCalendarContent[yearMonthKey] = dispDateDetails;
+			localStorage.setItem(yearMonthKey, JSON.stringify(dispDateDetails));
 		};
 	}
 	onSlideChange($event: any){
