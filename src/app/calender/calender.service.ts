@@ -13658,7 +13658,7 @@ export class CalenderService {
       EVENT1: "इंजीनियर्स डे",
       EVENT2: "इष्टि",
       EVENT3: "",
-      IMAGE: "",
+      IMAGE: "ENGINEER",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
     },
