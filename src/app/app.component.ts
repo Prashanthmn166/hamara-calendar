@@ -72,7 +72,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 				}
 			}
 		});
-		await LocalNotifications.requestPermission();
+		await LocalNotifications.requestPermissions();
 	}
 	async ngAfterViewInit(){
 		if(!localStorage.getItem(AppConstants.isLocalNotificationAdded) && localStorage.getItem(this.appConstants.isLocalNotificationAdded)=="true")
