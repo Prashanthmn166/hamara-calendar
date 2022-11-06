@@ -150,10 +150,10 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		// Share.share(options);
 
 		await Share.share({
-			title: 'Share : Hindi Calendar 2021 हमारा कैलेंडर \n',
-			text: 'Hindi Calendar 2021: हमारा कैलेंडर is a simple, pictorial, and informative Hindi calendar app.\n',
+			title: 'Share : Hamara Hindu Calendar \n',
+			text: 'Hamara Hindu Calendar is Simple, Pictorial & Informative hindu calendar app which is 100% Free & NoAds.\n',
 			url: 'https://play.google.com/store/apps/details?id=com.hinid.calender',
-			dialogTitle: 'Share : Hindi Calendar 2021 हमारा कैलेंडर  \n',
+			dialogTitle: 'Share : Hamara Hindu Calendar  \n',
 		  });
 	}
 }
