@@ -8264,6 +8264,7 @@ export class CalenderService {
       IMAGE: "NEW_YEAR",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जनवरी",
     },
     "02-01-2023": {
       DAYHEADING: "पौष, एकादशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8285,6 +8286,7 @@ export class CalenderService {
       IMAGE: "VENKATESHWARA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जनवरी",
     },
     "03-01-2023": {
       DAYHEADING: "पौष, द्वादशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8306,6 +8308,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जनवरी",
     },
     "04-01-2023": {
       DAYHEADING: "पौष, त्रयोदशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8327,6 +8330,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जनवरी",
     },
     "05-01-2023": {
       DAYHEADING: "पौष, चतुर्दशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8348,6 +8352,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जनवरी",
     },
     "06-01-2023": {
       DAYHEADING: "पौष, पूर्णिमा शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8369,6 +8374,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जनवरी",
     },
     "07-01-2023": {
       DAYHEADING: "माघ, प्रतिपदा कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8390,6 +8396,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जनवरी",
     },
     "08-01-2023": {
       DAYHEADING: "माघ, प्रतिपदा कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8411,6 +8418,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जनवरी",
     },
     "09-01-2023": {
       DAYHEADING: "माघ, द्वितीया कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8432,6 +8440,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जनवरी",
     },
     "10-01-2023": {
       DAYHEADING: "माघ, तृतीया कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8453,6 +8462,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जनवरी",
     },
     "11-01-2023": {
       DAYHEADING: "माघ, चतुर्थी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8474,6 +8484,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जनवरी",
     },
     "12-01-2023": {
       DAYHEADING: "माघ, पञ्चमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8495,6 +8506,7 @@ export class CalenderService {
       IMAGE: "VIVEKANANDA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जनवरी",
     },
     "13-01-2023": {
       DAYHEADING: "माघ, षष्ठी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8516,6 +8528,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जनवरी",
     },
     "14-01-2023": {
       DAYHEADING: "माघ, सप्तमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8537,6 +8550,7 @@ export class CalenderService {
       IMAGE: "LOHRI",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जनवरी",
     },
     "15-01-2023": {
       DAYHEADING: "माघ, अष्टमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8558,6 +8572,7 @@ export class CalenderService {
       IMAGE: "SANKRANTHI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "रविवार",
+      MONTH: "जनवरी",
     },
     "16-01-2023": {
       DAYHEADING: "माघ, नवमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8579,6 +8594,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जनवरी",
     },
     "17-01-2023": {
       DAYHEADING: "माघ, दशमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8600,6 +8616,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जनवरी",
     },
     "18-01-2023": {
       DAYHEADING: "माघ, एकादशी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8621,6 +8638,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जनवरी",
     },
     "19-01-2023": {
       DAYHEADING: "माघ, द्वादशी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8642,6 +8660,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जनवरी",
     },
     "20-01-2023": {
       DAYHEADING: "माघ, त्रयोदशी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8663,6 +8682,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जनवरी",
     },
     "21-01-2023": {
       DAYHEADING: "माघ, अमावस्या कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8684,6 +8704,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जनवरी",
     },
     "22-01-2023": {
       DAYHEADING: "माघ, प्रतिपदा शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8705,6 +8726,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जनवरी",
     },
     "23-01-2023": {
       DAYHEADING: "माघ, द्वितीया शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8726,6 +8748,7 @@ export class CalenderService {
       IMAGE: "SUBHASH_CHANDRA_BOSE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जनवरी",
     },
     "24-01-2023": {
       DAYHEADING: "माघ, तृतीया शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8747,6 +8770,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जनवरी",
     },
     "25-01-2023": {
       DAYHEADING: "माघ, चतुर्थी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8768,6 +8792,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जनवरी",
     },
     "26-01-2023": {
       DAYHEADING: "माघ, पञ्चमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8789,6 +8814,7 @@ export class CalenderService {
       IMAGE: "REPUBLIC_DAY",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जनवरी",
     },
     "27-01-2023": {
       DAYHEADING: "माघ, षष्ठी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8810,6 +8836,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जनवरी",
     },
     "28-01-2023": {
       DAYHEADING: "माघ, सप्तमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8831,6 +8858,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जनवरी",
     },
     "29-01-2023": {
       DAYHEADING: "माघ, अष्टमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8852,6 +8880,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जनवरी",
     },
     "30-01-2023": {
       DAYHEADING: "माघ, नवमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8873,6 +8902,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जनवरी",
     },
     "31-01-2023": {
       DAYHEADING: "माघ, दशमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8894,6 +8924,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जनवरी",
     },
     "01-02-2023": {
       DAYHEADING: "माघ, एकादशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8915,6 +8946,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "फ़रवरी",
     },
     "02-02-2023": {
       DAYHEADING: "माघ, द्वादशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8936,6 +8968,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "फ़रवरी",
     },
     "03-02-2023": {
       DAYHEADING: "माघ, त्रयोदशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8957,6 +8990,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "फ़रवरी",
     },
     "04-02-2023": {
       DAYHEADING: "माघ, चतुर्दशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8978,6 +9012,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "फ़रवरी",
     },
     "05-02-2023": {
       DAYHEADING: "माघ, पूर्णिमा शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -8999,6 +9034,7 @@ export class CalenderService {
       IMAGE: "GURU_RAVIDASS",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "रविवार",
+      MONTH: "फ़रवरी",
     },
     "06-02-2023": {
       DAYHEADING: "फाल्गुन, प्रतिपदा कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9020,6 +9056,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "फ़रवरी",
     },
     "07-02-2023": {
       DAYHEADING: "फाल्गुन, द्वितीया कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9041,6 +9078,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "फ़रवरी",
     },
     "08-02-2023": {
       DAYHEADING: "फाल्गुन, तृतीया कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9062,6 +9100,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "फ़रवरी",
     },
     "09-02-2023": {
       DAYHEADING: "फाल्गुन, चतुर्थी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9083,6 +9122,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "फ़रवरी",
     },
     "10-02-2023": {
       DAYHEADING: "फाल्गुन, चतुर्थी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9104,6 +9144,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "फ़रवरी",
     },
     "11-02-2023": {
       DAYHEADING: "फाल्गुन, पञ्चमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9125,6 +9166,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "फ़रवरी",
     },
     "12-02-2023": {
       DAYHEADING: "फाल्गुन, षष्ठी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9146,6 +9188,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "फ़रवरी",
     },
     "13-02-2023": {
       DAYHEADING: "फाल्गुन, सप्तमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9167,6 +9210,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "फ़रवरी",
     },
     "14-02-2023": {
       DAYHEADING: "फाल्गुन, अष्टमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9188,6 +9232,7 @@ export class CalenderService {
       IMAGE: "VALENTINE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "फ़रवरी",
     },
     "15-02-2023": {
       DAYHEADING: "फाल्गुन, नवमी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9209,6 +9254,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "फ़रवरी",
     },
     "16-02-2023": {
       DAYHEADING: "फाल्गुन, एकादशी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9230,6 +9276,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "फ़रवरी",
     },
     "17-02-2023": {
       DAYHEADING: "फाल्गुन, द्वादशी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9251,6 +9298,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "फ़रवरी",
     },
     "18-02-2023": {
       DAYHEADING: "फाल्गुन, त्रयोदशी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9272,6 +9320,7 @@ export class CalenderService {
       IMAGE: "MAHASHIVA_RATHRI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "शनिवार",
+      MONTH: "फ़रवरी",
     },
     "19-02-2023": {
       DAYHEADING: "फाल्गुन, चतुर्दशी कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9293,6 +9342,7 @@ export class CalenderService {
       IMAGE: "SHIVAJI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "रविवार",
+      MONTH: "फ़रवरी",
     },
     "20-02-2023": {
       DAYHEADING: "फाल्गुन, अमावस्या कृष्ण पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9314,6 +9364,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "फ़रवरी",
     },
     "21-02-2023": {
       DAYHEADING: "फाल्गुन, प्रतिपदा शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9335,6 +9386,7 @@ export class CalenderService {
       IMAGE: "SREERAMAKRISHNA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "फ़रवरी",
     },
     "22-02-2023": {
       DAYHEADING: "फाल्गुन, तृतीया शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9356,6 +9408,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "फ़रवरी",
     },
     "23-02-2023": {
       DAYHEADING: "फाल्गुन, चतुर्थी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9377,6 +9430,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "फ़रवरी",
     },
     "24-02-2023": {
       DAYHEADING: "फाल्गुन, पञ्चमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9398,6 +9452,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "फ़रवरी",
     },
     "25-02-2023": {
       DAYHEADING: "फाल्गुन, षष्ठी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9419,6 +9474,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "फ़रवरी",
     },
     "26-02-2023": {
       DAYHEADING: "फाल्गुन, सप्तमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9440,6 +9496,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "फ़रवरी",
     },
     "27-02-2023": {
       DAYHEADING: "फाल्गुन, अष्टमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9461,6 +9518,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "फ़रवरी",
     },
     "28-02-2023": {
       DAYHEADING: "फाल्गुन, नवमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9482,6 +9540,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "फ़रवरी",
     },
     "01-03-2023": {
       DAYHEADING: "फाल्गुन, दशमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9503,6 +9562,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मार्च",
     },
     "02-03-2023": {
       DAYHEADING: "फाल्गुन, दशमी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9524,6 +9584,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मार्च",
     },
     "03-03-2023": {
       DAYHEADING: "फाल्गुन, एकादशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9545,6 +9606,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मार्च",
     },
     "04-03-2023": {
       DAYHEADING: "फाल्गुन, द्वादशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9566,6 +9628,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मार्च",
     },
     "05-03-2023": {
       DAYHEADING: "फाल्गुन, त्रयोदशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9587,6 +9650,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मार्च",
     },
     "06-03-2023": {
       DAYHEADING: "फाल्गुन, चतुर्दशी शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9608,6 +9672,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मार्च",
     },
     "07-03-2023": {
       DAYHEADING: "फाल्गुन, पूर्णिमा शुक्ल पक्ष, 2079 राक्षस विक्रम सम्वत",
@@ -9629,6 +9694,7 @@ export class CalenderService {
       IMAGE: "HOLI2",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मार्च",
     },
     "08-03-2023": {
       DAYHEADING: "चैत्र, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9650,6 +9716,7 @@ export class CalenderService {
       IMAGE: "HOLI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "बुधवार",
+      MONTH: "मार्च",
     },
     "09-03-2023": {
       DAYHEADING: "चैत्र, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9671,6 +9738,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मार्च",
     },
     "10-03-2023": {
       DAYHEADING: "चैत्र, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9692,6 +9760,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मार्च",
     },
     "11-03-2023": {
       DAYHEADING: "चैत्र, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9713,6 +9782,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मार्च",
     },
     "12-03-2023": {
       DAYHEADING: "चैत्र, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9734,6 +9804,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मार्च",
     },
     "13-03-2023": {
       DAYHEADING: "चैत्र, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9755,6 +9826,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मार्च",
     },
     "14-03-2023": {
       DAYHEADING: "चैत्र, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9776,6 +9848,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मार्च",
     },
     "15-03-2023": {
       DAYHEADING: "चैत्र, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9797,6 +9870,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मार्च",
     },
     "16-03-2023": {
       DAYHEADING: "चैत्र, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9818,6 +9892,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मार्च",
     },
     "17-03-2023": {
       DAYHEADING: "चैत्र, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9839,6 +9914,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मार्च",
     },
     "18-03-2023": {
       DAYHEADING: "चैत्र, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9860,6 +9936,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मार्च",
     },
     "19-03-2023": {
       DAYHEADING: "चैत्र, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9881,6 +9958,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मार्च",
     },
     "20-03-2023": {
       DAYHEADING: "चैत्र, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9902,6 +9980,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मार्च",
     },
     "21-03-2023": {
       DAYHEADING: "चैत्र, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -9923,6 +10002,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मार्च",
     },
     "22-03-2023": {
       DAYHEADING: "चैत्र, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -9944,6 +10024,7 @@ export class CalenderService {
       IMAGE: "GUDI_PADWA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "बुधवार",
+      MONTH: "मार्च",
     },
     "23-03-2023": {
       DAYHEADING: "चैत्र, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -9965,6 +10046,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मार्च",
     },
     "24-03-2023": {
       DAYHEADING: "चैत्र, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -9986,6 +10068,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मार्च",
     },
     "25-03-2023": {
       DAYHEADING: "चैत्र, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10007,6 +10090,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मार्च",
     },
     "26-03-2023": {
       DAYHEADING: "चैत्र, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10028,6 +10112,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मार्च",
     },
     "27-03-2023": {
       DAYHEADING: "चैत्र, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10049,6 +10134,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मार्च",
     },
     "28-03-2023": {
       DAYHEADING: "चैत्र, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10070,6 +10156,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मार्च",
     },
     "29-03-2023": {
       DAYHEADING: "चैत्र, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10091,6 +10178,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मार्च",
     },
     "30-03-2023": {
       DAYHEADING: "चैत्र, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10112,6 +10200,7 @@ export class CalenderService {
       IMAGE: "RAMA_NAVAMI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मार्च",
     },
     "31-03-2023": {
       DAYHEADING: "चैत्र, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10133,6 +10222,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मार्च",
     },
     "01-04-2023": {
       DAYHEADING: "चैत्र, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10154,6 +10244,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "शनिवार",
+      MONTH: "अप्रैल",
     },
     "02-04-2023": {
       DAYHEADING: "चैत्र, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10175,6 +10266,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अप्रैल",
     },
     "03-04-2023": {
       DAYHEADING: "चैत्र, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10196,6 +10288,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अप्रैल",
     },
     "04-04-2023": {
       DAYHEADING: "चैत्र, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10217,6 +10310,7 @@ export class CalenderService {
       IMAGE: "MAHAVIR",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अप्रैल",
     },
     "05-04-2023": {
       DAYHEADING: "चैत्र, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10238,6 +10332,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अप्रैल",
     },
     "06-04-2023": {
       DAYHEADING: "चैत्र, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10259,6 +10354,7 @@ export class CalenderService {
       IMAGE: "HANUMAN",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अप्रैल",
     },
     "07-04-2023": {
       DAYHEADING: "वैशाख, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10280,6 +10376,7 @@ export class CalenderService {
       IMAGE: "GOOD_FRIDAY",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अप्रैल",
     },
     "08-04-2023": {
       DAYHEADING: "वैशाख, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10301,6 +10398,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अप्रैल",
     },
     "09-04-2023": {
       DAYHEADING: "वैशाख, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10322,6 +10420,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अप्रैल",
     },
     "10-04-2023": {
       DAYHEADING: "वैशाख, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10343,6 +10442,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अप्रैल",
     },
     "11-04-2023": {
       DAYHEADING: "वैशाख, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10364,6 +10464,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अप्रैल",
     },
     "12-04-2023": {
       DAYHEADING: "वैशाख, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10385,6 +10486,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अप्रैल",
     },
     "13-04-2023": {
       DAYHEADING: "वैशाख, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10406,6 +10508,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अप्रैल",
     },
     "14-04-2023": {
       DAYHEADING: "वैशाख, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10427,6 +10530,7 @@ export class CalenderService {
       IMAGE: "AMBEDKAR",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अप्रैल",
     },
     "15-04-2023": {
       DAYHEADING: "वैशाख, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10448,6 +10552,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अप्रैल",
     },
     "16-04-2023": {
       DAYHEADING: "वैशाख, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10469,6 +10574,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अप्रैल",
     },
     "17-04-2023": {
       DAYHEADING: "वैशाख, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10490,6 +10596,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अप्रैल",
     },
     "18-04-2023": {
       DAYHEADING: "वैशाख, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10511,6 +10618,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अप्रैल",
     },
     "19-04-2023": {
       DAYHEADING: "वैशाख, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10532,6 +10640,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अप्रैल",
     },
     "20-04-2023": {
       DAYHEADING: "वैशाख, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10553,6 +10662,7 @@ export class CalenderService {
       IMAGE: "SOLAR_ECLIPSE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अप्रैल",
     },
     "21-04-2023": {
       DAYHEADING: "वैशाख, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10574,6 +10684,7 @@ export class CalenderService {
       IMAGE: "MUSLIM",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अप्रैल",
     },
     "22-04-2023": {
       DAYHEADING: "वैशाख, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10595,6 +10706,7 @@ export class CalenderService {
       IMAGE: "AKSHAYA_TRITIYA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अप्रैल",
     },
     "23-04-2023": {
       DAYHEADING: "वैशाख, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10616,6 +10728,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अप्रैल",
     },
     "24-04-2023": {
       DAYHEADING: "वैशाख, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10637,6 +10750,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अप्रैल",
     },
     "25-04-2023": {
       DAYHEADING: "वैशाख, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10658,6 +10772,7 @@ export class CalenderService {
       IMAGE: "SHANKARACHARYA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अप्रैल",
     },
     "26-04-2023": {
       DAYHEADING: "वैशाख, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10679,6 +10794,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अप्रैल",
     },
     "27-04-2023": {
       DAYHEADING: "वैशाख, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10700,6 +10816,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अप्रैल",
     },
     "28-04-2023": {
       DAYHEADING: "वैशाख, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10721,6 +10838,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अप्रैल",
     },
     "29-04-2023": {
       DAYHEADING: "वैशाख, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10742,6 +10860,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अप्रैल",
     },
     "30-04-2023": {
       DAYHEADING: "वैशाख, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10763,6 +10882,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अप्रैल",
     },
     "01-05-2023": {
       DAYHEADING: "वैशाख, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10784,6 +10904,7 @@ export class CalenderService {
       IMAGE: "LABOUR_DAY",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "सोमवार",
+      MONTH: "मई",
     },
     "02-05-2023": {
       DAYHEADING: "वैशाख, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10805,6 +10926,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मई",
     },
     "03-05-2023": {
       DAYHEADING: "वैशाख, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10826,6 +10948,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मई",
     },
     "04-05-2023": {
       DAYHEADING: "वैशाख, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10847,6 +10970,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मई",
     },
     "05-05-2023": {
       DAYHEADING: "वैशाख, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -10868,6 +10992,7 @@ export class CalenderService {
       IMAGE: "BUDDHA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मई",
     },
     "06-05-2023": {
       DAYHEADING: "ज्येष्ठ, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10889,6 +11014,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मई",
     },
     "07-05-2023": {
       DAYHEADING: "ज्येष्ठ, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10910,6 +11036,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मई",
     },
     "08-05-2023": {
       DAYHEADING: "ज्येष्ठ, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10931,6 +11058,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मई",
     },
     "09-05-2023": {
       DAYHEADING: "ज्येष्ठ, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10952,6 +11080,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मई",
     },
     "10-05-2023": {
       DAYHEADING: "ज्येष्ठ, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10973,6 +11102,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मई",
     },
     "11-05-2023": {
       DAYHEADING: "ज्येष्ठ, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -10994,6 +11124,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मई",
     },
     "12-05-2023": {
       DAYHEADING: "ज्येष्ठ, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11015,6 +11146,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मई",
     },
     "13-05-2023": {
       DAYHEADING: "ज्येष्ठ, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11036,6 +11168,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मई",
     },
     "14-05-2023": {
       DAYHEADING: "ज्येष्ठ, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11051,12 +11184,13 @@ export class CalenderService {
       NAKSHATAR: "शतभिषा - 10:16 AM तक",
       YOGA: "इन्द्र - 06:35 AM तक",
       KARANA: "वणिज - 03:43 PM तक",
-      EVENT1: "मातृ दिवस",
+      EVENT1: "मातृ दिव",
       EVENT2: "हनुमान जयन्ती *तेलुगु",
       EVENT3: "",
       IMAGE: "MOTHER",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मई",
     },
     "15-05-2023": {
       DAYHEADING: "ज्येष्ठ, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11078,6 +11212,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मई",
     },
     "16-05-2023": {
       DAYHEADING: "ज्येष्ठ, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11099,6 +11234,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मई",
     },
     "17-05-2023": {
       DAYHEADING: "ज्येष्ठ, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11120,6 +11256,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मई",
     },
     "18-05-2023": {
       DAYHEADING: "ज्येष्ठ, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11141,6 +11278,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मई",
     },
     "19-05-2023": {
       DAYHEADING: "ज्येष्ठ, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11162,6 +11300,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मई",
     },
     "20-05-2023": {
       DAYHEADING: "ज्येष्ठ, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11183,6 +11322,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मई",
     },
     "21-05-2023": {
       DAYHEADING: "ज्येष्ठ, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11204,6 +11344,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मई",
     },
     "22-05-2023": {
       DAYHEADING: "ज्येष्ठ, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11225,6 +11366,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मई",
     },
     "23-05-2023": {
       DAYHEADING: "ज्येष्ठ, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11246,6 +11388,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मई",
     },
     "24-05-2023": {
       DAYHEADING: "ज्येष्ठ, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11267,6 +11410,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मई",
     },
     "25-05-2023": {
       DAYHEADING: "ज्येष्ठ, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11288,6 +11432,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "मई",
     },
     "26-05-2023": {
       DAYHEADING: "ज्येष्ठ, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11309,6 +11454,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "मई",
     },
     "27-05-2023": {
       DAYHEADING: "ज्येष्ठ, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11330,6 +11476,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "मई",
     },
     "28-05-2023": {
       DAYHEADING: "ज्येष्ठ, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11351,6 +11498,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "मई",
     },
     "29-05-2023": {
       DAYHEADING: "ज्येष्ठ, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11372,6 +11520,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "मई",
     },
     "30-05-2023": {
       DAYHEADING: "ज्येष्ठ, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11393,6 +11542,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "मई",
     },
     "31-05-2023": {
       DAYHEADING: "ज्येष्ठ, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11414,6 +11564,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "मई",
     },
     "01-06-2023": {
       DAYHEADING: "ज्येष्ठ, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11435,6 +11586,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जून",
     },
     "02-06-2023": {
       DAYHEADING: "ज्येष्ठ, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11456,6 +11608,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जून",
     },
     "03-06-2023": {
       DAYHEADING: "ज्येष्ठ, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11477,6 +11630,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जून",
     },
     "04-06-2023": {
       DAYHEADING: "ज्येष्ठ, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11498,6 +11652,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जून",
     },
     "05-06-2023": {
       DAYHEADING: "आषाढ़, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11519,6 +11674,7 @@ export class CalenderService {
       IMAGE: "ENVIRONMENT",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जून",
     },
     "06-06-2023": {
       DAYHEADING: "आषाढ़, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11540,6 +11696,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जून",
     },
     "07-06-2023": {
       DAYHEADING: "आषाढ़, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11561,6 +11718,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जून",
     },
     "08-06-2023": {
       DAYHEADING: "आषाढ़, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11582,6 +11740,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जून",
     },
     "09-06-2023": {
       DAYHEADING: "आषाढ़, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11603,6 +11762,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जून",
     },
     "10-06-2023": {
       DAYHEADING: "आषाढ़, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11624,6 +11784,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जून",
     },
     "11-06-2023": {
       DAYHEADING: "आषाढ़, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11645,6 +11806,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जून",
     },
     "12-06-2023": {
       DAYHEADING: "आषाढ़, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11666,6 +11828,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जून",
     },
     "13-06-2023": {
       DAYHEADING: "आषाढ़, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11687,6 +11850,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जून",
     },
     "14-06-2023": {
       DAYHEADING: "आषाढ़, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11708,6 +11872,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जून",
     },
     "15-06-2023": {
       DAYHEADING: "आषाढ़, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11729,6 +11894,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जून",
     },
     "16-06-2023": {
       DAYHEADING: "आषाढ़, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11750,6 +11916,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जून",
     },
     "17-06-2023": {
       DAYHEADING: "आषाढ़, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11771,6 +11938,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जून",
     },
     "18-06-2023": {
       DAYHEADING: "आषाढ़, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -11792,6 +11960,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जून",
     },
     "19-06-2023": {
       DAYHEADING: "आषाढ़, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11813,6 +11982,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जून",
     },
     "20-06-2023": {
       DAYHEADING: "आषाढ़, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11834,6 +12004,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जून",
     },
     "21-06-2023": {
       DAYHEADING: "आषाढ़, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11855,6 +12026,7 @@ export class CalenderService {
       IMAGE: "YOGA_IMAGE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जून",
     },
     "22-06-2023": {
       DAYHEADING: "आषाढ़, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11876,6 +12048,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जून",
     },
     "23-06-2023": {
       DAYHEADING: "आषाढ़, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11897,6 +12070,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जून",
     },
     "24-06-2023": {
       DAYHEADING: "आषाढ़, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11918,6 +12092,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जून",
     },
     "25-06-2023": {
       DAYHEADING: "आषाढ़, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11939,6 +12114,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जून",
     },
     "26-06-2023": {
       DAYHEADING: "आषाढ़, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11960,6 +12136,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जून",
     },
     "27-06-2023": {
       DAYHEADING: "आषाढ़, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -11981,6 +12158,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जून",
     },
     "28-06-2023": {
       DAYHEADING: "आषाढ़, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12002,6 +12180,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जून",
     },
     "29-06-2023": {
       DAYHEADING: "आषाढ़, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12023,6 +12202,7 @@ export class CalenderService {
       IMAGE: "MUSLIM",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जून",
     },
     "30-06-2023": {
       DAYHEADING: "आषाढ़, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12044,6 +12224,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जून",
     },
     "01-07-2023": {
       DAYHEADING: "आषाढ़, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12065,6 +12246,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जुलाई",
     },
     "02-07-2023": {
       DAYHEADING: "आषाढ़, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12086,6 +12268,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जुलाई",
     },
     "03-07-2023": {
       DAYHEADING: "आषाढ़, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12107,6 +12290,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जुलाई",
     },
     "04-07-2023": {
       DAYHEADING: "श्रावण, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12128,6 +12312,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जुलाई",
     },
     "05-07-2023": {
       DAYHEADING: "श्रावण, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12149,6 +12334,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जुलाई",
     },
     "06-07-2023": {
       DAYHEADING: "श्रावण, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12170,6 +12356,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जुलाई",
     },
     "07-07-2023": {
       DAYHEADING: "श्रावण, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12191,6 +12378,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जुलाई",
     },
     "08-07-2023": {
       DAYHEADING: "श्रावण, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12212,6 +12400,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जुलाई",
     },
     "09-07-2023": {
       DAYHEADING: "श्रावण, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12233,6 +12422,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जुलाई",
     },
     "10-07-2023": {
       DAYHEADING: "श्रावण, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12254,6 +12444,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जुलाई",
     },
     "11-07-2023": {
       DAYHEADING: "श्रावण, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12275,6 +12466,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जुलाई",
     },
     "12-07-2023": {
       DAYHEADING: "श्रावण, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12296,6 +12488,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जुलाई",
     },
     "13-07-2023": {
       DAYHEADING: "श्रावण, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12317,6 +12510,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जुलाई",
     },
     "14-07-2023": {
       DAYHEADING: "श्रावण, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12338,6 +12532,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जुलाई",
     },
     "15-07-2023": {
       DAYHEADING: "श्रावण, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12359,6 +12554,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जुलाई",
     },
     "16-07-2023": {
       DAYHEADING: "श्रावण, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12380,6 +12576,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जुलाई",
     },
     "17-07-2023": {
       DAYHEADING: "श्रावण, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12401,6 +12598,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जुलाई",
     },
     "18-07-2023": {
       DAYHEADING: "श्रावण (अधिक), प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12422,6 +12620,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जुलाई",
     },
     "19-07-2023": {
       DAYHEADING: "श्रावण (अधिक), द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12443,6 +12642,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जुलाई",
     },
     "20-07-2023": {
       DAYHEADING: "श्रावण (अधिक), तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12464,6 +12664,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जुलाई",
     },
     "21-07-2023": {
       DAYHEADING: "श्रावण (अधिक), तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12485,6 +12686,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जुलाई",
     },
     "22-07-2023": {
       DAYHEADING: "श्रावण (अधिक), चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12506,6 +12708,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "जुलाई",
     },
     "23-07-2023": {
       DAYHEADING: "श्रावण (अधिक), पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12527,6 +12730,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जुलाई",
     },
     "24-07-2023": {
       DAYHEADING: "श्रावण (अधिक), षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12548,6 +12752,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जुलाई",
     },
     "25-07-2023": {
       DAYHEADING: "श्रावण (अधिक), सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12569,6 +12774,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "जुलाई",
     },
     "26-07-2023": {
       DAYHEADING: "श्रावण (अधिक), अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12590,6 +12796,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "जुलाई",
     },
     "27-07-2023": {
       DAYHEADING: "श्रावण (अधिक), नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12611,6 +12818,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "जुलाई",
     },
     "28-07-2023": {
       DAYHEADING: "श्रावण (अधिक), दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12632,6 +12840,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "जुलाई",
     },
     "29-07-2023": {
       DAYHEADING: "श्रावण (अधिक), एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12653,6 +12862,7 @@ export class CalenderService {
       IMAGE: "MUSLIM",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "शनिवार",
+      MONTH: "जुलाई",
     },
     "30-07-2023": {
       DAYHEADING: "श्रावण (अधिक), द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12674,6 +12884,7 @@ export class CalenderService {
       IMAGE: "FRIEND",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "जुलाई",
     },
     "31-07-2023": {
       DAYHEADING: "श्रावण (अधिक), त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12695,6 +12906,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "जुलाई",
     },
     "01-08-2023": {
       DAYHEADING: "श्रावण (अधिक), पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -12716,6 +12928,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अगस्त",
     },
     "02-08-2023": {
       DAYHEADING: "श्रावण (अधिक), प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12737,6 +12950,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अगस्त",
     },
     "03-08-2023": {
       DAYHEADING: "श्रावण (अधिक), द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12758,6 +12972,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अगस्त",
     },
     "04-08-2023": {
       DAYHEADING: "श्रावण (अधिक), तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12779,6 +12994,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अगस्त",
     },
     "05-08-2023": {
       DAYHEADING: "श्रावण (अधिक), चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12800,6 +13016,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अगस्त",
     },
     "06-08-2023": {
       DAYHEADING: "श्रावण (अधिक), पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12821,6 +13038,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अगस्त",
     },
     "07-08-2023": {
       DAYHEADING: "श्रावण (अधिक), सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12842,6 +13060,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अगस्त",
     },
     "08-08-2023": {
       DAYHEADING: "श्रावण (अधिक), अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12863,6 +13082,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अगस्त",
     },
     "09-08-2023": {
       DAYHEADING: "श्रावण (अधिक), नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12884,6 +13104,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अगस्त",
     },
     "10-08-2023": {
       DAYHEADING: "श्रावण (अधिक), दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12905,6 +13126,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अगस्त",
     },
     "11-08-2023": {
       DAYHEADING: "श्रावण (अधिक), एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12926,6 +13148,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अगस्त",
     },
     "12-08-2023": {
       DAYHEADING: "श्रावण (अधिक), एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12947,6 +13170,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अगस्त",
     },
     "13-08-2023": {
       DAYHEADING: "श्रावण (अधिक), द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12968,6 +13192,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अगस्त",
     },
     "14-08-2023": {
       DAYHEADING: "श्रावण (अधिक), त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -12989,6 +13214,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अगस्त",
     },
     "15-08-2023": {
       DAYHEADING: "श्रावण (अधिक), चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13010,6 +13236,7 @@ export class CalenderService {
       IMAGE: "INDEPENDENCE",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अगस्त",
     },
     "16-08-2023": {
       DAYHEADING: "श्रावण (अधिक), अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13031,6 +13258,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अगस्त",
     },
     "17-08-2023": {
       DAYHEADING: "श्रावण, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13052,6 +13280,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अगस्त",
     },
     "18-08-2023": {
       DAYHEADING: "श्रावण, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13073,6 +13302,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अगस्त",
     },
     "19-08-2023": {
       DAYHEADING: "श्रावण, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13094,6 +13324,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अगस्त",
     },
     "20-08-2023": {
       DAYHEADING: "श्रावण, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13115,6 +13346,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अगस्त",
     },
     "21-08-2023": {
       DAYHEADING: "श्रावण, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13136,6 +13368,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अगस्त",
     },
     "22-08-2023": {
       DAYHEADING: "श्रावण, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13157,6 +13390,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अगस्त",
     },
     "23-08-2023": {
       DAYHEADING: "श्रावण, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13178,6 +13412,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अगस्त",
     },
     "24-08-2023": {
       DAYHEADING: "श्रावण, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13199,6 +13434,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अगस्त",
     },
     "25-08-2023": {
       DAYHEADING: "श्रावण, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13220,6 +13456,7 @@ export class CalenderService {
       IMAGE: "LAKSHMI",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अगस्त",
     },
     "26-08-2023": {
       DAYHEADING: "श्रावण, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13241,6 +13478,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अगस्त",
     },
     "27-08-2023": {
       DAYHEADING: "श्रावण, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13262,6 +13500,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अगस्त",
     },
     "28-08-2023": {
       DAYHEADING: "श्रावण, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13283,6 +13522,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अगस्त",
     },
     "29-08-2023": {
       DAYHEADING: "श्रावण, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13304,6 +13544,7 @@ export class CalenderService {
       IMAGE: "ONAM",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अगस्त",
     },
     "30-08-2023": {
       DAYHEADING: "श्रावण, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13325,6 +13566,7 @@ export class CalenderService {
       IMAGE: "RAKHI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "बुधवार",
+      MONTH: "अगस्त",
     },
     "31-08-2023": {
       DAYHEADING: "श्रावण, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13346,6 +13588,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अगस्त",
     },
     "01-09-2023": {
       DAYHEADING: "भाद्रपद, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13367,6 +13610,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "सितम्बर",
     },
     "02-09-2023": {
       DAYHEADING: "भाद्रपद, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13388,6 +13632,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "सितम्बर",
     },
     "03-09-2023": {
       DAYHEADING: "भाद्रपद, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13409,6 +13654,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "सितम्बर",
     },
     "04-09-2023": {
       DAYHEADING: "भाद्रपद, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13430,6 +13676,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "सितम्बर",
     },
     "05-09-2023": {
       DAYHEADING: "भाद्रपद, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13451,6 +13698,7 @@ export class CalenderService {
       IMAGE: "RADHA_KRISHNA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "सितम्बर",
     },
     "06-09-2023": {
       DAYHEADING: "भाद्रपद, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13472,6 +13720,7 @@ export class CalenderService {
       IMAGE: "KRISHNA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "सितम्बर",
     },
     "07-09-2023": {
       DAYHEADING: "भाद्रपद, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13493,6 +13742,7 @@ export class CalenderService {
       IMAGE: "KRISHNA_JANMASTAMI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "गुरुवार",
+      MONTH: "सितम्बर",
     },
     "08-09-2023": {
       DAYHEADING: "भाद्रपद, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13514,6 +13764,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "सितम्बर",
     },
     "09-09-2023": {
       DAYHEADING: "भाद्रपद, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13535,6 +13786,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "सितम्बर",
     },
     "10-09-2023": {
       DAYHEADING: "भाद्रपद, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13556,6 +13808,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "सितम्बर",
     },
     "11-09-2023": {
       DAYHEADING: "भाद्रपद, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13577,6 +13830,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "सितम्बर",
     },
     "12-09-2023": {
       DAYHEADING: "भाद्रपद, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13598,6 +13852,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "सितम्बर",
     },
     "13-09-2023": {
       DAYHEADING: "भाद्रपद, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13619,6 +13874,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "सितम्बर",
     },
     "14-09-2023": {
       DAYHEADING: "भाद्रपद, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13640,6 +13896,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "सितम्बर",
     },
     "15-09-2023": {
       DAYHEADING: "भाद्रपद, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13658,9 +13915,10 @@ export class CalenderService {
       EVENT1: "इंजीनियर्स डे",
       EVENT2: "इष्टि",
       EVENT3: "",
-      IMAGE: "ENGINEER",
+      IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "सितम्बर",
     },
     "16-09-2023": {
       DAYHEADING: "भाद्रपद, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13682,6 +13940,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "सितम्बर",
     },
     "17-09-2023": {
       DAYHEADING: "भाद्रपद, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13703,6 +13962,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "सितम्बर",
     },
     "18-09-2023": {
       DAYHEADING: "भाद्रपद, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13724,6 +13984,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "सितम्बर",
     },
     "19-09-2023": {
       DAYHEADING: "भाद्रपद, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13745,6 +14006,7 @@ export class CalenderService {
       IMAGE: "GANESHA_CHATURTI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "मंगलवार",
+      MONTH: "सितम्बर",
     },
     "20-09-2023": {
       DAYHEADING: "भाद्रपद, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13766,6 +14028,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "सितम्बर",
     },
     "21-09-2023": {
       DAYHEADING: "भाद्रपद, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13787,6 +14050,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "सितम्बर",
     },
     "22-09-2023": {
       DAYHEADING: "भाद्रपद, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13808,6 +14072,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "सितम्बर",
     },
     "23-09-2023": {
       DAYHEADING: "भाद्रपद, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13829,6 +14094,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "सितम्बर",
     },
     "24-09-2023": {
       DAYHEADING: "भाद्रपद, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13850,6 +14116,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "सितम्बर",
     },
     "25-09-2023": {
       DAYHEADING: "भाद्रपद, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13871,6 +14138,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "सितम्बर",
     },
     "26-09-2023": {
       DAYHEADING: "भाद्रपद, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13892,6 +14160,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "सितम्बर",
     },
     "27-09-2023": {
       DAYHEADING: "भाद्रपद, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13913,6 +14182,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "सितम्बर",
     },
     "28-09-2023": {
       DAYHEADING: "भाद्रपद, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13934,6 +14204,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "सितम्बर",
     },
     "29-09-2023": {
       DAYHEADING: "भाद्रपद, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -13955,6 +14226,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "सितम्बर",
     },
     "30-09-2023": {
       DAYHEADING: "आश्विन, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13976,6 +14248,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "सितम्बर",
     },
     "01-10-2023": {
       DAYHEADING: "आश्विन, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -13997,6 +14270,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अकतूबर",
     },
     "02-10-2023": {
       DAYHEADING: "आश्विन, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14018,6 +14292,7 @@ export class CalenderService {
       IMAGE: "GHANDHI_JAYANTHI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "सोमवार",
+      MONTH: "अकतूबर",
     },
     "03-10-2023": {
       DAYHEADING: "आश्विन, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14039,6 +14314,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अकतूबर",
     },
     "04-10-2023": {
       DAYHEADING: "आश्विन, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14060,6 +14336,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अकतूबर",
     },
     "05-10-2023": {
       DAYHEADING: "आश्विन, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14081,6 +14358,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अकतूबर",
     },
     "06-10-2023": {
       DAYHEADING: "आश्विन, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14102,6 +14380,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अकतूबर",
     },
     "07-10-2023": {
       DAYHEADING: "आश्विन, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14123,6 +14402,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अकतूबर",
     },
     "08-10-2023": {
       DAYHEADING: "आश्विन, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14144,6 +14424,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अकतूबर",
     },
     "09-10-2023": {
       DAYHEADING: "आश्विन, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14165,6 +14446,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अकतूबर",
     },
     "10-10-2023": {
       DAYHEADING: "आश्विन, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14186,6 +14468,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अकतूबर",
     },
     "11-10-2023": {
       DAYHEADING: "आश्विन, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14207,6 +14490,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अकतूबर",
     },
     "12-10-2023": {
       DAYHEADING: "आश्विन, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14228,6 +14512,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अकतूबर",
     },
     "13-10-2023": {
       DAYHEADING: "आश्विन, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14249,6 +14534,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अकतूबर",
     },
     "14-10-2023": {
       DAYHEADING: "आश्विन, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14270,6 +14556,7 @@ export class CalenderService {
       IMAGE: "SOLAR_ECLIPSE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अकतूबर",
     },
     "15-10-2023": {
       DAYHEADING: "आश्विन, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14291,6 +14578,7 @@ export class CalenderService {
       IMAGE: "NAVARATHRI_BEGIN",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अकतूबर",
     },
     "16-10-2023": {
       DAYHEADING: "आश्विन, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14312,6 +14600,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अकतूबर",
     },
     "17-10-2023": {
       DAYHEADING: "आश्विन, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14333,6 +14622,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अकतूबर",
     },
     "18-10-2023": {
       DAYHEADING: "आश्विन, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14354,6 +14644,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अकतूबर",
     },
     "19-10-2023": {
       DAYHEADING: "आश्विन, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14375,6 +14666,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अकतूबर",
     },
     "20-10-2023": {
       DAYHEADING: "आश्विन, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14396,6 +14688,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अकतूबर",
     },
     "21-10-2023": {
       DAYHEADING: "आश्विन, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14417,6 +14710,7 @@ export class CalenderService {
       IMAGE: "SARASWATHI",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अकतूबर",
     },
     "22-10-2023": {
       DAYHEADING: "आश्विन, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14438,6 +14732,7 @@ export class CalenderService {
       IMAGE: "DURGA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "रविवार",
+      MONTH: "अकतूबर",
     },
     "23-10-2023": {
       DAYHEADING: "आश्विन, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14459,6 +14754,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "सोमवार",
+      MONTH: "अकतूबर",
     },
     "24-10-2023": {
       DAYHEADING: "आश्विन, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14480,6 +14776,7 @@ export class CalenderService {
       IMAGE: "DUSSERA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अकतूबर",
     },
     "25-10-2023": {
       DAYHEADING: "आश्विन, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14501,6 +14798,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "अकतूबर",
     },
     "26-10-2023": {
       DAYHEADING: "आश्विन, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14522,6 +14820,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "अकतूबर",
     },
     "27-10-2023": {
       DAYHEADING: "आश्विन, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14543,6 +14842,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "अकतूबर",
     },
     "28-10-2023": {
       DAYHEADING: "आश्विन, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14564,6 +14864,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "अकतूबर",
     },
     "29-10-2023": {
       DAYHEADING: "कार्तिक, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14585,6 +14886,7 @@ export class CalenderService {
       IMAGE: "NEW-MOON-PHASE-SYMBOL",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "अकतूबर",
     },
     "30-10-2023": {
       DAYHEADING: "कार्तिक, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14606,6 +14908,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "अकतूबर",
     },
     "31-10-2023": {
       DAYHEADING: "कार्तिक, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14627,6 +14930,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "अकतूबर",
     },
     "01-11-2023": {
       DAYHEADING: "कार्तिक, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14648,6 +14952,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "नवंबर",
     },
     "02-11-2023": {
       DAYHEADING: "कार्तिक, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14669,6 +14974,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "नवंबर",
     },
     "03-11-2023": {
       DAYHEADING: "कार्तिक, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14690,6 +14996,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "नवंबर",
     },
     "04-11-2023": {
       DAYHEADING: "कार्तिक, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14711,6 +15018,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "नवंबर",
     },
     "05-11-2023": {
       DAYHEADING: "कार्तिक, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14732,6 +15040,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "नवंबर",
     },
     "06-11-2023": {
       DAYHEADING: "कार्तिक, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14753,6 +15062,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "नवंबर",
     },
     "07-11-2023": {
       DAYHEADING: "कार्तिक, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14774,6 +15084,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "नवंबर",
     },
     "08-11-2023": {
       DAYHEADING: "कार्तिक, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14795,6 +15106,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "नवंबर",
     },
     "09-11-2023": {
       DAYHEADING: "कार्तिक, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14816,6 +15128,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "नवंबर",
     },
     "10-11-2023": {
       DAYHEADING: "कार्तिक, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14835,8 +15148,9 @@ export class CalenderService {
       EVENT2: "यम दीपम",
       EVENT3: "प्रदोष व्रत",
       IMAGE: "VRATA",
-      ISPUBLICHOLIDAY: "Y",
+      ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "नवंबर",
     },
     "11-11-2023": {
       DAYHEADING: "कार्तिक, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14858,6 +15172,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "नवंबर",
     },
     "12-11-2023": {
       DAYHEADING: "कार्तिक, चतुर्दशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14879,6 +15194,7 @@ export class CalenderService {
       IMAGE: "DIWALI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "रविवार",
+      MONTH: "नवंबर",
     },
     "13-11-2023": {
       DAYHEADING: "कार्तिक, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -14900,6 +15216,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "नवंबर",
     },
     "14-11-2023": {
       DAYHEADING: "कार्तिक, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14921,6 +15238,7 @@ export class CalenderService {
       IMAGE: "CHILDRENS_DAY",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "नवंबर",
     },
     "15-11-2023": {
       DAYHEADING: "कार्तिक, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14939,9 +15257,10 @@ export class CalenderService {
       EVENT1: "भैया दूज",
       EVENT2: "यम द्वितीया",
       EVENT3: "चन्द्र दर्शन",
-      IMAGE: "HINDU_FLAG",
+      IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "नवंबर",
     },
     "16-11-2023": {
       DAYHEADING: "कार्तिक, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14963,6 +15282,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "नवंबर",
     },
     "17-11-2023": {
       DAYHEADING: "कार्तिक, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -14984,6 +15304,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "नवंबर",
     },
     "18-11-2023": {
       DAYHEADING: "कार्तिक, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15005,6 +15326,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "नवंबर",
     },
     "19-11-2023": {
       DAYHEADING: "कार्तिक, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15026,6 +15348,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "नवंबर",
     },
     "20-11-2023": {
       DAYHEADING: "कार्तिक, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15047,6 +15370,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "नवंबर",
     },
     "21-11-2023": {
       DAYHEADING: "कार्तिक, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15068,6 +15392,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "नवंबर",
     },
     "22-11-2023": {
       DAYHEADING: "कार्तिक, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15089,6 +15414,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "नवंबर",
     },
     "23-11-2023": {
       DAYHEADING: "कार्तिक, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15110,6 +15436,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "नवंबर",
     },
     "24-11-2023": {
       DAYHEADING: "कार्तिक, द्वादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15131,6 +15458,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "नवंबर",
     },
     "25-11-2023": {
       DAYHEADING: "कार्तिक, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15152,6 +15480,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "नवंबर",
     },
     "26-11-2023": {
       DAYHEADING: "कार्तिक, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15173,6 +15502,7 @@ export class CalenderService {
       IMAGE: "DIWALI_2",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "नवंबर",
     },
     "27-11-2023": {
       DAYHEADING: "कार्तिक, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15194,6 +15524,7 @@ export class CalenderService {
       IMAGE: "GURUNANAK",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "सोमवार",
+      MONTH: "नवंबर",
     },
     "28-11-2023": {
       DAYHEADING: "मार्गशीर्ष, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15215,6 +15546,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "नवंबर",
     },
     "29-11-2023": {
       DAYHEADING: "मार्गशीर्ष, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15236,6 +15568,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "नवंबर",
     },
     "30-11-2023": {
       DAYHEADING: "मार्गशीर्ष, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15257,6 +15590,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "नवंबर",
     },
     "01-12-2023": {
       DAYHEADING: "मार्गशीर्ष, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15278,6 +15612,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "दिसम्बर",
     },
     "02-12-2023": {
       DAYHEADING: "मार्गशीर्ष, पञ्चमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15299,6 +15634,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "दिसम्बर",
     },
     "03-12-2023": {
       DAYHEADING: "मार्गशीर्ष, षष्ठी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15320,6 +15656,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "दिसम्बर",
     },
     "04-12-2023": {
       DAYHEADING: "मार्गशीर्ष, सप्तमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15341,6 +15678,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "दिसम्बर",
     },
     "05-12-2023": {
       DAYHEADING: "मार्गशीर्ष, अष्टमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15362,6 +15700,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "दिसम्बर",
     },
     "06-12-2023": {
       DAYHEADING: "मार्गशीर्ष, नवमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15383,6 +15722,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "दिसम्बर",
     },
     "07-12-2023": {
       DAYHEADING: "मार्गशीर्ष, दशमी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15404,6 +15744,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "दिसम्बर",
     },
     "08-12-2023": {
       DAYHEADING: "मार्गशीर्ष, एकादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15425,6 +15766,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "दिसम्बर",
     },
     "09-12-2023": {
       DAYHEADING: "मार्गशीर्ष, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15446,6 +15788,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "दिसम्बर",
     },
     "10-12-2023": {
       DAYHEADING: "मार्गशीर्ष, द्वादशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15467,6 +15810,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "दिसम्बर",
     },
     "11-12-2023": {
       DAYHEADING: "मार्गशीर्ष, त्रयोदशी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15488,6 +15832,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "दिसम्बर",
     },
     "12-12-2023": {
       DAYHEADING: "मार्गशीर्ष, अमावस्या कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15509,6 +15854,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "दिसम्बर",
     },
     "13-12-2023": {
       DAYHEADING: "मार्गशीर्ष, प्रतिपदा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15530,6 +15876,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "दिसम्बर",
     },
     "14-12-2023": {
       DAYHEADING: "मार्गशीर्ष, द्वितीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15551,6 +15898,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "दिसम्बर",
     },
     "15-12-2023": {
       DAYHEADING: "मार्गशीर्ष, तृतीया शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15572,6 +15920,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "दिसम्बर",
     },
     "16-12-2023": {
       DAYHEADING: "मार्गशीर्ष, चतुर्थी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15593,6 +15942,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "दिसम्बर",
     },
     "17-12-2023": {
       DAYHEADING: "मार्गशीर्ष, पञ्चमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15614,6 +15964,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "दिसम्बर",
     },
     "18-12-2023": {
       DAYHEADING: "मार्गशीर्ष, षष्ठी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15635,6 +15986,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "सोमवार",
+      MONTH: "दिसम्बर",
     },
     "19-12-2023": {
       DAYHEADING: "मार्गशीर्ष, सप्तमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15656,6 +16008,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "दिसम्बर",
     },
     "20-12-2023": {
       DAYHEADING: "मार्गशीर्ष, अष्टमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15677,6 +16030,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "दिसम्बर",
     },
     "21-12-2023": {
       DAYHEADING: "मार्गशीर्ष, नवमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15698,6 +16052,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "दिसम्बर",
     },
     "22-12-2023": {
       DAYHEADING: "मार्गशीर्ष, दशमी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15719,6 +16074,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "दिसम्बर",
     },
     "23-12-2023": {
       DAYHEADING: "मार्गशीर्ष, एकादशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15740,6 +16096,7 @@ export class CalenderService {
       IMAGE: "VENKATESHWARA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "दिसम्बर",
     },
     "24-12-2023": {
       DAYHEADING: "मार्गशीर्ष, त्रयोदशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15761,6 +16118,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "दिसम्बर",
     },
     "25-12-2023": {
       DAYHEADING: "मार्गशीर्ष, चतुर्दशी शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15782,6 +16140,7 @@ export class CalenderService {
       IMAGE: "CHRISTMAS",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "सोमवार",
+      MONTH: "दिसम्बर",
     },
     "26-12-2023": {
       DAYHEADING: "मार्गशीर्ष, पूर्णिमा शुक्ल पक्ष, 2080 नल विक्रम सम्वत",
@@ -15803,6 +16162,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "मंगलवार",
+      MONTH: "दिसम्बर",
     },
     "27-12-2023": {
       DAYHEADING: "पौष, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15824,6 +16184,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "बुधवार",
+      MONTH: "दिसम्बर",
     },
     "28-12-2023": {
       DAYHEADING: "पौष, प्रतिपदा कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15845,6 +16206,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "गुरुवार",
+      MONTH: "दिसम्बर",
     },
     "29-12-2023": {
       DAYHEADING: "पौष, द्वितीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15866,6 +16228,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शुक्रवार",
+      MONTH: "दिसम्बर",
     },
     "30-12-2023": {
       DAYHEADING: "पौष, तृतीया कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15887,6 +16250,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "शनिवार",
+      MONTH: "दिसम्बर",
     },
     "31-12-2023": {
       DAYHEADING: "पौष, चतुर्थी कृष्ण पक्ष, 2080 नल विक्रम सम्वत",
@@ -15908,6 +16272,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "रविवार",
+      MONTH: "दिसम्बर",
     },
   };
   dateDetailsInEnglish: object = {
@@ -24327,6 +24692,7 @@ export class CalenderService {
       IMAGE: "NEW_YEAR",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "January",
     },
     "02-01-2023": {
       DAYHEADING: "Pausha, Ekadashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24348,6 +24714,7 @@ export class CalenderService {
       IMAGE: "VENKATESHWARA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "January",
     },
     "03-01-2023": {
       DAYHEADING: "Pausha, Dwadashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24369,6 +24736,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "January",
     },
     "04-01-2023": {
       DAYHEADING: "Pausha, Trayodashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24390,6 +24758,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "January",
     },
     "05-01-2023": {
       DAYHEADING: "Pausha, Chaturdashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24411,6 +24780,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "January",
     },
     "06-01-2023": {
       DAYHEADING: "Pausha, Purnima Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24432,6 +24802,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "January",
     },
     "07-01-2023": {
       DAYHEADING: "Magha, Pratipada Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24453,6 +24824,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "January",
     },
     "08-01-2023": {
       DAYHEADING: "Magha, Pratipada Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24474,6 +24846,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "January",
     },
     "09-01-2023": {
       DAYHEADING: "Magha, Dwitiya Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24495,6 +24868,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "January",
     },
     "10-01-2023": {
       DAYHEADING: "Magha, Tritiya Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24516,6 +24890,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "January",
     },
     "11-01-2023": {
       DAYHEADING: "Magha, Chaturthi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24537,6 +24912,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "January",
     },
     "12-01-2023": {
       DAYHEADING: "Magha, Panchami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24558,6 +24934,7 @@ export class CalenderService {
       IMAGE: "VIVEKANANDA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "January",
     },
     "13-01-2023": {
       DAYHEADING: "Magha, Shashthi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24579,6 +24956,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "January",
     },
     "14-01-2023": {
       DAYHEADING: "Magha, Saptami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24600,6 +24978,7 @@ export class CalenderService {
       IMAGE: "LOHRI",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "January",
     },
     "15-01-2023": {
       DAYHEADING: "Magha, Ashtami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24621,6 +25000,7 @@ export class CalenderService {
       IMAGE: "SANKRANTHI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Sunday",
+      MONTH: "January",
     },
     "16-01-2023": {
       DAYHEADING: "Magha, Navami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24642,6 +25022,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "January",
     },
     "17-01-2023": {
       DAYHEADING: "Magha, Dashami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24663,6 +25044,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "January",
     },
     "18-01-2023": {
       DAYHEADING: "Magha, Ekadashi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24684,6 +25066,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "January",
     },
     "19-01-2023": {
       DAYHEADING: "Magha, Dwadashi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24705,6 +25088,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "January",
     },
     "20-01-2023": {
       DAYHEADING: "Magha, Trayodashi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24726,6 +25110,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "January",
     },
     "21-01-2023": {
       DAYHEADING: "Magha, Amavasya Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24747,6 +25132,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "January",
     },
     "22-01-2023": {
       DAYHEADING: "Magha, Pratipada Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24768,6 +25154,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "January",
     },
     "23-01-2023": {
       DAYHEADING: "Magha, Dwitiya Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24789,6 +25176,7 @@ export class CalenderService {
       IMAGE: "SUBHASH_CHANDRA_BOSE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "January",
     },
     "24-01-2023": {
       DAYHEADING: "Magha, Tritiya Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24810,6 +25198,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "January",
     },
     "25-01-2023": {
       DAYHEADING: "Magha, Chaturthi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24831,6 +25220,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "January",
     },
     "26-01-2023": {
       DAYHEADING: "Magha, Panchami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24852,6 +25242,7 @@ export class CalenderService {
       IMAGE: "REPUBLIC_DAY",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Thursday",
+      MONTH: "January",
     },
     "27-01-2023": {
       DAYHEADING: "Magha, Shashthi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24873,6 +25264,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "January",
     },
     "28-01-2023": {
       DAYHEADING: "Magha, Saptami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24894,6 +25286,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "January",
     },
     "29-01-2023": {
       DAYHEADING: "Magha, Ashtami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24915,6 +25308,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "January",
     },
     "30-01-2023": {
       DAYHEADING: "Magha, Navami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24936,6 +25330,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "January",
     },
     "31-01-2023": {
       DAYHEADING: "Magha, Dashami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24957,6 +25352,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "January",
     },
     "01-02-2023": {
       DAYHEADING: "Magha, Ekadashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24978,6 +25374,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "February",
     },
     "02-02-2023": {
       DAYHEADING: "Magha, Dwadashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -24999,6 +25396,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "February",
     },
     "03-02-2023": {
       DAYHEADING: "Magha, Trayodashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25020,6 +25418,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "February",
     },
     "04-02-2023": {
       DAYHEADING: "Magha, Chaturdashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25041,6 +25440,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "February",
     },
     "05-02-2023": {
       DAYHEADING: "Magha, Purnima Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25062,6 +25462,7 @@ export class CalenderService {
       IMAGE: "GURU_RAVIDASS",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Sunday",
+      MONTH: "February",
     },
     "06-02-2023": {
       DAYHEADING: "Phalguna, Pratipada Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25083,6 +25484,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "February",
     },
     "07-02-2023": {
       DAYHEADING: "Phalguna, Dwitiya Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25104,6 +25506,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "February",
     },
     "08-02-2023": {
       DAYHEADING: "Phalguna, Tritiya Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25125,6 +25528,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "February",
     },
     "09-02-2023": {
       DAYHEADING: "Phalguna, Chaturthi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25146,6 +25550,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "February",
     },
     "10-02-2023": {
       DAYHEADING: "Phalguna, Chaturthi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25167,6 +25572,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "February",
     },
     "11-02-2023": {
       DAYHEADING: "Phalguna, Panchami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25188,6 +25594,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "February",
     },
     "12-02-2023": {
       DAYHEADING: "Phalguna, Shashthi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25209,6 +25616,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "February",
     },
     "13-02-2023": {
       DAYHEADING: "Phalguna, Saptami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25230,6 +25638,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "February",
     },
     "14-02-2023": {
       DAYHEADING: "Phalguna, Ashtami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25251,6 +25660,7 @@ export class CalenderService {
       IMAGE: "VALENTINE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "February",
     },
     "15-02-2023": {
       DAYHEADING: "Phalguna, Navami Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25272,6 +25682,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "February",
     },
     "16-02-2023": {
       DAYHEADING: "Phalguna, Ekadashi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25293,6 +25704,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "February",
     },
     "17-02-2023": {
       DAYHEADING: "Phalguna, Dwadashi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25314,6 +25726,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "February",
     },
     "18-02-2023": {
       DAYHEADING: "Phalguna, Trayodashi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25335,6 +25748,7 @@ export class CalenderService {
       IMAGE: "MAHASHIVA_RATHRI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Saturday",
+      MONTH: "February",
     },
     "19-02-2023": {
       DAYHEADING: "Phalguna, Chaturdashi Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25356,6 +25770,7 @@ export class CalenderService {
       IMAGE: "SHIVAJI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Sunday",
+      MONTH: "February",
     },
     "20-02-2023": {
       DAYHEADING: "Phalguna, Amavasya Krishna Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25377,6 +25792,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "February",
     },
     "21-02-2023": {
       DAYHEADING: "Phalguna, Pratipada Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25398,6 +25814,7 @@ export class CalenderService {
       IMAGE: "SREERAMAKRISHNA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "February",
     },
     "22-02-2023": {
       DAYHEADING: "Phalguna, Tritiya Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25419,6 +25836,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "February",
     },
     "23-02-2023": {
       DAYHEADING: "Phalguna, Chaturthi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25440,6 +25858,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "February",
     },
     "24-02-2023": {
       DAYHEADING: "Phalguna, Panchami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25461,6 +25880,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "February",
     },
     "25-02-2023": {
       DAYHEADING: "Phalguna, Shashthi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25482,6 +25902,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "February",
     },
     "26-02-2023": {
       DAYHEADING: "Phalguna, Saptami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25503,6 +25924,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "February",
     },
     "27-02-2023": {
       DAYHEADING: "Phalguna, Ashtami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25524,6 +25946,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "February",
     },
     "28-02-2023": {
       DAYHEADING: "Phalguna, Navami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25545,6 +25968,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "February",
     },
     "01-03-2023": {
       DAYHEADING: "Phalguna, Dashami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25566,6 +25990,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "March",
     },
     "02-03-2023": {
       DAYHEADING: "Phalguna, Dashami Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25587,6 +26012,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "March",
     },
     "03-03-2023": {
       DAYHEADING: "Phalguna, Ekadashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25608,6 +26034,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "March",
     },
     "04-03-2023": {
       DAYHEADING: "Phalguna, Dwadashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25629,6 +26056,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "March",
     },
     "05-03-2023": {
       DAYHEADING: "Phalguna, Trayodashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25650,6 +26078,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "March",
     },
     "06-03-2023": {
       DAYHEADING: "Phalguna, Chaturdashi Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25671,6 +26100,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "March",
     },
     "07-03-2023": {
       DAYHEADING: "Phalguna, Purnima Shukla Paksha, 2079 Rakshasa Vikrama Samvata",
@@ -25692,6 +26122,7 @@ export class CalenderService {
       IMAGE: "HOLI2",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Tuesday",
+      MONTH: "March",
     },
     "08-03-2023": {
       DAYHEADING: "Chaitra, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25713,6 +26144,7 @@ export class CalenderService {
       IMAGE: "HOLI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Wednesday",
+      MONTH: "March",
     },
     "09-03-2023": {
       DAYHEADING: "Chaitra, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25734,6 +26166,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "March",
     },
     "10-03-2023": {
       DAYHEADING: "Chaitra, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25755,6 +26188,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "March",
     },
     "11-03-2023": {
       DAYHEADING: "Chaitra, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25776,6 +26210,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "March",
     },
     "12-03-2023": {
       DAYHEADING: "Chaitra, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25797,6 +26232,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "March",
     },
     "13-03-2023": {
       DAYHEADING: "Chaitra, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25818,6 +26254,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "March",
     },
     "14-03-2023": {
       DAYHEADING: "Chaitra, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25839,6 +26276,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "March",
     },
     "15-03-2023": {
       DAYHEADING: "Chaitra, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25860,6 +26298,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "March",
     },
     "16-03-2023": {
       DAYHEADING: "Chaitra, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25881,6 +26320,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "March",
     },
     "17-03-2023": {
       DAYHEADING: "Chaitra, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25902,6 +26342,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "March",
     },
     "18-03-2023": {
       DAYHEADING: "Chaitra, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25923,6 +26364,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "March",
     },
     "19-03-2023": {
       DAYHEADING: "Chaitra, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25944,6 +26386,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "March",
     },
     "20-03-2023": {
       DAYHEADING: "Chaitra, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25965,6 +26408,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "March",
     },
     "21-03-2023": {
       DAYHEADING: "Chaitra, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -25986,6 +26430,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "March",
     },
     "22-03-2023": {
       DAYHEADING: "Chaitra, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26007,6 +26452,7 @@ export class CalenderService {
       IMAGE: "GUDI_PADWA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Wednesday",
+      MONTH: "March",
     },
     "23-03-2023": {
       DAYHEADING: "Chaitra, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26028,6 +26474,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "March",
     },
     "24-03-2023": {
       DAYHEADING: "Chaitra, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26049,6 +26496,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "March",
     },
     "25-03-2023": {
       DAYHEADING: "Chaitra, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26070,6 +26518,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "March",
     },
     "26-03-2023": {
       DAYHEADING: "Chaitra, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26091,6 +26540,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "March",
     },
     "27-03-2023": {
       DAYHEADING: "Chaitra, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26112,6 +26562,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "March",
     },
     "28-03-2023": {
       DAYHEADING: "Chaitra, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26133,6 +26584,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "March",
     },
     "29-03-2023": {
       DAYHEADING: "Chaitra, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26154,6 +26606,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "March",
     },
     "30-03-2023": {
       DAYHEADING: "Chaitra, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26175,6 +26628,7 @@ export class CalenderService {
       IMAGE: "RAMA_NAVAMI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Thursday",
+      MONTH: "March",
     },
     "31-03-2023": {
       DAYHEADING: "Chaitra, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26196,6 +26650,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "March",
     },
     "01-04-2023": {
       DAYHEADING: "Chaitra, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26217,6 +26672,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Saturday",
+      MONTH: "April",
     },
     "02-04-2023": {
       DAYHEADING: "Chaitra, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26238,6 +26694,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "April",
     },
     "03-04-2023": {
       DAYHEADING: "Chaitra, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26259,6 +26716,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "April",
     },
     "04-04-2023": {
       DAYHEADING: "Chaitra, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26280,6 +26738,7 @@ export class CalenderService {
       IMAGE: "MAHAVIR",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Tuesday",
+      MONTH: "April",
     },
     "05-04-2023": {
       DAYHEADING: "Chaitra, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26301,6 +26760,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "April",
     },
     "06-04-2023": {
       DAYHEADING: "Chaitra, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26322,6 +26782,7 @@ export class CalenderService {
       IMAGE: "HANUMAN",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "April",
     },
     "07-04-2023": {
       DAYHEADING: "Vaishakha, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26343,6 +26804,7 @@ export class CalenderService {
       IMAGE: "GOOD_FRIDAY",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Friday",
+      MONTH: "April",
     },
     "08-04-2023": {
       DAYHEADING: "Vaishakha, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26364,6 +26826,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "April",
     },
     "09-04-2023": {
       DAYHEADING: "Vaishakha, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26385,6 +26848,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "April",
     },
     "10-04-2023": {
       DAYHEADING: "Vaishakha, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26406,6 +26870,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "April",
     },
     "11-04-2023": {
       DAYHEADING: "Vaishakha, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26427,6 +26892,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "April",
     },
     "12-04-2023": {
       DAYHEADING: "Vaishakha, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26448,6 +26914,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "April",
     },
     "13-04-2023": {
       DAYHEADING: "Vaishakha, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26469,6 +26936,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "April",
     },
     "14-04-2023": {
       DAYHEADING: "Vaishakha, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26490,6 +26958,7 @@ export class CalenderService {
       IMAGE: "AMBEDKAR",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Friday",
+      MONTH: "April",
     },
     "15-04-2023": {
       DAYHEADING: "Vaishakha, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26511,6 +26980,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "April",
     },
     "16-04-2023": {
       DAYHEADING: "Vaishakha, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26532,6 +27002,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "April",
     },
     "17-04-2023": {
       DAYHEADING: "Vaishakha, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26553,6 +27024,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "April",
     },
     "18-04-2023": {
       DAYHEADING: "Vaishakha, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26574,6 +27046,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "April",
     },
     "19-04-2023": {
       DAYHEADING: "Vaishakha, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26595,6 +27068,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "April",
     },
     "20-04-2023": {
       DAYHEADING: "Vaishakha, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26616,6 +27090,7 @@ export class CalenderService {
       IMAGE: "SOLAR_ECLIPSE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "April",
     },
     "21-04-2023": {
       DAYHEADING: "Vaishakha, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26637,6 +27112,7 @@ export class CalenderService {
       IMAGE: "MUSLIM",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Friday",
+      MONTH: "April",
     },
     "22-04-2023": {
       DAYHEADING: "Vaishakha, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26658,6 +27134,7 @@ export class CalenderService {
       IMAGE: "AKSHAYA_TRITIYA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "April",
     },
     "23-04-2023": {
       DAYHEADING: "Vaishakha, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26679,6 +27156,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "April",
     },
     "24-04-2023": {
       DAYHEADING: "Vaishakha, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26700,6 +27178,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "April",
     },
     "25-04-2023": {
       DAYHEADING: "Vaishakha, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26721,6 +27200,7 @@ export class CalenderService {
       IMAGE: "SHANKARACHARYA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "April",
     },
     "26-04-2023": {
       DAYHEADING: "Vaishakha, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26742,6 +27222,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "April",
     },
     "27-04-2023": {
       DAYHEADING: "Vaishakha, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26763,6 +27244,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "April",
     },
     "28-04-2023": {
       DAYHEADING: "Vaishakha, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26784,6 +27266,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "April",
     },
     "29-04-2023": {
       DAYHEADING: "Vaishakha, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26805,6 +27288,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "April",
     },
     "30-04-2023": {
       DAYHEADING: "Vaishakha, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26826,6 +27310,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "April",
     },
     "01-05-2023": {
       DAYHEADING: "Vaishakha, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26847,6 +27332,7 @@ export class CalenderService {
       IMAGE: "LABOUR_DAY",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Monday",
+      MONTH: "May",
     },
     "02-05-2023": {
       DAYHEADING: "Vaishakha, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26868,6 +27354,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "May",
     },
     "03-05-2023": {
       DAYHEADING: "Vaishakha, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26889,6 +27376,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "May",
     },
     "04-05-2023": {
       DAYHEADING: "Vaishakha, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26910,6 +27398,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "May",
     },
     "05-05-2023": {
       DAYHEADING: "Vaishakha, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -26931,6 +27420,7 @@ export class CalenderService {
       IMAGE: "BUDDHA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Friday",
+      MONTH: "May",
     },
     "06-05-2023": {
       DAYHEADING: "Jyeshtha, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26952,6 +27442,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "May",
     },
     "07-05-2023": {
       DAYHEADING: "Jyeshtha, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26973,6 +27464,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "May",
     },
     "08-05-2023": {
       DAYHEADING: "Jyeshtha, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -26994,6 +27486,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "May",
     },
     "09-05-2023": {
       DAYHEADING: "Jyeshtha, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27015,6 +27508,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "May",
     },
     "10-05-2023": {
       DAYHEADING: "Jyeshtha, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27036,6 +27530,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "May",
     },
     "11-05-2023": {
       DAYHEADING: "Jyeshtha, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27057,6 +27552,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "May",
     },
     "12-05-2023": {
       DAYHEADING: "Jyeshtha, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27078,6 +27574,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "May",
     },
     "13-05-2023": {
       DAYHEADING: "Jyeshtha, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27099,6 +27596,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "May",
     },
     "14-05-2023": {
       DAYHEADING: "Jyeshtha, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27120,6 +27618,7 @@ export class CalenderService {
       IMAGE: "MOTHER",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "May",
     },
     "15-05-2023": {
       DAYHEADING: "Jyeshtha, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27141,6 +27640,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "May",
     },
     "16-05-2023": {
       DAYHEADING: "Jyeshtha, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27162,6 +27662,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "May",
     },
     "17-05-2023": {
       DAYHEADING: "Jyeshtha, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27183,6 +27684,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "May",
     },
     "18-05-2023": {
       DAYHEADING: "Jyeshtha, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27204,6 +27706,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "May",
     },
     "19-05-2023": {
       DAYHEADING: "Jyeshtha, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27225,6 +27728,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "May",
     },
     "20-05-2023": {
       DAYHEADING: "Jyeshtha, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27246,6 +27750,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "May",
     },
     "21-05-2023": {
       DAYHEADING: "Jyeshtha, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27267,6 +27772,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "May",
     },
     "22-05-2023": {
       DAYHEADING: "Jyeshtha, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27288,6 +27794,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "May",
     },
     "23-05-2023": {
       DAYHEADING: "Jyeshtha, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27309,6 +27816,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "May",
     },
     "24-05-2023": {
       DAYHEADING: "Jyeshtha, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27330,6 +27838,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "May",
     },
     "25-05-2023": {
       DAYHEADING: "Jyeshtha, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27351,6 +27860,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "May",
     },
     "26-05-2023": {
       DAYHEADING: "Jyeshtha, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27372,6 +27882,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "May",
     },
     "27-05-2023": {
       DAYHEADING: "Jyeshtha, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27393,6 +27904,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "May",
     },
     "28-05-2023": {
       DAYHEADING: "Jyeshtha, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27414,6 +27926,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "May",
     },
     "29-05-2023": {
       DAYHEADING: "Jyeshtha, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27435,6 +27948,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "May",
     },
     "30-05-2023": {
       DAYHEADING: "Jyeshtha, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27456,6 +27970,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "May",
     },
     "31-05-2023": {
       DAYHEADING: "Jyeshtha, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27477,6 +27992,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "May",
     },
     "01-06-2023": {
       DAYHEADING: "Jyeshtha, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27498,6 +28014,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "June",
     },
     "02-06-2023": {
       DAYHEADING: "Jyeshtha, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27519,6 +28036,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "June",
     },
     "03-06-2023": {
       DAYHEADING: "Jyeshtha, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27540,6 +28058,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "June",
     },
     "04-06-2023": {
       DAYHEADING: "Jyeshtha, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27561,6 +28080,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "June",
     },
     "05-06-2023": {
       DAYHEADING: "Ashadha, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27582,6 +28102,7 @@ export class CalenderService {
       IMAGE: "ENVIRONMENT",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "June",
     },
     "06-06-2023": {
       DAYHEADING: "Ashadha, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27603,6 +28124,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "June",
     },
     "07-06-2023": {
       DAYHEADING: "Ashadha, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27624,6 +28146,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "June",
     },
     "08-06-2023": {
       DAYHEADING: "Ashadha, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27645,6 +28168,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "June",
     },
     "09-06-2023": {
       DAYHEADING: "Ashadha, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27666,6 +28190,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "June",
     },
     "10-06-2023": {
       DAYHEADING: "Ashadha, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27687,6 +28212,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "June",
     },
     "11-06-2023": {
       DAYHEADING: "Ashadha, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27708,6 +28234,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "June",
     },
     "12-06-2023": {
       DAYHEADING: "Ashadha, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27729,6 +28256,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "June",
     },
     "13-06-2023": {
       DAYHEADING: "Ashadha, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27750,6 +28278,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "June",
     },
     "14-06-2023": {
       DAYHEADING: "Ashadha, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27771,6 +28300,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "June",
     },
     "15-06-2023": {
       DAYHEADING: "Ashadha, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27792,6 +28322,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "June",
     },
     "16-06-2023": {
       DAYHEADING: "Ashadha, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27813,6 +28344,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "June",
     },
     "17-06-2023": {
       DAYHEADING: "Ashadha, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27834,6 +28366,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "June",
     },
     "18-06-2023": {
       DAYHEADING: "Ashadha, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -27855,6 +28388,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "June",
     },
     "19-06-2023": {
       DAYHEADING: "Ashadha, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27876,6 +28410,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "June",
     },
     "20-06-2023": {
       DAYHEADING: "Ashadha, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27897,6 +28432,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "June",
     },
     "21-06-2023": {
       DAYHEADING: "Ashadha, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27918,6 +28454,7 @@ export class CalenderService {
       IMAGE: "YOGA_IMAGE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "June",
     },
     "22-06-2023": {
       DAYHEADING: "Ashadha, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27939,6 +28476,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "June",
     },
     "23-06-2023": {
       DAYHEADING: "Ashadha, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27960,6 +28498,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "June",
     },
     "24-06-2023": {
       DAYHEADING: "Ashadha, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -27981,6 +28520,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "June",
     },
     "25-06-2023": {
       DAYHEADING: "Ashadha, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28002,6 +28542,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "June",
     },
     "26-06-2023": {
       DAYHEADING: "Ashadha, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28023,6 +28564,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "June",
     },
     "27-06-2023": {
       DAYHEADING: "Ashadha, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28044,6 +28586,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "June",
     },
     "28-06-2023": {
       DAYHEADING: "Ashadha, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28065,6 +28608,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "June",
     },
     "29-06-2023": {
       DAYHEADING: "Ashadha, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28086,6 +28630,7 @@ export class CalenderService {
       IMAGE: "MUSLIM",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Thursday",
+      MONTH: "June",
     },
     "30-06-2023": {
       DAYHEADING: "Ashadha, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28107,6 +28652,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "June",
     },
     "01-07-2023": {
       DAYHEADING: "Ashadha, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28128,6 +28674,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "July",
     },
     "02-07-2023": {
       DAYHEADING: "Ashadha, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28149,6 +28696,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "July",
     },
     "03-07-2023": {
       DAYHEADING: "Ashadha, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28170,6 +28718,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "July",
     },
     "04-07-2023": {
       DAYHEADING: "Shravana, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28191,6 +28740,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "July",
     },
     "05-07-2023": {
       DAYHEADING: "Shravana, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28212,6 +28762,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "July",
     },
     "06-07-2023": {
       DAYHEADING: "Shravana, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28233,6 +28784,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "July",
     },
     "07-07-2023": {
       DAYHEADING: "Shravana, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28254,6 +28806,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "July",
     },
     "08-07-2023": {
       DAYHEADING: "Shravana, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28275,6 +28828,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "July",
     },
     "09-07-2023": {
       DAYHEADING: "Shravana, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28296,6 +28850,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "July",
     },
     "10-07-2023": {
       DAYHEADING: "Shravana, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28317,6 +28872,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "July",
     },
     "11-07-2023": {
       DAYHEADING: "Shravana, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28338,6 +28894,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "July",
     },
     "12-07-2023": {
       DAYHEADING: "Shravana, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28359,6 +28916,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "July",
     },
     "13-07-2023": {
       DAYHEADING: "Shravana, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28380,6 +28938,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "July",
     },
     "14-07-2023": {
       DAYHEADING: "Shravana, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28401,6 +28960,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "July",
     },
     "15-07-2023": {
       DAYHEADING: "Shravana, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28422,6 +28982,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "July",
     },
     "16-07-2023": {
       DAYHEADING: "Shravana, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28443,6 +29004,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "July",
     },
     "17-07-2023": {
       DAYHEADING: "Shravana, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28464,6 +29026,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "July",
     },
     "18-07-2023": {
       DAYHEADING: "Shravana (Adhik), Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28485,6 +29048,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "July",
     },
     "19-07-2023": {
       DAYHEADING: "Shravana (Adhik), Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28506,6 +29070,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "July",
     },
     "20-07-2023": {
       DAYHEADING: "Shravana (Adhik), Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28527,6 +29092,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "July",
     },
     "21-07-2023": {
       DAYHEADING: "Shravana (Adhik), Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28548,6 +29114,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "July",
     },
     "22-07-2023": {
       DAYHEADING: "Shravana (Adhik), Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28569,6 +29136,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "July",
     },
     "23-07-2023": {
       DAYHEADING: "Shravana (Adhik), Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28590,6 +29158,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "July",
     },
     "24-07-2023": {
       DAYHEADING: "Shravana (Adhik), Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28611,6 +29180,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "July",
     },
     "25-07-2023": {
       DAYHEADING: "Shravana (Adhik), Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28632,6 +29202,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "July",
     },
     "26-07-2023": {
       DAYHEADING: "Shravana (Adhik), Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28653,6 +29224,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "July",
     },
     "27-07-2023": {
       DAYHEADING: "Shravana (Adhik), Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28674,6 +29246,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "July",
     },
     "28-07-2023": {
       DAYHEADING: "Shravana (Adhik), Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28695,6 +29268,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "July",
     },
     "29-07-2023": {
       DAYHEADING: "Shravana (Adhik), Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28716,6 +29290,7 @@ export class CalenderService {
       IMAGE: "MUSLIM",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Saturday",
+      MONTH: "July",
     },
     "30-07-2023": {
       DAYHEADING: "Shravana (Adhik), Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28737,6 +29312,7 @@ export class CalenderService {
       IMAGE: "FRIEND",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "July",
     },
     "31-07-2023": {
       DAYHEADING: "Shravana (Adhik), Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28758,6 +29334,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "July",
     },
     "01-08-2023": {
       DAYHEADING: "Shravana (Adhik), Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -28779,6 +29356,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "August",
     },
     "02-08-2023": {
       DAYHEADING: "Shravana (Adhik), Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28800,6 +29378,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "August",
     },
     "03-08-2023": {
       DAYHEADING: "Shravana (Adhik), Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28821,6 +29400,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "August",
     },
     "04-08-2023": {
       DAYHEADING: "Shravana (Adhik), Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28842,6 +29422,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "August",
     },
     "05-08-2023": {
       DAYHEADING: "Shravana (Adhik), Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28863,6 +29444,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "August",
     },
     "06-08-2023": {
       DAYHEADING: "Shravana (Adhik), Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28884,6 +29466,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "August",
     },
     "07-08-2023": {
       DAYHEADING: "Shravana (Adhik), Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28905,6 +29488,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "August",
     },
     "08-08-2023": {
       DAYHEADING: "Shravana (Adhik), Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28926,6 +29510,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "August",
     },
     "09-08-2023": {
       DAYHEADING: "Shravana (Adhik), Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28947,6 +29532,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "August",
     },
     "10-08-2023": {
       DAYHEADING: "Shravana (Adhik), Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28968,6 +29554,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "August",
     },
     "11-08-2023": {
       DAYHEADING: "Shravana (Adhik), Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -28989,6 +29576,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "August",
     },
     "12-08-2023": {
       DAYHEADING: "Shravana (Adhik), Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29010,6 +29598,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "August",
     },
     "13-08-2023": {
       DAYHEADING: "Shravana (Adhik), Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29031,6 +29620,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "August",
     },
     "14-08-2023": {
       DAYHEADING: "Shravana (Adhik), Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29052,6 +29642,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "August",
     },
     "15-08-2023": {
       DAYHEADING: "Shravana (Adhik), Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29073,6 +29664,7 @@ export class CalenderService {
       IMAGE: "INDEPENDENCE",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Tuesday",
+      MONTH: "August",
     },
     "16-08-2023": {
       DAYHEADING: "Shravana (Adhik), Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29094,6 +29686,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "August",
     },
     "17-08-2023": {
       DAYHEADING: "Shravana, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29115,6 +29708,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "August",
     },
     "18-08-2023": {
       DAYHEADING: "Shravana, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29136,6 +29730,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "August",
     },
     "19-08-2023": {
       DAYHEADING: "Shravana, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29157,6 +29752,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "August",
     },
     "20-08-2023": {
       DAYHEADING: "Shravana, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29178,6 +29774,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "August",
     },
     "21-08-2023": {
       DAYHEADING: "Shravana, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29199,6 +29796,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "August",
     },
     "22-08-2023": {
       DAYHEADING: "Shravana, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29220,6 +29818,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "August",
     },
     "23-08-2023": {
       DAYHEADING: "Shravana, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29241,6 +29840,7 @@ export class CalenderService {
       IMAGE: "TULSIDAS",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "August",
     },
     "24-08-2023": {
       DAYHEADING: "Shravana, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29262,6 +29862,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "August",
     },
     "25-08-2023": {
       DAYHEADING: "Shravana, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29283,6 +29884,7 @@ export class CalenderService {
       IMAGE: "LAKSHMI",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "August",
     },
     "26-08-2023": {
       DAYHEADING: "Shravana, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29304,6 +29906,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "August",
     },
     "27-08-2023": {
       DAYHEADING: "Shravana, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29325,6 +29928,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "August",
     },
     "28-08-2023": {
       DAYHEADING: "Shravana, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29346,6 +29950,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "August",
     },
     "29-08-2023": {
       DAYHEADING: "Shravana, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29367,6 +29972,7 @@ export class CalenderService {
       IMAGE: "ONAM",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "August",
     },
     "30-08-2023": {
       DAYHEADING: "Shravana, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29388,6 +29994,7 @@ export class CalenderService {
       IMAGE: "RAKHI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Wednesday",
+      MONTH: "August",
     },
     "31-08-2023": {
       DAYHEADING: "Shravana, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29409,6 +30016,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "August",
     },
     "01-09-2023": {
       DAYHEADING: "Bhadrapada, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29430,6 +30038,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "September",
     },
     "02-09-2023": {
       DAYHEADING: "Bhadrapada, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29451,6 +30060,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "September",
     },
     "03-09-2023": {
       DAYHEADING: "Bhadrapada, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29472,6 +30082,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "September",
     },
     "04-09-2023": {
       DAYHEADING: "Bhadrapada, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29493,6 +30104,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "September",
     },
     "05-09-2023": {
       DAYHEADING: "Bhadrapada, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29514,6 +30126,7 @@ export class CalenderService {
       IMAGE: "RADHA_KRISHNA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "September",
     },
     "06-09-2023": {
       DAYHEADING: "Bhadrapada, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29535,6 +30148,7 @@ export class CalenderService {
       IMAGE: "KRISHNA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "September",
     },
     "07-09-2023": {
       DAYHEADING: "Bhadrapada, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29556,6 +30170,7 @@ export class CalenderService {
       IMAGE: "KRISHNA_JANMASTAMI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Thursday",
+      MONTH: "September",
     },
     "08-09-2023": {
       DAYHEADING: "Bhadrapada, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29577,6 +30192,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "September",
     },
     "09-09-2023": {
       DAYHEADING: "Bhadrapada, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29598,6 +30214,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "September",
     },
     "10-09-2023": {
       DAYHEADING: "Bhadrapada, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29619,6 +30236,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "September",
     },
     "11-09-2023": {
       DAYHEADING: "Bhadrapada, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29640,6 +30258,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "September",
     },
     "12-09-2023": {
       DAYHEADING: "Bhadrapada, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29661,6 +30280,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "September",
     },
     "13-09-2023": {
       DAYHEADING: "Bhadrapada, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29682,6 +30302,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "September",
     },
     "14-09-2023": {
       DAYHEADING: "Bhadrapada, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29703,6 +30324,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "September",
     },
     "15-09-2023": {
       DAYHEADING: "Bhadrapada, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -29724,6 +30346,7 @@ export class CalenderService {
       IMAGE: "ENGINEER",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "September",
     },
     "16-09-2023": {
       DAYHEADING: "Bhadrapada, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29745,6 +30368,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "September",
     },
     "17-09-2023": {
       DAYHEADING: "Bhadrapada, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29766,6 +30390,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "September",
     },
     "18-09-2023": {
       DAYHEADING: "Bhadrapada, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29787,6 +30412,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "September",
     },
     "19-09-2023": {
       DAYHEADING: "Bhadrapada, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29808,6 +30434,7 @@ export class CalenderService {
       IMAGE: "GANESHA_CHATURTI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Tuesday",
+      MONTH: "September",
     },
     "20-09-2023": {
       DAYHEADING: "Bhadrapada, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29829,6 +30456,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "September",
     },
     "21-09-2023": {
       DAYHEADING: "Bhadrapada, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29850,6 +30478,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "September",
     },
     "22-09-2023": {
       DAYHEADING: "Bhadrapada, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29871,6 +30500,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "September",
     },
     "23-09-2023": {
       DAYHEADING: "Bhadrapada, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29892,6 +30522,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "September",
     },
     "24-09-2023": {
       DAYHEADING: "Bhadrapada, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29913,6 +30544,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "September",
     },
     "25-09-2023": {
       DAYHEADING: "Bhadrapada, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29934,6 +30566,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "September",
     },
     "26-09-2023": {
       DAYHEADING: "Bhadrapada, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29955,6 +30588,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "September",
     },
     "27-09-2023": {
       DAYHEADING: "Bhadrapada, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29976,6 +30610,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "September",
     },
     "28-09-2023": {
       DAYHEADING: "Bhadrapada, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -29997,6 +30632,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "September",
     },
     "29-09-2023": {
       DAYHEADING: "Bhadrapada, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30018,6 +30654,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "September",
     },
     "30-09-2023": {
       DAYHEADING: "Ashwina, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30039,6 +30676,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "September",
     },
     "01-10-2023": {
       DAYHEADING: "Ashwina, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30060,6 +30698,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "October",
     },
     "02-10-2023": {
       DAYHEADING: "Ashwina, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30081,6 +30720,7 @@ export class CalenderService {
       IMAGE: "GHANDHI_JAYANTHI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Monday",
+      MONTH: "October",
     },
     "03-10-2023": {
       DAYHEADING: "Ashwina, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30102,6 +30742,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "October",
     },
     "04-10-2023": {
       DAYHEADING: "Ashwina, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30123,6 +30764,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "October",
     },
     "05-10-2023": {
       DAYHEADING: "Ashwina, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30144,6 +30786,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "October",
     },
     "06-10-2023": {
       DAYHEADING: "Ashwina, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30165,6 +30808,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "October",
     },
     "07-10-2023": {
       DAYHEADING: "Ashwina, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30186,6 +30830,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "October",
     },
     "08-10-2023": {
       DAYHEADING: "Ashwina, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30207,6 +30852,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "October",
     },
     "09-10-2023": {
       DAYHEADING: "Ashwina, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30228,6 +30874,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "October",
     },
     "10-10-2023": {
       DAYHEADING: "Ashwina, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30249,6 +30896,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "October",
     },
     "11-10-2023": {
       DAYHEADING: "Ashwina, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30270,6 +30918,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "October",
     },
     "12-10-2023": {
       DAYHEADING: "Ashwina, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30291,6 +30940,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "October",
     },
     "13-10-2023": {
       DAYHEADING: "Ashwina, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30312,6 +30962,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "October",
     },
     "14-10-2023": {
       DAYHEADING: "Ashwina, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30333,6 +30984,7 @@ export class CalenderService {
       IMAGE: "SOLAR_ECLIPSE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "October",
     },
     "15-10-2023": {
       DAYHEADING: "Ashwina, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30354,6 +31006,7 @@ export class CalenderService {
       IMAGE: "NAVARATHRI_BEGIN",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "October",
     },
     "16-10-2023": {
       DAYHEADING: "Ashwina, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30375,6 +31028,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "October",
     },
     "17-10-2023": {
       DAYHEADING: "Ashwina, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30396,6 +31050,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "October",
     },
     "18-10-2023": {
       DAYHEADING: "Ashwina, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30417,6 +31072,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "October",
     },
     "19-10-2023": {
       DAYHEADING: "Ashwina, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30438,6 +31094,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "October",
     },
     "20-10-2023": {
       DAYHEADING: "Ashwina, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30459,6 +31116,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "October",
     },
     "21-10-2023": {
       DAYHEADING: "Ashwina, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30480,6 +31138,7 @@ export class CalenderService {
       IMAGE: "SARASWATHI",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "October",
     },
     "22-10-2023": {
       DAYHEADING: "Ashwina, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30501,6 +31160,7 @@ export class CalenderService {
       IMAGE: "DURGA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Sunday",
+      MONTH: "October",
     },
     "23-10-2023": {
       DAYHEADING: "Ashwina, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30522,6 +31182,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Monday",
+      MONTH: "October",
     },
     "24-10-2023": {
       DAYHEADING: "Ashwina, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30543,6 +31204,7 @@ export class CalenderService {
       IMAGE: "DUSSERA",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Tuesday",
+      MONTH: "October",
     },
     "25-10-2023": {
       DAYHEADING: "Ashwina, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30564,6 +31226,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "October",
     },
     "26-10-2023": {
       DAYHEADING: "Ashwina, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30585,6 +31248,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "October",
     },
     "27-10-2023": {
       DAYHEADING: "Ashwina, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30606,6 +31270,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "October",
     },
     "28-10-2023": {
       DAYHEADING: "Ashwina, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30627,6 +31292,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "October",
     },
     "29-10-2023": {
       DAYHEADING: "Kartika, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30648,6 +31314,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON_PHASE",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "October",
     },
     "30-10-2023": {
       DAYHEADING: "Kartika, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30669,6 +31336,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "October",
     },
     "31-10-2023": {
       DAYHEADING: "Kartika, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30690,6 +31358,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "October",
     },
     "01-11-2023": {
       DAYHEADING: "Kartika, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30711,6 +31380,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "November",
     },
     "02-11-2023": {
       DAYHEADING: "Kartika, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30732,6 +31402,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "November",
     },
     "03-11-2023": {
       DAYHEADING: "Kartika, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30753,6 +31424,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "November",
     },
     "04-11-2023": {
       DAYHEADING: "Kartika, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30774,6 +31446,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "November",
     },
     "05-11-2023": {
       DAYHEADING: "Kartika, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30795,6 +31468,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "November",
     },
     "06-11-2023": {
       DAYHEADING: "Kartika, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30816,6 +31490,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "November",
     },
     "07-11-2023": {
       DAYHEADING: "Kartika, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30837,6 +31512,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "November",
     },
     "08-11-2023": {
       DAYHEADING: "Kartika, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30858,6 +31534,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "November",
     },
     "09-11-2023": {
       DAYHEADING: "Kartika, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30879,6 +31556,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "November",
     },
     "10-11-2023": {
       DAYHEADING: "Kartika, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30898,8 +31576,9 @@ export class CalenderService {
       EVENT2: "Yama Deepam",
       EVENT3: "Pradosh Vrat",
       IMAGE: "VRATA",
-      ISPUBLICHOLIDAY: "Y",
+      ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "November",
     },
     "11-11-2023": {
       DAYHEADING: "Kartika, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30921,6 +31600,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "November",
     },
     "12-11-2023": {
       DAYHEADING: "Kartika, Chaturdashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30942,6 +31622,7 @@ export class CalenderService {
       IMAGE: "DIWALI",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Sunday",
+      MONTH: "November",
     },
     "13-11-2023": {
       DAYHEADING: "Kartika, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -30963,6 +31644,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "November",
     },
     "14-11-2023": {
       DAYHEADING: "Kartika, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -30984,6 +31666,7 @@ export class CalenderService {
       IMAGE: "CHILDRENS_DAY",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "November",
     },
     "15-11-2023": {
       DAYHEADING: "Kartika, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31002,9 +31685,10 @@ export class CalenderService {
       EVENT1: "Bhaiya Dooj",
       EVENT2: "Yama Dwitiya",
       EVENT3: "Chandra Darshana",
-      IMAGE: "HINDU_FLAG",
+      IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "November",
     },
     "16-11-2023": {
       DAYHEADING: "Kartika, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31026,6 +31710,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "November",
     },
     "17-11-2023": {
       DAYHEADING: "Kartika, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31047,6 +31732,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "November",
     },
     "18-11-2023": {
       DAYHEADING: "Kartika, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31068,6 +31754,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "November",
     },
     "19-11-2023": {
       DAYHEADING: "Kartika, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31089,6 +31776,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "November",
     },
     "20-11-2023": {
       DAYHEADING: "Kartika, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31110,6 +31798,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "November",
     },
     "21-11-2023": {
       DAYHEADING: "Kartika, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31131,6 +31820,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "November",
     },
     "22-11-2023": {
       DAYHEADING: "Kartika, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31152,6 +31842,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "November",
     },
     "23-11-2023": {
       DAYHEADING: "Kartika, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31173,6 +31864,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "November",
     },
     "24-11-2023": {
       DAYHEADING: "Kartika, Dwadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31194,6 +31886,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "November",
     },
     "25-11-2023": {
       DAYHEADING: "Kartika, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31215,6 +31908,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "November",
     },
     "26-11-2023": {
       DAYHEADING: "Kartika, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31236,6 +31930,7 @@ export class CalenderService {
       IMAGE: "DIWALI_2",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "November",
     },
     "27-11-2023": {
       DAYHEADING: "Kartika, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31257,6 +31952,7 @@ export class CalenderService {
       IMAGE: "GURUNANAK",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Monday",
+      MONTH: "November",
     },
     "28-11-2023": {
       DAYHEADING: "Margashirsha, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31278,6 +31974,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "November",
     },
     "29-11-2023": {
       DAYHEADING: "Margashirsha, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31299,6 +31996,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "November",
     },
     "30-11-2023": {
       DAYHEADING: "Margashirsha, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31320,6 +32018,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "November",
     },
     "01-12-2023": {
       DAYHEADING: "Margashirsha, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31341,6 +32040,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "December",
     },
     "02-12-2023": {
       DAYHEADING: "Margashirsha, Panchami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31362,6 +32062,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "December",
     },
     "03-12-2023": {
       DAYHEADING: "Margashirsha, Shashthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31383,6 +32084,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "December",
     },
     "04-12-2023": {
       DAYHEADING: "Margashirsha, Saptami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31404,6 +32106,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "December",
     },
     "05-12-2023": {
       DAYHEADING: "Margashirsha, Ashtami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31425,6 +32128,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "December",
     },
     "06-12-2023": {
       DAYHEADING: "Margashirsha, Navami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31446,6 +32150,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "December",
     },
     "07-12-2023": {
       DAYHEADING: "Margashirsha, Dashami Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31467,6 +32172,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "December",
     },
     "08-12-2023": {
       DAYHEADING: "Margashirsha, Ekadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31488,6 +32194,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "December",
     },
     "09-12-2023": {
       DAYHEADING: "Margashirsha, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31509,6 +32216,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "December",
     },
     "10-12-2023": {
       DAYHEADING: "Margashirsha, Dwadashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31530,6 +32238,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "December",
     },
     "11-12-2023": {
       DAYHEADING: "Margashirsha, Trayodashi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31551,6 +32260,7 @@ export class CalenderService {
       IMAGE: "MASIK_SHIVA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "December",
     },
     "12-12-2023": {
       DAYHEADING: "Margashirsha, Amavasya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31572,6 +32282,7 @@ export class CalenderService {
       IMAGE: "NEW_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "December",
     },
     "13-12-2023": {
       DAYHEADING: "Margashirsha, Pratipada Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31593,6 +32304,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "December",
     },
     "14-12-2023": {
       DAYHEADING: "Margashirsha, Dwitiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31614,6 +32326,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "December",
     },
     "15-12-2023": {
       DAYHEADING: "Margashirsha, Tritiya Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31635,6 +32348,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "December",
     },
     "16-12-2023": {
       DAYHEADING: "Margashirsha, Chaturthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31656,6 +32370,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "December",
     },
     "17-12-2023": {
       DAYHEADING: "Margashirsha, Panchami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31677,6 +32392,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "December",
     },
     "18-12-2023": {
       DAYHEADING: "Margashirsha, Shashthi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31698,6 +32414,7 @@ export class CalenderService {
       IMAGE: "HINDU_FLAG",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Monday",
+      MONTH: "December",
     },
     "19-12-2023": {
       DAYHEADING: "Margashirsha, Saptami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31719,6 +32436,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "December",
     },
     "20-12-2023": {
       DAYHEADING: "Margashirsha, Ashtami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31740,6 +32458,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "December",
     },
     "21-12-2023": {
       DAYHEADING: "Margashirsha, Navami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31761,6 +32480,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "December",
     },
     "22-12-2023": {
       DAYHEADING: "Margashirsha, Dashami Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31782,6 +32502,7 @@ export class CalenderService {
       IMAGE: "SHANKHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "December",
     },
     "23-12-2023": {
       DAYHEADING: "Margashirsha, Ekadashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31803,6 +32524,7 @@ export class CalenderService {
       IMAGE: "VENKATESHWARA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "December",
     },
     "24-12-2023": {
       DAYHEADING: "Margashirsha, Trayodashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31824,6 +32546,7 @@ export class CalenderService {
       IMAGE: "VRATA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "December",
     },
     "25-12-2023": {
       DAYHEADING: "Margashirsha, Chaturdashi Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31845,6 +32568,7 @@ export class CalenderService {
       IMAGE: "CHRISTMAS",
       ISPUBLICHOLIDAY: "Y",
       DAYINHINDI: "Monday",
+      MONTH: "December",
     },
     "26-12-2023": {
       DAYHEADING: "Margashirsha, Purnima Shukla Paksha, 2080 Nala Vikrama Samvata",
@@ -31866,6 +32590,7 @@ export class CalenderService {
       IMAGE: "FULL_MOON",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Tuesday",
+      MONTH: "December",
     },
     "27-12-2023": {
       DAYHEADING: "Pausha, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31887,6 +32612,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Wednesday",
+      MONTH: "December",
     },
     "28-12-2023": {
       DAYHEADING: "Pausha, Pratipada Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31908,6 +32634,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Thursday",
+      MONTH: "December",
     },
     "29-12-2023": {
       DAYHEADING: "Pausha, Dwitiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31929,6 +32656,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Friday",
+      MONTH: "December",
     },
     "30-12-2023": {
       DAYHEADING: "Pausha, Tritiya Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31950,6 +32678,7 @@ export class CalenderService {
       IMAGE: "GANESHA",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Saturday",
+      MONTH: "December",
     },
     "31-12-2023": {
       DAYHEADING: "Pausha, Chaturthi Krishna Paksha, 2080 Nala Vikrama Samvata",
@@ -31971,6 +32700,7 @@ export class CalenderService {
       IMAGE: "",
       ISPUBLICHOLIDAY: "",
       DAYINHINDI: "Sunday",
+      MONTH: "December",
     },
   };
   constructor() {}
