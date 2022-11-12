@@ -6,8 +6,9 @@
   "webDir": "www",
   "plugins": {
     "LocalNotifications": {
-      "smallIcon": "ic_launcher_round",
-      "iconColor": "#ffffff"
+      "smallIcon": "ic_stat_ganesha",
+      "iconColor": "#ffffff",
+      "sound": "bell.wav"
     },
     "SplashScreen": {
       "launchShowDuration": 0
