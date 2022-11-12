@@ -8,7 +8,7 @@ import { AppConstants } from './constants/app.constants';
 import { App } from '@capacitor/app';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { NotificationModel } from './models/notification.interface';
-import { LocalNotifications } from '@capacitor/local-notifications';
+import { LocalNotifications, LocalNotificationSchema } from '@capacitor/local-notifications';
 
 @Component({
 	selector: 'app-root',
@@ -84,6 +84,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		});
 		await LocalNotifications.requestPermissions();
 	}
+
 	async ngAfterViewInit(){
 		if(!localStorage.getItem(AppConstants.isLocalNotificationAdded) && localStorage.getItem(this.appConstants.isLocalNotificationAdded)=="true")
 			this.createNotification();
@@ -94,7 +95,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		const noOfDays = Math.ceil(Math.abs(nextYearEnd - currentDate)/(1000 * 60 * 60 * 24))+1;
 		const notificationDetails = this.getNotificationDetailsForNext(noOfDays);
 		LocalNotifications.schedule({
-			notifications: notificationDetails
+			notifications: notificationDetails,
+
 		});
 		localStorage.setItem(AppConstants.isLocalNotificationAdded, "true"); 
 		this.isLocalNotificationEnabled=true;
@@ -104,7 +106,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		if(notificationChange.detail.checked==false){
 			LocalNotifications.getPending().then((pendidingList)=>{
 				LocalNotifications.cancel(pendidingList);
-			})
+			});
 			localStorage.setItem(AppConstants.isLocalNotificationAdded, ""); 
 		}else{
 			this.createNotification();
@@ -119,13 +121,15 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			currentDate.setSeconds(0);
 			currentDate.setDate(currentDate.getDate()+i);
 			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
-			const notificationModel: NotificationModel={
+			const notificationModel: LocalNotificationSchema={
 				title: this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? "Today's Panchang" : "जानिए आज का पंचांग",
 				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `${this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? 'राहुकाल' : "Rahukala"} : ${dateDetails.RAHUKALA}`,
 				id: Number(i),
+				smallIcon: "../",
 				schedule: {
 					at: new Date(currentDate)
-				}
+				},
+			
 			};
 			notificationScheduleDetails.push(notificationModel);
 		}
