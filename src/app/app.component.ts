@@ -121,7 +121,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
 			const notificationModel: NotificationModel={
 				title: this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? "Today's Panchang" : "जानिए आज का पंचांग",
-				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `${this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? 'राहुकाल' : "Rahukal"} : ${dateDetails.RAHUKALA}`,
+				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `${this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? 'राहुकाल' : "Rahukala"} : ${dateDetails.RAHUKALA}`,
 				id: Number(i),
 				schedule: {
 					at: new Date(currentDate)
