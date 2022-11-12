@@ -9,6 +9,7 @@ import { App } from '@capacitor/app';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { NotificationModel } from './models/notification.interface';
 import { LocalNotifications } from '@capacitor/local-notifications';
+
 @Component({
 	selector: 'app-root',
 	templateUrl: 'app.component.html',
@@ -45,10 +46,19 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			this.splashScreen.hide();
 			if(this.platform.is("android") ){
 				StatusBar.setBackgroundColor({color:"#ffffff"});
-				StatusBar.setStyle({style: Style.Light});
+				StatusBar.setStyle({style: this.getTheme() == "light" ? Style.Light : Style.Dark});
 			};
 		});
 	}
+
+	getTheme() {
+		if(window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches) {
+		  return "dark";
+		} else {
+		  return "light";
+		}
+	};
+
 	onMonthSelect(monthIndex: number) {
 		this.currentMothDisplayed= monthIndex;
 		this.calenderService.currentMonthAndYear.next(Number(this.selectedYear.toString()+("0"+Number(this.currentMothDisplayed+1)).slice(-2)));
