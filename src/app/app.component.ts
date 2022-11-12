@@ -120,8 +120,8 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			currentDate.setDate(currentDate.getDate()+i);
 			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
 			const notificationModel: NotificationModel={
-				title: "जानिए आज का पंचांग",
-				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `राहुकाल : ${dateDetails.RAHUKALA}`,
+				title: this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? "Today's Panchang" : "जानिए आज का पंचांग",
+				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `${this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? 'राहुकाल' : "Rahukal"} : ${dateDetails.RAHUKALA}`,
 				id: Number(i),
 				schedule: {
 					at: new Date(currentDate)
@@ -140,6 +140,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 	onLanguageChange($event: any){
 		this.calenderService.selectedLanguage.next($event.detail.value);
 		localStorage.setItem(AppConstants.languageKey,$event.detail.value);
+		this.createNotification();
 	}
 	onClose($event) {
 		this.isSideNavOpen = false;
@@ -151,14 +152,6 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		this.currentMothDisplayedSubscription.unsubscribe();
 	}
 	async shareApp(){
-		// let options: ShareOptions ={
-		// 	url: '',
-		// 	text: "",
-		// 	title: "",
-		// 	dialogTitle: ""
-		// }
-		// Share.share(options);
-
 		await Share.share({
 			title: 'Share : Hamara Hindu Calendar \n',
 			text: 'Hamara Hindu Calendar is Simple, Pictorial & Informative hindu calendar app which is 100% Free & NoAds.\n',
