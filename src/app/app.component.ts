@@ -45,7 +45,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 		this.platform.ready().then(() => {	
 			this.splashScreen.hide();
 			if(this.platform.is("android") ){
-			StatusBar.setBackgroundColor({color:"#00FFFFFF"});
+			StatusBar.setBackgroundColor({color:"#00000000"});
 				StatusBar.setStyle({style: this.getTheme() == "light" ? Style.Light : Style.Dark});
 			};
 		});
