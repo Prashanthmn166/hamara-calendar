@@ -123,7 +123,7 @@ export class AppComponent implements OnInit, OnDestroy, AfterViewInit  {
 			const dateDetails = this.calenderService.getDateDetails(currentDate.toString());
 			const notificationModel: LocalNotificationSchema={
 				title: this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? "Today's Panchang" : "जानिए आज का पंचांग",
-				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `${this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? 'राहुकाल' : "Rahukala"} : ${dateDetails.RAHUKALA}`,
+				body: dateDetails.EVENT1 ?  dateDetails.EVENT1 : `${this.calenderService.selectedLanguage.value== this.appConstants.languageEnglish ? 'Rahukala' : "राहुकाल"} : ${dateDetails.RAHUKALA}`,
 				id: Number(i),
 				smallIcon: "../",
 				schedule: {
